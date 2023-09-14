@@ -6,7 +6,68 @@
     <title>Meu Site</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* Estilos CSS aqui (mantive os estilos existentes) */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9e6e6; /* Rosa claro */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff6666; /* Rosa escuro */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ff9999; /* Rosa médio */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff; /* Fundo branco */
+            border-radius: 10px; /* Bordas arredondadas */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #ff6666; /* Rosa escuro */
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6666; /* Rosa escuro */
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #ff9999; /* Rosa médio */
+        }
     </style>
 </head>
 <body>
