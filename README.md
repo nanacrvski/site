@@ -78,7 +78,6 @@
         <a href="#" id="btn-inicio">Início</a>
         <a href="#" id="btn-sobre">aaaaa</a>
         <a href="#" id="btn-servicos">aaaa</a>
-        <a href="#" id="btn-contato">aaaa</a>
     </nav>
     <div class="container" id="conteudo-inicio">
         <h2>Início</h2>
@@ -96,15 +95,6 @@
         <p>Entre em contato conosco para saber mais sobre nossos serviços.</p>
     </div>
     <div class="container" id="conteudo-contato" style="display: none;">
-        <h2>Contato</h2>
-        <p>Entre em contato conosco através do formulário abaixo:</p>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome"><br><br>
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email"><br><br>
-            <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem aqui..."></textarea><br><br>
-            <input type="submit" value="Enviar">
         </form>
     </div>
 
