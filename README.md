@@ -8,20 +8,20 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f9e6e6; /* Rosa claro */
+            background-color: #ffe6e6; /* Rosa claro */
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #ff6666; /* Rosa escuro */
+            background-color: #ff6699; /* Rosa escuro */
             color: #fff;
             padding: 20px 0;
             text-align: center;
         }
 
         nav {
-            background-color: #ff9999; /* Rosa médio */
+            background-color: #ff99cc; /* Rosa médio */
             color: #fff;
             text-align: center;
             padding: 10px 0;
@@ -32,6 +32,7 @@
             text-decoration: none;
             margin: 0 15px;
             font-weight: bold;
+            font-size: 18px;
         }
 
         .container {
@@ -45,19 +46,20 @@
 
         h1 {
             font-size: 36px;
-            color: #ff6666; /* Rosa escuro */
+            color: #ff6699; /* Rosa escuro */
+            margin-bottom: 20px;
         }
 
         p {
             font-size: 18px;
             line-height: 1.5;
-            color: #333;
+            color: #666;
         }
 
         .button {
             display: inline-block;
-            padding: 10px 20px;
-            background-color: #ff6666; /* Rosa escuro */
+            padding: 12px 24px;
+            background-color: #ff6699; /* Rosa escuro */
             color: #fff;
             text-decoration: none;
             font-weight: bold;
@@ -66,13 +68,13 @@
         }
 
         .button:hover {
-            background-color: #ff9999; /* Rosa médio */
+            background-color: #ff99cc; /* Rosa médio */
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Meu Site</h1>
+        <h1>Bem-vindo ao Meu Portfólio</h1>
     </header>
     <nav>
         <a href="#" id="btn-inicio">Início</a>
@@ -84,17 +86,25 @@
         <p>Esta é a página inicial do nosso site.</p>
     </div>
     <div class="container" id="conteudo-sobre" style="display: none;">
-        <h2>Sobre Nós</h2>
-        <p>Somos uma equipe de profissionais apaixonados por tecnologia e design.</p>
-        <p>Nosso objetivo é criar soluções incríveis para nossos clientes.</p>
+        <h2>Conteúdos</h2>
+        <p>Aqui você encontrará informações sobre meus projetos e trabalhos.</p>
         <a href="#" class="button" id="btn-saiba-mais-sobre">Saiba Mais</a>
     </div>
     <div class="container" id="conteudo-servicos" style="display: none;">
-        <h2>Serviços</h2>
-        <p>Oferecemos uma variedade de serviços de alta qualidade.</p>
-        <p>Entre em contato conosco para saber mais sobre nossos serviços.</p>
+        <h2>Autoavaliação</h2>
+        <p>Confira minha autoavaliação e meu progresso.</p>
+        <a href="#" class="button" id="btn-saiba-mais-servicos">Saiba Mais</a>
     </div>
     <div class="container" id="conteudo-contato" style="display: none;">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo através do formulário abaixo:</p>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem aqui..." required></textarea><br><br>
+            <input type="submit" value="Enviar">
         </form>
     </div>
 
