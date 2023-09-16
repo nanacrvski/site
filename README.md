@@ -76,8 +76,8 @@
     </header>
     <nav>
         <a href="#" id="btn-inicio">Início</a>
-        <a href="#" id="btn-sobre">aaaaa</a>
-        <a href="#" id="btn-servicos">aaaa</a>
+        <a href="#" id="btn-sobre">Conteúdos</a>
+        <a href="#" id="btn-servicos">Autoavaliação</a>
     </nav>
     <div class="container" id="conteudo-inicio">
         <h2>Início</h2>
