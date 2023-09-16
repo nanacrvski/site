@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -47,6 +48,16 @@
             font-size: 36px;
             color: #ff6699; /* Rosa escuro */
             margin-bottom: 20px;
+            position: relative;
+        }
+
+        h1::after {
+            content: "❤️"; /* Coração como elemento fofo */
+            font-size: 24px;
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
         }
 
         p {
@@ -148,3 +159,4 @@
     </script>
 </body>
 </html>
+
