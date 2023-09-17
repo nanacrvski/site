@@ -117,7 +117,7 @@
             <input type="submit" value="Enviar">
         </form>
     </div>
-
+    <img src= "https://preview.redd.it/kkkkkkkkkkkkkkkk-v0-zn7fpwg1aava1.jpg?auto=webp&s=f9691f485185fa9ada60b8b2b29d366d9319bbd7" alt= "kkkkkk"/>
     <script>
         // JavaScript para controlar a exibição das seções
         const btnInicio = document.getElementById('btn-inicio');
