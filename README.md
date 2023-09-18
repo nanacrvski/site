@@ -1,5 +1,4 @@
-
-<html lang="en">
+s <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,16 +47,6 @@
             font-size: 36px;
             color: #ff6699; /* Rosa escuro */
             margin-bottom: 20px;
-            position: relative;
-        }
-
-        h1::after {
-            content: "❤️"; /* Coração como elemento fofo */
-            font-size: 24px;
-            position: absolute;
-            top: -15px;
-            left: 50%;
-            transform: translateX(-50%);
         }
 
         p {
@@ -117,7 +106,7 @@
             <input type="submit" value="Enviar">
         </form>
     </div>
-    <img src= "https://preview.redd.it/kkkkkkkkkkkkkkkk-v0-zn7fpwg1aava1.jpg?auto=webp&s=f9691f485185fa9ada60b8b2b29d366d9319bbd7" alt= "kkkkkk"/>
+
     <script>
         // JavaScript para controlar a exibição das seções
         const btnInicio = document.getElementById('btn-inicio');
@@ -156,6 +145,9 @@
             conteudoServicos.style.display = 'none';
             conteudoContato.style.display = 'block';
         });
+    </script>
+</body>
+</html>
     </script>
 </body>
 </html>
