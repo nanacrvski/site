@@ -1,4 +1,4 @@
-s <html lang="en">
+ <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -86,8 +86,7 @@ s <html lang="en">
     </div>
     <div class="container" id="conteudo-sobre" style="display: none;">
         <h2>Conteúdos</h2>
-        <p>a Sitemas lineares:
-              Matriz Inversa: .</p>
+        <p>Aqui você encontrará informações sobre meus projetos e trabalhos.</p>
         <a href="#" class="button" id="btn-saiba-mais-sobre">Saiba Mais</a>
     </div>
     <div class="container" id="conteudo-servicos" style="display: none;">
@@ -146,9 +145,6 @@ s <html lang="en">
             conteudoServicos.style.display = 'none';
             conteudoContato.style.display = 'block';
         });
-    </script>
-</body>
-</html>
     </script>
 </body>
 </html>
