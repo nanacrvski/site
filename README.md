@@ -116,7 +116,7 @@
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Conteúdo 2</h2>
         <p>Explore os desafios e aplicações do segundo conteúdo do terceiro trimestre de matemática.</p>
-        <img src="caminho/para/sua/imagem2.jpg" alt="Descrição da imagem 2">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Lana_Del_Rey_%40_Grammy_Museum_10_13_2019_%2849311023203%29.jpg/250px-Lana_Del_Rey_%40_Grammy_Museum_10_13_2019_%2849311023203%29.jpg" alt="Descrição da imagem 2">
     </div>
     <div class="container" id="conteudo-conteudo3" style="display: none;">
         <h2 style="color: #c2185b;">Conteúdo 3</h2>
