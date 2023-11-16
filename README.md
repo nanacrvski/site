@@ -10,35 +10,46 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #fff; /* Cor de fundo branca */
+            background-color: #f8f0f4; /* Cor de fundo rosa claro */
             color: #333; /* Cor do texto escura */
         }
 
         header {
-            background-color: #e91e63; /* Cor de fundo rosa */
+            background-color: #ff80ab; /* Cor de fundo rosa claro */
             color: #fff; /* Cor do texto branco */
             text-align: center;
             padding: 20px;
+            border-bottom: 5px solid #e91e63; /* Cor de destaque mais escura */
         }
 
         nav {
-            background-color: #f8bbd0; /* Cor de fundo rosa claro */
+            background-color: #ffcdd2; /* Cor de fundo rosa claro */
             text-align: center;
             padding: 10px;
         }
 
         nav a {
             text-decoration: none;
-            color: #333; /* Cor do texto escura */
+            color: #e91e63; /* Cor rosa mais escura */
             padding: 10px 20px;
             margin: 0 5px;
             border-radius: 5px;
             background-color: #fff; /* Cor de fundo branca */
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #e91e63; /* Cor de fundo rosa mais escura ao passar o mouse */
+            color: #fff; /* Cor do texto branco ao passar o mouse */
         }
 
         .container {
             padding: 20px;
             display: none;
+            background-color: #fff; /* Cor de fundo branca */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            margin: 20px 0;
         }
 
         /* Adicionando estilo específico para cada seção */
@@ -47,23 +58,23 @@
         }
 
         #conteudo-conteudo1 {
-            background-color: #f48fb1; /* Cor de fundo rosa mais escuro */
+            background-color: #f8bbd0; /* Cor de fundo rosa mais claro */
         }
 
         #conteudo-conteudo2 {
-            background-color: #ec407a; /* Cor de fundo rosa médio */
+            background-color: #ffab91; /* Cor de fundo laranja claro */
         }
 
         #conteudo-conteudo3 {
-            background-color: #d81b60; /* Cor de fundo rosa mais escuro */
+            background-color: #ffccbc; /* Cor de fundo pêssego claro */
         }
 
         #conteudo-conteudo4 {
-            background-color: #c2185b; /* Cor de fundo rosa mais escuro */
+            background-color: #ffab91; /* Cor de fundo laranja claro */
         }
 
         #conteudo-servicos {
-            background-color: #f48fb1; /* Cor de fundo rosa mais escuro */
+            background-color: #f8bbd0; /* Cor de fundo rosa mais claro */
         }
 
         .button {
@@ -142,7 +153,56 @@
             // Adicione mais conteúdos se necessário
             conteudoInicio.style.display = 'block';
             conteudoConteudo1.style.display = 'none';
-           
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'none';
+            conteudoServicos.style.display = 'none';
+        });
 
+        btnConteudo1.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'block';
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'none';
+            conteudoServicos.style.display = 'none';
+        });
 
+        btnConteudo2.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'none';
+            conteudoConteudo2.style.display = 'block';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'none';
+            conteudoServicos.style.display = 'none';
+        });
 
+        btnConteudo3.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'none';
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'block';
+            conteudoConteudo4.style.display = 'none';
+            conteudoServicos.style.display = 'none';
+        });
+
+        btnConteudo4.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'none';
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'block';
+            conteudoServicos.style.display = 'none';
+        });
+
+        btnServicos.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'none';
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'none';
+            conteudoServicos.style.display = 'block';
+        });
+    </script>
+</body>
+</html>
