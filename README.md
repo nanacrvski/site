@@ -10,7 +10,7 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f0f4; /* Cor de fundo rosa claro */
+            background-color: #fce4ec; /* Cor de fundo rosa claro */
             color: #333; /* Cor do texto escura */
         }
 
@@ -94,7 +94,7 @@
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Meu Portfólio de Matemática</h1>
+        <h1 style="color: #c2185b;">Bem-vindo ao Meu Portfólio de Matemática</h1>
     </header>
     <nav>
         <a href="#" id="btn-inicio">Início</a>
@@ -105,31 +105,31 @@
         <a href="#" id="btn-servicos">Autoavaliação</a>
     </nav>
     <div class="container" id="conteudo-inicio">
-        <h2>Início</h2>
+        <h2 style="color: #c2185b;">Início</h2>
         <p>Esta é a página inicial do nosso site.</p>
     </div>
     <div class="container" id="conteudo-conteudo1" style="display: none;">
-        <h2>Conteúdo 1</h2>
+        <h2 style="color: #c2185b;">Conteúdo 1</h2>
         <p>Aqui apresentamos os principais conceitos do primeiro conteúdo do terceiro trimestre de matemática.</p>
         <!-- Adicione informações específicas sobre o Conteúdo 1 aqui -->
     </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
-        <h2>Conteúdo 2</h2>
+        <h2 style="color: #c2185b;">Conteúdo 2</h2>
         <p>Explore os desafios e aplicações do segundo conteúdo do terceiro trimestre de matemática.</p>
         <!-- Adicione informações específicas sobre o Conteúdo 2 aqui -->
     </div>
     <div class="container" id="conteudo-conteudo3" style="display: none;">
-        <h2>Conteúdo 3</h2>
+        <h2 style="color: #c2185b;">Conteúdo 3</h2>
         <p>Descubra as teorias e práticas do terceiro conteúdo do terceiro trimestre de matemática.</p>
         <!-- Adicione informações específicas sobre o Conteúdo 3 aqui -->
     </div>
     <div class="container" id="conteudo-conteudo4" style="display: none;">
-        <h2>Conteúdo 4</h2>
+        <h2 style="color: #c2185b;">Conteúdo 4</h2>
         <p>Analise os casos e estudos relacionados ao quarto conteúdo do terceiro trimestre de matemática.</p>
         <!-- Adicione informações específicas sobre o Conteúdo 4 aqui -->
     </div>
     <div class="container" id="conteudo-servicos" style="display: none;">
-        <h2>Autoavaliação</h2>
+        <h2 style="color: #c2185b;">Autoavaliação</h2>
         <p>Confira minha autoavaliação e meu progresso.</p>
         <a href="#" class="button" id="btn-saiba-mais-servicos">Saiba Mais</a>
     </div>
@@ -206,3 +206,4 @@
     </script>
 </body>
 </html>
+
