@@ -33,8 +33,8 @@
             color: #e91e63; /* Cor rosa mais escura */
             padding: 10px 20px;
             margin: 0 5px;
-            border-radius: 5px;
-            background-color: #fff; /* Cor de fundo branca */
+            border-radius: 15px; /* Bordas redondas */
+            background-color: #fff4f8; /* Cor de fundo rosa claro */
             transition: background-color 0.3s ease, color 0.3s ease;
         }
 
@@ -46,15 +46,15 @@
         .container {
             padding: 20px;
             display: none;
-            background-color: #fff; /* Cor de fundo branca */
-            border-radius: 10px;
+            background-color: #fff4f8; /* Cor de fundo rosa mais claro */
+            border-radius: 20px; /* Bordas redondas */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
             margin: 20px 0;
         }
 
         /* Adicionando estilo específico para cada seção */
         #conteudo-inicio {
-            background-color: #fce4ec; /* Cor de fundo rosa claro */
+            background-color: #fff4f8; /* Cor de fundo rosa mais claro */
         }
 
         #conteudo-conteudo1 {
@@ -83,7 +83,7 @@
             color: #fff; /* Cor do texto branco */
             background-color: #e91e63; /* Cor de fundo rosa */
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 20px; /* Bordas redondas */
             transition: background-color 0.3s ease;
         }
 
@@ -116,7 +116,7 @@
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Conteúdo 2</h2>
         <p>Explore os desafios e aplicações do segundo conteúdo do terceiro trimestre de matemática.</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Lana_Del_Rey_%40_Grammy_Museum_10_13_2019_%2849311023203%29.jpg/250px-Lana_Del_Rey_%40_Grammy_Museum_10_13_2019_%2849311023203%29.jpg" alt="Descrição da imagem 2">
+        <img src="caminho/para/sua/imagem2.jpg" alt="Descrição da imagem 2">
     </div>
     <div class="container" id="conteudo-conteudo3" style="display: none;">
         <h2 style="color: #c2185b;">Conteúdo 3</h2>
@@ -207,5 +207,3 @@
     </script>
 </body>
 </html>
-
-
