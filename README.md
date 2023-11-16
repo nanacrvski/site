@@ -6,7 +6,79 @@
     <title>Meu Portfólio - Matemática</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* Seu estilo CSS aqui */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff; /* Cor de fundo branca */
+            color: #333; /* Cor do texto escura */
+        }
+
+        header {
+            background-color: #e91e63; /* Cor de fundo rosa */
+            color: #fff; /* Cor do texto branco */
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #f8bbd0; /* Cor de fundo rosa claro */
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333; /* Cor do texto escura */
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            background-color: #fff; /* Cor de fundo branca */
+        }
+
+        .container {
+            padding: 20px;
+            display: none;
+        }
+
+        /* Adicionando estilo específico para cada seção */
+        #conteudo-inicio {
+            background-color: #fce4ec; /* Cor de fundo rosa claro */
+        }
+
+        #conteudo-conteudo1 {
+            background-color: #f48fb1; /* Cor de fundo rosa mais escuro */
+        }
+
+        #conteudo-conteudo2 {
+            background-color: #ec407a; /* Cor de fundo rosa médio */
+        }
+
+        #conteudo-conteudo3 {
+            background-color: #d81b60; /* Cor de fundo rosa mais escuro */
+        }
+
+        #conteudo-conteudo4 {
+            background-color: #c2185b; /* Cor de fundo rosa mais escuro */
+        }
+
+        #conteudo-servicos {
+            background-color: #f48fb1; /* Cor de fundo rosa mais escuro */
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff; /* Cor do texto branco */
+            background-color: #e91e63; /* Cor de fundo rosa */
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #c2185b; /* Cor de fundo rosa mais escura ao passar o mouse */
+        }
     </style>
 </head>
 <body>
@@ -70,56 +142,7 @@
             // Adicione mais conteúdos se necessário
             conteudoInicio.style.display = 'block';
             conteudoConteudo1.style.display = 'none';
-            conteudoConteudo2.style.display = 'none';
-            conteudoConteudo3.style.display = 'none';
-            conteudoConteudo4.style.display = 'none';
-            conteudoServicos.style.display = 'none';
-        });
-
-        btnConteudo1.addEventListener('click', () => {
-            conteudoInicio.style.display = 'none';
-            conteudoConteudo1.style.display = 'block';
-            conteudoConteudo2.style.display = 'none';
-            conteudoConteudo3.style.display = 'none';
-            conteudoConteudo4.style.display = 'none';
-            conteudoServicos.style.display = 'none';
-        });
-
-        btnConteudo2.addEventListener('click', () => {
-            conteudoInicio.style.display = 'none';
-            conteudoConteudo1.style.display = 'none';
-            conteudoConteudo2.style.display = 'block';
-            conteudoConteudo3.style.display = 'none';
-            conteudoConteudo4.style.display = 'none';
-            conteudoServicos.style.display = 'none';
-        });
-
-        btnConteudo3.addEventListener('click', () => {
-            conteudoInicio.style.display = 'none';
-            conteudoConteudo1.style.display = 'none';
-            conteudoConteudo2.style.display = 'none';
-            conteudoConteudo3.style.display = 'block';
-            conteudoConteudo4.style.display = 'none';
-            conteudoServicos.style.display = 'none';
-        });
-
-        btnConteudo4.addEventListener('click', () => {
-            conteudoInicio.style.display = 'none';
-            conteudoConteudo1.style.display = 'none';
-            conteudoConteudo2.style.display = 'none';
-            conteudoConteudo3.style.display = 'none';
-            conteudoConteudo4.style.display = 'block';
-            conteudoServicos.style.display = 'none';
-        });
-
-        btnServicos.addEventListener('click', () => {
-            conteudoInicio.style.display = 'none';
-            conteudoConteudo1.style.display = 'none';
-            conteudoConteudo2.style.display = 'none';
-            conteudoConteudo3.style.display = 'none';
-            conteudoConteudo4.style.display = 'none';
-            conteudoServicos.style.display = 'block';
-        });
+           
 
 
 
