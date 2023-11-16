@@ -10,7 +10,7 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: url('caminho/para/seu/papel-de-parede.jpg') fixed; /* Substitua pelo caminho do seu papel de parede */
+            background: url('https://images.tcdn.com.br/img/img_prod/607564/papel_de_parede_floral_604_1_20230103142825.jpg') fixed; /* Substitua pelo caminho da sua imagem de florzinhas */
             background-size: cover;
             color: #333; /* Cor do texto escura */
         }
@@ -95,11 +95,6 @@
         /* Adicionando elementos decorativos */
         h1, h2, h3 {
             font-family: 'Georgia', serif; /* Fonte estilizada */
-        }
-
-        body {
-            background: url('[caminho/para/seu/papel-de-parede.jpg](https://images.tcdn.com.br/img/img_prod/607564/papel_de_parede_floral_604_1_20230103142825.jpg)') fixed; https://images.tcdn.com.br/img/img_prod/607564/papel_de_parede_floral_604_1_20230103142825.jpg
-            background-size: cover;
         }
     </style>
 </head>
@@ -218,4 +213,5 @@
     </script>
 </body>
 </html>
+
 
