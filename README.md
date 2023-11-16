@@ -10,7 +10,8 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #fce4ec; /* Cor de fundo rosa claro */
+            background: url('caminho/para/seu/papel-de-parede.jpg') fixed; /* Substitua pelo caminho do seu papel de parede */
+            background-size: cover;
             color: #333; /* Cor do texto escura */
         }
 
@@ -90,11 +91,21 @@
         .button:hover {
             background-color: #c2185b; /* Cor de fundo rosa mais escura ao passar o mouse */
         }
+
+        /* Adicionando elementos decorativos */
+        h1, h2, h3 {
+            font-family: 'Georgia', serif; /* Fonte estilizada */
+        }
+
+        body {
+            background: url('caminho/para/seu/papel-de-parede.jpg') fixed; /* Substitua pelo caminho do seu papel de parede */
+            background-size: cover;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1 style="color: #c2185b;">Bem-vindo ao Meu Portfólio de Matemática</h1>
+        <h1 style="color: #fff;">Bem-vindo ao Meu Portfólio de Matemática</h1>
     </header>
     <nav>
         <a href="#" id="btn-inicio">Início</a>
@@ -207,3 +218,4 @@
     </script>
 </body>
 </html>
+
