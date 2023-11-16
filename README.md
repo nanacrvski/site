@@ -6,6 +6,7 @@
     <title>Meu Portfólio - Matemática</title>
     <link rel="stylesheet" href="styles.css">
     <style>
+        /* Seu estilo CSS aqui */
         body {
             font-family: 'Comic Sans MS', cursive, sans-serif; /* Fonte mais descontraída e fofa */
             background-color: #ffd6e6; /* Rosa claro */
@@ -36,6 +37,14 @@
             margin: 0 15px;
             font-weight: bold;
             font-size: 18px;
+            padding: 8px 15px;
+            border-radius: 10px;
+            background-color: #ff99cc; /* Rosa médio */
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ff6699; /* Rosa escuro */
         }
 
         .container {
@@ -132,14 +141,5 @@
         const btnConteudo4 = document.getElementById('btn-conteudo4');
         const btnServicos = document.getElementById('btn-servicos');
         const conteudoInicio = document.getElementById('conteudo-inicio');
-        const conteudoConteudo1 = document.getElementById('conteudo-conteudo1');
-        const conteudoConteudo2 = document.getElementById('conteudo-conteudo2');
-        const conteudoConteudo3 = document.getElementById('conteudo-conteudo3');
-        const conteudoConteudo4 = document.getElementById('conteudo-conteudo4');
-        const conteudoServicos = document.getElementById('conteudo-servicos');
-
-        btnInicio.addEventListener('click', () => {
-            conteudoInicio.style.display = 'block';
-            conteudoConteudo1.style.display = 'none';
-            conte
+        const conteudoCont
 
