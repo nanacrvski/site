@@ -128,18 +128,7 @@
     </div>
     <div class="container" id="conteudo-servicos" style="display: none;">
         <h2>Autoavaliação</h2>
-        <p>Confira minha autoavaliação e meu progresso.</p>
-        <a href="#" class="button" id="btn-saiba-mais-servicos">Saiba Mais</a>
-    </div>
+        <p>Confira
 
-    <script>
-        // JavaScript para controlar a exibição das seções
-        const btnInicio = document.getElementById('btn-inicio');
-        const btnConteudo1 = document.getElementById('btn-conteudo1');
-        const btnConteudo2 = document.getElementById('btn-conteudo2');
-        const btnConteudo3 = document.getElementById('btn-conteudo3');
-        const btnConteudo4 = document.getElementById('btn-conteudo4');
-        const btnServicos = document.getElementById('btn-servicos');
-        const conteudoInicio = document.getElementById('conteudo-inicio');
-        const conteudoCont
+
 
