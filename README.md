@@ -98,7 +98,7 @@
         }
 
         body {
-            background: url('[caminho/para/seu/papel-de-parede.jpg](https://images.tcdn.com.br/img/img_prod/607564/papel_de_parede_floral_604_1_20230103142825.jpg)') fixed; /* Substitua pelo caminho do seu papel de parede */
+            background: url('[caminho/para/seu/papel-de-parede.jpg](https://images.tcdn.com.br/img/img_prod/607564/papel_de_parede_floral_604_1_20230103142825.jpg)') fixed; https://images.tcdn.com.br/img/img_prod/607564/papel_de_parede_floral_604_1_20230103142825.jpg
             background-size: cover;
         }
     </style>
