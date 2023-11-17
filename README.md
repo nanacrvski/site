@@ -124,7 +124,8 @@
     </div>
     <div class="container" id="conteudo-conteudo1" style="display: none;">
         <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
-        <p>Aqui apresentamos os principais conceitos do primeiro conteúdo do terceiro trimestre de matemática.</p>
+        <p>Dada uma matriz quadrada A de ordem n, chamamos de inversa de A uma matriz 𝐴ˆ−1 tal que 
+            𝐴 ∙ 𝐴ˆ−1 = 𝐴ˆ−1 ∙ 𝐴 = I </p>
         <img src="caminho/para/sua/imagem1.jpg" alt="Descrição da imagem 1">
     </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
