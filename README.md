@@ -10,7 +10,7 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: url('[caminho/para/seu/papel-de-parede.jpg](https://i.pinimg.com/564x/5a/d6/a2/5ad6a21a87663aa549f872b51f5c30c1.jpg)') fixed; /* Substitua pelo caminho do seu papel de parede */
+            background: url('caminho/para/seu/papel-de-parede.jpg') fixed; /* Substitua pelo caminho do seu papel de parede */
             background-size: cover;
             color: #333; /* Cor do texto escura */
         }
@@ -112,9 +112,9 @@
     </header>
     <nav>
         <a href="#" id="btn-inicio">Início</a>
-        <a href="#" id="btn-conteudo1">Conteúdo 1</a>
-        <a href="#" id="btn-conteudo2">Conteúdo 2</a>
-        <a href="#" id="btn-conteudo3">Conteúdo 3</a>
+        <a href="#" id="btn-conteudo1">Matriz Inversa e Criptografia</a>
+        <a href="#" id="btn-conteudo2">Funções Trigonométricas</a>
+        <a href="#" id="btn-conteudo3">Análise Combinatória</a>
         <a href="#" id="btn-conteudo4">Conteúdo 4</a>
         <a href="#" id="btn-servicos">Autoavaliação</a>
     </nav>
@@ -123,23 +123,23 @@
         <p>Esta é a página inicial do nosso site.</p>
     </div>
     <div class="container" id="conteudo-conteudo1" style="display: none;">
-        <h2 style="color: #c2185b;">Conteúdo 1</h2>
-        <p>Matriz inversa e criptografia.</p>
+        <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
+        <p>Aqui apresentamos os principais conceitos do primeiro conteúdo do terceiro trimestre de matemática.</p>
         <img src="caminho/para/sua/imagem1.jpg" alt="Descrição da imagem 1">
     </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
-        <h2 style="color: #c2185b;">Conteúdo 2</h2>
-        <p>Funções trigonométricas.</p>
+        <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
+        <p>Explore os desafios e aplicações do segundo conteúdo do terceiro trimestre de matemática.</p>
         <img src="caminho/para/sua/imagem2.jpg" alt="Descrição da imagem 2">
     </div>
     <div class="container" id="conteudo-conteudo3" style="display: none;">
-        <h2 style="color: #c2185b;">Conteúdo 3</h2>
-        <p>Análise combinatória.</p>
+        <h2 style="color: #c2185b;">Análise Combinatória</h2>
+        <p>Descubra as teorias e práticas do terceiro conteúdo do terceiro trimestre de matemática.</p>
         <img src="caminho/para/sua/imagem3.jpg" alt="Descrição da imagem 3">
     </div>
     <div class="container" id="conteudo-conteudo4" style="display: none;">
         <h2 style="color: #c2185b;">Conteúdo 4</h2>
-        <p>Caso e estudos relacionados ao quarto conteúdo do terceiro trimestre de matemática.</p>
+        <p>Analise os casos e estudos relacionados ao quarto conteúdo do terceiro trimestre de matemática.</p>
         <img src="caminho/para/sua/imagem4.jpg" alt="Descrição da imagem 4">
     </div>
     <div class="container" id="conteudo-servicos" style="display: none;">
@@ -221,5 +221,6 @@
     </script>
 </body>
 </html>
+
 
 
