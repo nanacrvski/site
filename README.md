@@ -1,4 +1,4 @@
-<3
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -104,27 +104,27 @@
     </header>
     <nav>
         <a href="#" id="btn-inicio">Início</a>
-        <a href="#" id="btn-conteudo1">conteúdo 1</a>
-        <a href="#" id="btn-conteudo2">conteúdo 2</a>
-        <a href="#" id="btn-conteudo3">conteúdo 3</a>
-        <a href="#" id="btn-conteudo4">a</a>
+        <a href="#" id="btn-conteudo1">Conteúdo 1</a>
+        <a href="#" id="btn-conteudo2">Conteúdo 2</a>
+        <a href="#" id="btn-conteudo3">Conteúdo 3</a>
+        <a href="#" id="btn-conteudo4">Conteúdo 4</a>
         <a href="#" id="btn-servicos">Autoavaliação</a>
     </nav>
     <div class="container" id="conteudo-inicio">
         <h2 style="color: #c2185b;">Início</h2>
         <p>Esta é a página inicial do nosso site.</p>
     </div>
-    <div class="container" id="conteudo-Matriz inversa e criptografia" style="display: none;">
+    <div class="container" id="conteudo-conteudo1" style="display: none;">
         <h2 style="color: #c2185b;">Conteúdo 1</h2>
         <p>Aqui apresentamos os principais conceitos do primeiro conteúdo do terceiro trimestre de matemática.</p>
         <img src="caminho/para/sua/imagem1.jpg" alt="Descrição da imagem 1">
     </div>
-    <div class="container" id="conteudo-Funções trigonométricas" style="display: none;">
+    <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Conteúdo 2</h2>
         <p>Explore os desafios e aplicações do segundo conteúdo do terceiro trimestre de matemática.</p>
         <img src="caminho/para/sua/imagem2.jpg" alt="Descrição da imagem 2">
     </div>
-    <div class="container" id="conteudo-Análise combinatória" style="display: none;">
+    <div class="container" id="conteudo-conteudo3" style="display: none;">
         <h2 style="color: #c2185b;">Conteúdo 3</h2>
         <p>Descubra as teorias e práticas do terceiro conteúdo do terceiro trimestre de matemática.</p>
         <img src="caminho/para/sua/imagem3.jpg" alt="Descrição da imagem 3">
