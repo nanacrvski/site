@@ -126,7 +126,7 @@
         <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
         <p> ...
         </p>
-        <img src="caminho/para/sua/imagem1.jpg" alt="Descrição da imagem 1">
+        <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg">
     </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
