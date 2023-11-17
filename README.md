@@ -110,12 +110,12 @@
         <a href="#" id="btn-conteudo4">Conteúdo 4</a>
         <a href="#" id="btn-servicos">Autoavaliação</a>
     </nav>
-    <div class="container" id="conteudo-início">
-        <h2 style="color: #c2185b;">Introdução</h2>
-        <p>Olá, me chamo Ana CLara Nadaletti Cervinski e esse é meu portfólio de matemática do terceiro trimestre</p>
+    <div class="container" id="conteudo-inicio">
+        <h2 style="color: #c2185b;">Início</h2>
+        <p>Esta é a página inicial do nosso site.</p>
     </div>
     <div class="container" id="conteudo-conteudo1" style="display: none;">
-        <h2 style="color: #c2185b;">Matriz inversa e criptografia</h2>
+        <h2 style="color: #c2185b;">Conteúdo 1</h2>
         <p>Aqui apresentamos os principais conceitos do primeiro conteúdo do terceiro trimestre de matemática.</p>
         <img src="caminho/para/sua/imagem1.jpg" alt="Descrição da imagem 1">
     </div>
@@ -213,5 +213,3 @@
     </script>
 </body>
 </html>
-
-
