@@ -10,7 +10,7 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: url('https://images-americanas.b2w.io/produtos/1498758117/imagens/papel-de-parede-delicado-flores-pequenas-fundo-branco/1498758125_1_large.jpg') fixed; /* Substitua pelo caminho do seu papel de parede */
+            background: url('https://www.arquiprojeto.art.br/wp-content/uploads/2022/02/floral-22.jpg') fixed; /* Substitua pelo caminho do seu papel de parede */
             background-size: cover;
             color: #333; /* Cor do texto escura */
         }
