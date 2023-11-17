@@ -46,17 +46,6 @@
             color: #fff; /* Cor do texto branco ao passar o mouse */
         }
 
-        #btn-servicos {
-            text-decoration: none;
-            color: #e91e63; /* Cor rosa mais escura */
-            padding: 10px 20px;
-            margin: 0 5px;
-            border-radius: 15px; /* Bordas redondas */
-            background-color: #fff4f8; /* Cor de fundo rosa claro */
-            transition: background-color 0.3s ease, color 0.3s ease;
-            margin-bottom: 20px; /* Adicione margem na parte inferior para evitar sobreposição */
-        }
-
         .container {
             padding: 20px;
             display: none;
@@ -99,6 +88,7 @@
             text-decoration: none;
             border-radius: 20px; /* Bordas redondas */
             transition: background-color 0.3s ease;
+            margin-bottom: 20px; /* Adicione margem na parte inferior para evitar sobreposição */
         }
 
         .button:hover {
@@ -116,7 +106,7 @@
         <a href="#" id="btn-conteudo2">Funções Trigonométricas</a>
         <a href="#" id="btn-conteudo3">Análise Combinatória</a>
         <a href="#" id="btn-conteudo4">Conteúdo 4</a>
-        <a href="#" id="btn-servicos">Autoavaliação</a>
+        <a href="#" id="btn-servicos" class="button">Autoavaliação</a>
     </nav>
     <div class="container" id="conteudo-inicio">
         <h2 style="color: #c2185b;">Início</h2>
