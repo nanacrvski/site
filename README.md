@@ -104,9 +104,9 @@
     </header>
     <nav>
         <a href="#" id="btn-inicio">Início</a>
-        <a href="#" id="btn-conteudo1">Matriz inversa e criptografia</a>
-        <a href="#" id="btn-conteudo2">Funções trigonométricas</a>
-        <a href="#" id="btn-conteudo3">Análise combinatória</a>
+        <a href="#" id="btn-conteudo1">conteúdo 1</a>
+        <a href="#" id="btn-conteudo2">conteúdo 2</a>
+        <a href="#" id="btn-conteudo3">conteúdo 3/a>
         <a href="#" id="btn-conteudo4">a</a>
         <a href="#" id="btn-servicos">Autoavaliação</a>
     </nav>
