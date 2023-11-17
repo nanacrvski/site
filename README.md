@@ -104,7 +104,7 @@
     </header>
     <nav>
         <a href="#" id="btn-inicio">Início</a>
-        <a href="#" id="btn-conteudo1">Conteúdo 1</a>
+        <a href="#" id="btn-matrizinversaecriptografia">conteudo 1</a>
         <a href="#" id="btn-conteudo2">Conteúdo 2</a>
         <a href="#" id="btn-conteudo3">Conteúdo 3</a>
         <a href="#" id="btn-conteudo4">Conteúdo 4</a>
@@ -114,8 +114,8 @@
         <h2 style="color: #c2185b;">Início</h2>
         <p>Esta é a página inicial do nosso site.</p>
     </div>
-    <div class="container" id="conteudo-Matriz inversa e criptografia" style="display: none;">
-        <h2 style="color: #c2185b;">Conteúdo 1</h2>
+    <div class="container" id="matriz inversa e criptografia" style="display: none;">
+        <h2 style="color: #c2185b;">matriz inversa e criptografia</h2>
         <p>Aqui apresentamos os principais conceitos do primeiro conteúdo do terceiro trimestre de matemática.</p>
         <img src="caminho/para/sua/imagem1.jpg" alt="Descrição da imagem 1">
     </div>
@@ -213,3 +213,4 @@
     </script>
 </body>
 </html>
+
