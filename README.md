@@ -10,7 +10,7 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: url('caminho/para/seu/papel-de-parede.jpg') fixed; /* Substitua pelo caminho do seu papel de parede */
+            background: url('[caminho/para/seu/papel-de-parede.jpg](https://i.pinimg.com/564x/5a/d6/a2/5ad6a21a87663aa549f872b51f5c30c1.jpg)') fixed; /* Substitua pelo caminho do seu papel de parede */
             background-size: cover;
             color: #333; /* Cor do texto escura */
         }
