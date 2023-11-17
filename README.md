@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Caveat', sans-serif;
             margin: 0;
             padding: 0;
             background: url('https://www.arquiprojeto.art.br/wp-content/uploads/2022/02/floral-22.jpg') fixed; /* Substitua pelo caminho do seu papel de parede */
