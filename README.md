@@ -124,9 +124,7 @@
     </div>
     <div class="container" id="conteudo-conteudo1" style="display: none;">
         <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
-        <p>Dada uma matriz quadrada A de ordem n, chamamos de inversa de A uma matriz 𝐴ˆ−1 tal que 
-            𝐴 ∙ 𝐴ˆ−1 = 𝐴ˆ−1 ∙ 𝐴 = I 
-            onde 𝐼 é a matriz identidade de ordem n
+        <p> ...
         </p>
         <img src="caminho/para/sua/imagem1.jpg" alt="Descrição da imagem 1">
     </div>
