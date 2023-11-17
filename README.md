@@ -114,7 +114,7 @@
         <h2 style="color: #c2185b;">Início</h2>
         <p>Esta é a página inicial do nosso site.</p>
     </div>
-    <div class="container" id="conteudo-conteudo1" style="display: none;">
+    <div class="container" id="conteudo-Matriz inversa e criptografia" style="display: none;">
         <h2 style="color: #c2185b;">Conteúdo 1</h2>
         <p>Aqui apresentamos os principais conceitos do primeiro conteúdo do terceiro trimestre de matemática.</p>
         <img src="caminho/para/sua/imagem1.jpg" alt="Descrição da imagem 1">
