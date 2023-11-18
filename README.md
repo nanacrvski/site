@@ -125,16 +125,10 @@
     <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2> 
        1. MATRIZ INVERSA
          <ol> Dada uma matriz quadrada A de ordem n, chamamos de inversa de A uma matriz
-𝐴⁻¹ tal que 𝐴 ∙ 𝐴⁻¹ = 𝐴⁻¹ ∙ 𝐴 = 𝐼 onde 𝐼 é a matriz identidade de ordem n.<ol> 
-  <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Funções Trigonométricas">  
-    <p><strong>IMPORTANTE!</strong></p>
-    <ol>
-        <li>Se A e B são matrizes quadradas de mesma ordem, ambas inversíveis, então 𝐴 × 𝐵 é inversível e (𝐴 × 𝐵)<sup>-1</sup> = 𝐵<sup>-1</sup> × 𝐴<sup>-1</sup>.</li>
-        <li>Nem toda matriz admite inversa.</li>
-        <li>A inversa de uma matriz é única.</li>
-    </ol>
-    <p>Teorema: Uma matriz quadrada A admite inversa se, e somente se, 𝑑𝑒𝑡(𝐴) ≠ 0.</p>
-     <img src="https://static.todamateria.com.br/upload/58/5a/585ad5bde6511-matriz-inversa.jpg?auto_optimize=low" alt="Matriz Inversa">
+𝐴⁻¹
+tal que <ol>
+             <ol> 𝐴 ∙ 𝐴⁻¹ = 𝐴⁻¹ ∙ 𝐴 = I  <ol>
+                  <ol> onde 𝐼 é a matriz identidade de ordem n. <ol>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
         <p>As funções trigonométricas são fundamentais na matemática, especialmente na trigonometria. Elas descrevem as relações entre os ângulos de um triângulo e as medidas dos seus lados. As principais funções trigonométricas são seno, cosseno e tangente.</p>
