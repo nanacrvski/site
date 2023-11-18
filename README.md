@@ -123,8 +123,8 @@
     </div>
    <div class="container" id="conteudo-conteudo1" style="display: none;">
     <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2> 
-    <p>A matriz inversa é uma operação importante na álgebra linear. Ela é usada em diversos contextos, incluindo criptografia. Na criptografia, as matrizes são utilizadas para transformar dados de forma a proteger a informação.</p>
-    <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Matriz Inversa">
+       </p>A matriz inversa ou matriz invertível é um tipo de matriz quadrada, ou seja, que possui o mesmo número de linhas (m) e colunas (n). Ela ocorre quando o produto de duas matrizes resulta numa matriz identidade de mesma ordem (mesmo número de linhas e colunas).</p>
+       <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Funções Trigonométricas">  
     <p><strong>IMPORTANTE!</strong></p>
     <ol>
         <li>Se A e B são matrizes quadradas de mesma ordem, ambas inversíveis, então 𝐴 × 𝐵 é inversível e (𝐴 × 𝐵)<sup>-1</sup> = 𝐵<sup>-1</sup> × 𝐴<sup>-1</sup>.</li>
