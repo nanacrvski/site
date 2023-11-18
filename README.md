@@ -128,8 +128,97 @@
         <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Matriz Inversa">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOnhYFZTmTvi9B-gdpRY3RFLc67zyHqEwvg&usqp=CAU" alt="Criptografia">
     </div>
-    <!-- Restante do código permanece o mesmo -->
-    <!-- ... -->
+    <div class="container" id="conteudo-conteudo2" style="display: none;">
+        <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
+        <p>Explore os desafios e aplicações do segundo conteúdo do terceiro trimestre de matemática.</p>
+        <img src="caminho/para/sua/imagem2.jpg" alt="Descrição da imagem 2">
+    </div>
+    <div class="container" id="conteudo-conteudo3" style="display: none;">
+        <h2 style="color: #c2185b;">Análise Combinatória</h2>
+        <p>Descubra as teorias e práticas do terceiro conteúdo do terceiro trimestre de matemática.</p>
+        <img src="caminho/para/sua/imagem3.jpg" alt="Descrição da imagem 3">
+    </div>
+    <div class="container" id="conteudo-conteudo4" style="display: none;">
+        <h2 style="color: #c2185b;">Conteúdo 4</h2>
+        <p>Analise os casos e estudos relacionados ao quarto conteúdo do terceiro trimestre de matemática.</p>
+        <img src="caminho/para/sua/imagem4.jpg" alt="Descrição da imagem 4">
+    </div>
+    <div class="container" id="conteudo-servicos" style="display: none;">
+        <h2 style="color: #c2185b;">Autoavaliação</h2>
+        <p>Confira minha autoavaliação e meu progresso.</p>
+        <img src="caminho/para/sua/imagem-servicos.jpg" alt="Descrição da imagem de serviços">
+        <a href="#" class="button" id="btn-saiba-mais-servicos">Saiba Mais</a>
+    </div>
+
+    <script>
+        // JavaScript para controlar a exibição das seções
+        const btnInicio = document.getElementById('btn-inicio');
+        const btnConteudo1 = document.getElementById('btn-conteudo1');
+        const btnConteudo2 = document.getElementById('btn-conteudo2');
+        const btnConteudo3 = document.getElementById('btn-conteudo3');
+        const btnConteudo4 = document.getElementById('btn-conteudo4');
+        const btnServicos = document.getElementById('btn-servicos');
+        const conteudoInicio = document.getElementById('conteudo-inicio');
+        const conteudoConteudo1 = document.getElementById('conteudo-conteudo1');
+        const conteudoConteudo2 = document.getElementById('conteudo-conteudo2');
+        const conteudoConteudo3 = document.getElementById('conteudo-conteudo3');
+        const conteudoConteudo4 = document.getElementById('conteudo-conteudo4');
+        const conteudoServicos = document.getElementById('conteudo-servicos');
+
+        btnInicio.addEventListener('click', () => {
+            conteudoInicio.style.display = 'block';
+            conteudoConteudo1.style.display = 'none';
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'none';
+            conteudoServicos.style.display = 'none';
+        });
+
+        btnConteudo1.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'block';
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'none';
+            conteudoServicos.style.display = 'none';
+        });
+
+        btnConteudo2.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'none';
+            conteudoConteudo2.style.display = 'block';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'none';
+            conteudoServicos.style.display = 'none';
+        });
+
+        btnConteudo3.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'none';
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'block';
+            conteudoConteudo4.style.display = 'none';
+            conteudoServicos.style.display = 'none';
+        });
+
+        btnConteudo4.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'none';
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'block';
+            conteudoServicos.style.display = 'none';
+        });
+
+        btnServicos.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'none';
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'none';
+            conteudoServicos.style.display = 'block';
+        });
+    </script>
 </body>
 </html>
 
