@@ -130,17 +130,19 @@
     </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
-        <p>Explore os desafios e aplicações do segundo conteúdo do terceiro trimestre de matemática.</p>
-        <img src="caminho/para/sua/imagem2.jpg" alt="Descrição da imagem 2">
+        <p>As funções trigonométricas são fundamentais na matemática, especialmente na trigonometria. Elas descrevem as relações entre os ângulos de um triângulo e as medidas dos seus lados. As principais funções trigonométricas são seno, cosseno e tangente.</p>
+        <p>Essas funções têm amplas aplicações em física, engenharia, computação gráfica e muitas outras áreas.</p>
+        <img src="caminho/para/sua/imagem2.jpg" alt="Funções Trigonométricas">
     </div>
     <div class="container" id="conteudo-conteudo3" style="display: none;">
         <h2 style="color: #c2185b;">Análise Combinatória</h2>
-        <p>Descubra as teorias e práticas do terceiro conteúdo do terceiro trimestre de matemática.</p>
-        <img src="caminho/para/sua/imagem3.jpg" alt="Descrição da imagem 3">
+        <p>A análise combinatória é um ramo da matemática que estuda métodos de contagem e organização de elementos. Envolve a análise e a resolução de problemas relacionados à combinação e arranjo de objetos.</p>
+        <p>Essa área é amplamente utilizada em situações que envolvem contagem de possibilidades, como em jogos, probabilidades e otimização.</p>
+        <img src="caminho/para/sua/imagem3.jpg" alt="Análise Combinatória">
     </div>
     <div class="container" id="conteudo-conteudo4" style="display: none;">
         <h2 style="color: #c2185b;">Conteúdo 4</h2>
-        <p>Analise os casos e estudos relacionados ao quarto conteúdo do terceiro trimestre de matemática.</p>
+        <p>Este é um espaço reservado para informações sobre o quarto conteúdo do terceiro trimestre de matemática.</p>
         <img src="caminho/para/sua/imagem4.jpg" alt="Descrição da imagem 4">
     </div>
     <div class="container" id="conteudo-servicos" style="display: none;">
@@ -221,4 +223,5 @@
     </script>
 </body>
 </html>
+
 
