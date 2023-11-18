@@ -123,12 +123,8 @@
     </div>
    <div class="container" id="conteudo-conteudo1" style="display: none;">
     <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2> 
-       1. MATRIZ INVERSA
-         <ol> Dada uma matriz quadrada A de ordem n, chamamos de inversa de A uma matriz
-𝐴⁻¹ tal que <ol>
-     <ol> 𝐴 ∙ 𝐴⁻¹ = 𝐴⁻¹ ∙ 𝐴 = I  <ol>
-     <ol> onde 𝐼 é a matriz identidade de ordem n. <ol>
-    <div class="container" id="conteudo-conteudo2" style="display: none;">
+        </div>
+   <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
         <p>As funções trigonométricas são fundamentais na matemática, especialmente na trigonometria. Elas descrevem as relações entre os ângulos de um triângulo e as medidas dos seus lados. As principais funções trigonométricas são seno, cosseno e tangente.</p>
         <p>Essas funções têm amplas aplicações em física, engenharia, computação gráfica e muitas outras áreas.</p>
