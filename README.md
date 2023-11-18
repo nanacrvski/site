@@ -127,7 +127,7 @@
     <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Matriz Inversa">
     <p><strong>IMPORTANTE!</strong></p>
     <ol>
-        <li>Se A e B são matrizes quadradas de mesma ordem, ambas inversíveis, então 𝐴 × 𝐵 é inversível e <sup>-1</sup> = 𝐵<sup>-1</sup> × 𝐴<sup>-1</sup>.</li>
+        <li>Se A e B são matrizes quadradas de mesma ordem, ambas inversíveis, então 𝐴 × 𝐵 é inversível e (𝐴 × 𝐵)<sup>-1</sup> = 𝐵<sup>-1</sup> × 𝐴<sup>-1</sup>.</li>
         <li>Nem toda matriz admite inversa.</li>
         <li>A inversa de uma matriz é única.</li>
     </ol>
