@@ -124,7 +124,8 @@
     <div class="container" id="conteudo-conteudo1" style="display: none;">
         <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
         <p>A matriz inversa é uma operação importante na álgebra linear. Ela é usada em diversos contextos, incluindo criptografia. Na criptografia, as matrizes são utilizadas para transformar dados de forma a proteger a informação.
-        IMPORTANTE!
+            
+  </p> IMPORTANTE!
 1) Se A e B são matrizes quadradas de mesma ordem, ambas
 inversíveis, então 𝐴 × 𝐵 é inversível e (𝐴 × 𝐵)ˆ−1 = 𝐵ˆ−1 × 𝐴ˆ−1.
 2) Nem toda matriz admite inversa.
