@@ -132,7 +132,6 @@
         <li>A inversa de uma matriz é única.</li>
     </ol>
     <p>Teorema: Uma matriz quadrada A admite inversa se, e somente se, 𝑑𝑒𝑡(𝐴) ≠ 0.</p>
-    <p>As propriedades da matriz inversa garantem que seja possível reverter a transformação, permitindo a recuperação dos dados originais apenas com a matriz inversa correta.</p>
      <img src="https://static.todamateria.com.br/upload/58/5a/585ad5bde6511-matriz-inversa.jpg?auto_optimize=low" alt="Matriz Inversa">
 </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
