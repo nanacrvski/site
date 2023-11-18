@@ -121,21 +121,20 @@
         <h2 style="color: #c2185b;">Início</h2>
         <p>Esta é a página inicial do nosso site.</p>
     </div>
-    <div class="container" id="conteudo-conteudo1" style="display: none;">
-        <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
-        A matriz inversa é uma operação importante na álgebra linear. Ela é usada em diversos contextos, incluindo criptografia. Na criptografia, as matrizes são utilizadas para transformar dados de forma a proteger a informação.
-
-IMPORTANTE!
-1) Se A e B são matrizes quadradas de mesma ordem, ambas
-inversíveis, então 𝐴 × 𝐵 é inversível e (𝐴 × 𝐵)ˆ−1 = 𝐵ˆ−1 × 𝐴ˆ−1.
-2) Nem toda matriz admite inversa.
-3) A inversa de uma matriz é única.
-𝑻𝒆𝒐𝒓𝒆𝒎𝒂: Uma matriz quadrada A admite inversa se, e somente se, 𝑑𝑒𝑡(𝐴) ≠ 0 .
-
- As propriedades da matriz inversa garantem que seja possível reverter a transformação, permitindo a recuperação dos dados originais apenas com a matriz inversa correta
- <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Matriz Inversa">
- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOnhYFZTmTvi9B-gdpRY3RFLc67zyHqEwvg&usqp=CAU" alt="Criptografia">
-    </div>
+   <div class="container" id="conteudo-conteudo1" style="display: none;">
+    <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2> 
+    <p>A matriz inversa é uma operação importante na álgebra linear. Ela é usada em diversos contextos, incluindo criptografia. Na criptografia, as matrizes são utilizadas para transformar dados de forma a proteger a informação.</p>
+    <p><strong>IMPORTANTE!</strong></p>
+    <ol>
+        <li>Se A e B são matrizes quadradas de mesma ordem, ambas inversíveis, então 𝐴 × 𝐵 é inversível e (𝐴 × 𝐵)ˆ−1 = 𝐵ˆ−1 × 𝐴ˆ−1.</li>
+        <li>Nem toda matriz admite inversa.</li>
+        <li>A inversa de uma matriz é única.</li>
+    </ol>
+    <p>Teorema: Uma matriz quadrada A admite inversa se, e somente se, 𝑑𝑒𝑡(𝐴) ≠ 0.</p>
+    <p>As propriedades da matriz inversa garantem que seja possível reverter a transformação, permitindo a recuperação dos dados originais apenas com a matriz inversa correta.</p>
+    <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Matriz Inversa">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOnhYFZTmTvi9B-gdpRY3RFLc67zyHqEwvg&usqp=CAU" alt="Criptografia">
+</div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
         <p>As funções trigonométricas são fundamentais na matemática, especialmente na trigonometria. Elas descrevem as relações entre os ângulos de um triângulo e as medidas dos seus lados. As principais funções trigonométricas são seno, cosseno e tangente.</p>
