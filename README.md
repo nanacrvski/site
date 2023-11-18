@@ -135,7 +135,6 @@
     </ol>
     <p>Teorema: Uma matriz quadrada A admite inversa se, e somente se, 𝑑𝑒𝑡(𝐴) ≠ 0.</p>
      <img src="https://static.todamateria.com.br/upload/58/5a/585ad5bde6511-matriz-inversa.jpg?auto_optimize=low" alt="Matriz Inversa">
-</div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
         <p>As funções trigonométricas são fundamentais na matemática, especialmente na trigonometria. Elas descrevem as relações entre os ângulos de um triângulo e as medidas dos seus lados. As principais funções trigonométricas são seno, cosseno e tangente.</p>
