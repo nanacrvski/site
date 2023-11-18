@@ -125,8 +125,7 @@
     <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2> 
        1. MATRIZ INVERSA
          <ol> Dada uma matriz quadrada A de ordem n, chamamos de inversa de A uma matriz
-𝐴⁻¹ tal que 𝐴 ∙ 𝐴⁻¹ = 𝐴⁻¹ ∙ 𝐴 = 𝐼 onde 𝐼 é a matriz identidade de ordem n.
-         <ol> 
+𝐴⁻¹ tal que 𝐴 ∙ 𝐴⁻¹ = 𝐴⁻¹ ∙ 𝐴 = 𝐼 onde 𝐼 é a matriz identidade de ordem n.<ol> 
   <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Funções Trigonométricas">  
     <p><strong>IMPORTANTE!</strong></p>
     <ol>
