@@ -123,7 +123,10 @@
     </div>
    <div class="container" id="conteudo-conteudo1" style="display: none;">
     <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2> 
-       </p>A matriz inversa ou matriz invertível é um tipo de matriz quadrada, ou seja, que possui o mesmo número de linhas (m) e colunas (n). Ela ocorre quando o produto de duas matrizes resulta numa matriz identidade de mesma ordem (mesmo número de linhas e colunas).</p>
+       </p>1. MATRIZ INVERSA
+Dada uma matriz quadrada A de ordem n, chamamos de inversa de A uma matriz
+𝐴⁻¹ tal que 𝐴 ∙ 𝐴⁻¹ = 𝐴⁻¹ ∙ 𝐴 = 𝐼
+onde 𝐼 é a matriz identidade de ordem n.</div>p>
        <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Funções Trigonométricas">  
     <p><strong>IMPORTANTE!</strong></p>
     <ol>
