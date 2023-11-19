@@ -125,7 +125,7 @@
         <p>Dada uma matriz quadrada A de ordem n, chamamos de inversa de A uma matriz 𝐴⁻¹ tal que</p>
         <p>𝐴 ∙ 𝐴⁻¹ = 𝐴⁻¹ ∙ 𝐴 = I </p>
         <p>onde 𝐼 é a matriz identidade de ordem n.</p>
-        <p></p>No caso das matrizes de ordem 2, vemos que há um padrão na posição dos elementos da matriz original em relação a sua inversa. Portanto, podemos deixar esse método mais prático fazendo o seguinte:</p>
+        <p></p>No caso das matrizes de ordem 2, vemos que há um padrão na posição dos elementos da matriz original em relação a sua inversa. Portanto, podemos deixar esse método mais prático fazendo o seguinte:
 <ol>
         <li>(1º) Calcular o determinante da matriz dada;
         <li>(2º) Multiplicar 1/det(𝐴) pela matriz dada;
