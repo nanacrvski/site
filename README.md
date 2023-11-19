@@ -156,9 +156,10 @@
     </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
-        <p>As funções trigonométricas são fundamentais na matemática, especialmente na trigonometria. Elas descrevem as relações entre os ângulos de um triângulo e as medidas dos seus lados. As principais funções trigonométricas são seno, cosseno e tangente.</p>
+        <p>Muitos fenômenos naturais, físicos e sociais têm comportamento cíclico ou periódico (que se repetem a cada determinado período), podendo ser modelados por funções trigonométricas. nesse sentido, essas funções são capazes de representar as oscilações desses fenômenos do decorrer de um intervalo de tempo. </p>
+        <p>"As funções trigonométricas mais usuais são a função seno, a função cosseno e a função tangente. O estudo delas está ligado ao ciclo trigonométrico. </p>
         <p>Essas funções têm amplas aplicações em física, engenharia, computação gráfica e muitas outras áreas.</p>
-        <img src="caminho/para/sua/imagem2.jpg" alt="Funções Trigonométricas">
+        <img src="[caminho/para/sua/imagem2.jpg](https://i.pinimg.com/736x/a1/01/6b/a1016b853f1a5f0bd0ca8f0fde83a26e.jpg)"
     </div>
     <div class="container" id="conteudo-conteudo3" style="display: none;">
         <h2 style="color: #c2185b;">Análise Combinatória</h2>
