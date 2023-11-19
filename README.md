@@ -137,11 +137,11 @@
             <li>(3º) Mudar de posição os elementos da diagonal principal;</li>
             <li>(4º) Multiplicar por (-1) os elementos da diagonal secundária.</li>
         </ol> 
-        <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Matriz Inversa">
+        <img src="blob:https://web.whatsapp.com/17cb193a-b1d5-4b68-922c-4a82435eb8f3" alt="Matriz Inversa">
         <p>A INVERSA DE UMA MATRIZ DE ORDEM 3 USANDO SISTEMAS</p>
          <p>Para encontrar a inversa de uma matriz de ordem 3 usamos mesmo o
 procedimento feito anteriormente, usando 𝐴 ∙ 𝐴⁻¹ = I</p>
-        <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Matriz Inversa">
+        <img src="blob:https://web.whatsapp.com/0c01a867-cf67-4410-8b16-76eb80e25822" alt="Matriz Inversa">
          <p>A A INVERSA DE UMA MATRIZ DE ORDEM 3 USANDO DETERMINANTES – REGRA PRÁTICA</p>
           <ol>
             <li> Calcular o determinante de A.
@@ -150,7 +150,8 @@ procedimento feito anteriormente, usando 𝐴 ∙ 𝐴⁻¹ = I</p>
             <li> Realizar o determinante de matrizes 2x2 dentro desta matriz grande, conforme o desenho.
             <li> Esses determinantes irão compor uma nova matriz 3x3, chamada de Matriz Adjunta. Mas CUIDADO! Os determinantes da mesma linha irão compor os elementos da coluna da nova matriz.
            6) Dividir cada elemento da matriz adjunta pelo determinante de A e chegamos na matriz inversa.</li>
-        <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Matriz Inversa">
+        <img src="blob:https://web.whatsapp.com/efcafca6-00f8-4879-8fb4-1ac6891627ac" alt="Matriz Inversa">
+        <p>A CRIPTOGRAFIA</p>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
         <p>As funções trigonométricas são fundamentais na matemática, especialmente na trigonometria. Elas descrevem as relações entre os ângulos de um triângulo e as medidas dos seus lados. As principais funções trigonométricas são seno, cosseno e tangente.</p>
