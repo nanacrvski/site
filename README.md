@@ -151,8 +151,6 @@ procedimento feito anteriormente, usando 𝐴 ∙ 𝐴⁻¹ = I</p>
             <li> Esses determinantes irão compor uma nova matriz 3x3, chamada de Matriz Adjunta. Mas CUIDADO! Os determinantes da mesma linha irão compor os elementos da coluna da nova matriz.
            6) Dividir cada elemento da matriz adjunta pelo determinante de A e chegamos na matriz inversa.</li>
         <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Matriz Inversa">
-        </ol> 
-    </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
         <p>As funções trigonométricas são fundamentais na matemática, especialmente na trigonometria. Elas descrevem as relações entre os ângulos de um triângulo e as medidas dos seus lados. As principais funções trigonométricas são seno, cosseno e tangente.</p>
@@ -246,7 +244,4 @@ procedimento feito anteriormente, usando 𝐴 ∙ 𝐴⁻¹ = I</p>
             conteudoServicos.style.display = 'block';
         });
     </script>
-</body>
-</html>
-
 
