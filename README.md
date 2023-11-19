@@ -152,6 +152,8 @@ procedimento feito anteriormente, usando 𝐴 ∙ 𝐴⁻¹ = I</p>
            6) Dividir cada elemento da matriz adjunta pelo determinante de A e chegamos na matriz inversa.</li>
         <img src="https://i.pinimg.com/736x/29/3d/c9/293dc9898215c0875617ec9952d977fd.jpg" alt="Matriz Inversa">
         <p>A CRIPTOGRAFIA</p>
+          </ol>
+    </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
         <p>As funções trigonométricas são fundamentais na matemática, especialmente na trigonometria. Elas descrevem as relações entre os ângulos de um triângulo e as medidas dos seus lados. As principais funções trigonométricas são seno, cosseno e tangente.</p>
@@ -245,4 +247,5 @@ procedimento feito anteriormente, usando 𝐴 ∙ 𝐴⁻¹ = I</p>
             conteudoServicos.style.display = 'block';
         });
     </script>
-
+    </body> 
+    </html>
