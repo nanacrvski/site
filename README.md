@@ -133,7 +133,6 @@
         <li>(4º) Multiplicar por (-1) os elementos da diagonal secundária.
 <ol> 
     <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Matriz Inversa">
-    </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
         <p>As funções trigonométricas são fundamentais na matemática, especialmente na trigonometria. Elas descrevem as relações entre os ângulos de um triângulo e as medidas dos seus lados. As principais funções trigonométricas são seno, cosseno e tangente.</p>
@@ -157,6 +156,7 @@
         <img src="caminho/para/sua/imagem-servicos.jpg" alt="Descrição da imagem de serviços">
         <a href="#" class="button" id="btn-saiba-mais-servicos">Saiba Mais</a>
     </div>
+    
     <script>
         
         // JavaScript para controlar a exibição das seções
@@ -227,8 +227,7 @@
             conteudoServicos.style.display = 'block';
         });
     </script>
-</body>
-</html>
+
 
 
 
