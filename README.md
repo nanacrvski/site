@@ -137,7 +137,7 @@
             <li>(3º) Mudar de posição os elementos da diagonal principal;</li>
             <li>(4º) Multiplicar por (-1) os elementos da diagonal secundária.</li>
         </ol> 
-        <img src="blob:https://web.whatsapp.com/17cb193a-b1d5-4b68-922c-4a82435eb8f3" alt="Matriz Inversa">
+        <img src="https://i.pinimg.com/736x/ff/14/c4/ff14c463cc4fef7171059ffff7ae3605.jpg" alt="Matriz Inversa">
         <p>A INVERSA DE UMA MATRIZ DE ORDEM 3 USANDO SISTEMAS</p>
          <p>Para encontrar a inversa de uma matriz de ordem 3 usamos mesmo o
 procedimento feito anteriormente, usando 𝐴 ∙ 𝐴⁻¹ = I</p>
