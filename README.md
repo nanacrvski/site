@@ -141,7 +141,7 @@
         <p>A INVERSA DE UMA MATRIZ DE ORDEM 3 USANDO SISTEMAS</p>
          <p>Para encontrar a inversa de uma matriz de ordem 3 usamos mesmo o
 procedimento feito anteriormente, usando 𝐴 ∙ 𝐴⁻¹ = I</p>
-        <img src="blob:https://web.whatsapp.com/0c01a867-cf67-4410-8b16-76eb80e25822" alt="Matriz Inversa">
+        <img src="https://i.pinimg.com/736x/25/95/f3/2595f393edeb157daa274bd3001ac6cb.jpg" alt="Matriz Inversa">
          <p>A A INVERSA DE UMA MATRIZ DE ORDEM 3 USANDO DETERMINANTES – REGRA PRÁTICA</p>
           <ol>
             <li> Calcular o determinante de A.
@@ -150,7 +150,7 @@ procedimento feito anteriormente, usando 𝐴 ∙ 𝐴⁻¹ = I</p>
             <li> Realizar o determinante de matrizes 2x2 dentro desta matriz grande, conforme o desenho.
             <li> Esses determinantes irão compor uma nova matriz 3x3, chamada de Matriz Adjunta. Mas CUIDADO! Os determinantes da mesma linha irão compor os elementos da coluna da nova matriz.
            6) Dividir cada elemento da matriz adjunta pelo determinante de A e chegamos na matriz inversa.</li>
-        <img src="blob:https://web.whatsapp.com/efcafca6-00f8-4879-8fb4-1ac6891627ac" alt="Matriz Inversa">
+        <img src="https://i.pinimg.com/736x/29/3d/c9/293dc9898215c0875617ec9952d977fd.jpg" alt="Matriz Inversa">
         <p>A CRIPTOGRAFIA</p>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
