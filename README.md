@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -45,17 +46,6 @@
             color: #fff;
         }
 
-        #btn-servicos {
-            text-decoration: none;
-            color: #e91e63;
-            padding: 10px 20px;
-            margin: 0 5px;
-            border-radius: 15px;
-            background-color: #fff4f8;
-            transition: background-color 0.3s ease, color 0.3s ease;
-            margin-bottom: 20px;
-        }
-
         .container {
             padding: 20px;
             display: none;
@@ -63,6 +53,21 @@
             border-radius: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin: 20px 0;
+        }
+
+        .container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .container ol {
+            margin-bottom: 10px;
+        }
+
+        .container li {
+            margin-bottom: 5px;
         }
 
         #conteudo-inicio {
@@ -122,17 +127,17 @@
     </div>
     <div class="container" id="conteudo-conteudo1" style="display: none;">
         <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
-        <p>Dada uma matriz quadrada A de ordem n, chamamos de inversa de A uma matriz 𝐴⁻¹ tal que</p>
-        <p>𝐴 ∙ 𝐴⁻¹ = 𝐴⁻¹ ∙ 𝐴 = I </p>
-        <p>onde 𝐼 é a matriz identidade de ordem n.</p>
-        <p></p>No caso das matrizes de ordem 2, vemos que há um padrão na posição dos elementos da matriz original em relação a sua inversa. Portanto, podemos deixar esse método mais prático fazendo o seguinte:
-<ol>
-        <li>(1º) Calcular o determinante da matriz dada;
-        <li>(2º) Multiplicar 1/det(𝐴) pela matriz dada;
-        <li>(3º) Mudar de posição os elementos da diagonal principal;
-        <li>(4º) Multiplicar por (-1) os elementos da diagonal secundária.
-<ol> 
-    <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Matriz Inversa">
+        <p>Dada uma matriz quadrada \(A\) de ordem \(n\), chamamos de inversa de \(A\) uma matriz \(A^{-1}\) tal que</p>
+        <p>\(A \cdot A^{-1} = A^{-1} \cdot A = I\)</p>
+        <p>No caso das matrizes de ordem 2, vemos que há um padrão na posição dos elementos da matriz original em relação à sua inversa. Portanto, podemos deixar esse método mais prático fazendo o seguinte:</p>
+        <ol>
+            <li>(1º) Calcular o determinante da matriz dada;</li>
+            <li>(2º) Multiplicar \(1/\text{det}(A)\) pela matriz dada;</li>
+            <li>(3º) Mudar de posição os elementos da diagonal principal;</li>
+            <li>(4º) Multiplicar por (-1) os elementos da diagonal secundária.</li>
+        </ol> 
+        <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Matriz Inversa">
+    </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
         <p>As funções trigonométricas são fundamentais na matemática, especialmente na trigonometria. Elas descrevem as relações entre os ângulos de um triângulo e as medidas dos seus lados. As principais funções trigonométricas são seno, cosseno e tangente.</p>
@@ -158,7 +163,6 @@
     </div>
     
     <script>
-        
         // JavaScript para controlar a exibição das seções
         const btnInicio = document.getElementById('btn-inicio');
         const btnConteudo1 = document.getElementById('btn-conteudo1');
@@ -227,7 +231,7 @@
             conteudoServicos.style.display = 'block';
         });
     </script>
-
-
+</body>
+</html>
 
 
