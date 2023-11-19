@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -152,6 +152,7 @@
         </ol>
         <img src="https://i.pinimg.com/736x/29/3d/c9/293dc9898215c0875617ec9952d977fd.jpg" alt="Matriz Inversa">
         <p>A CRIPTOGRAFIA</p>
+         <img src="https://i.pinimg.com/736x/05/25/fc/0525fc28b4abbde738c54e8bb2f4012a.jpg" alt="Descrição da imagem de serviços">
     </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
