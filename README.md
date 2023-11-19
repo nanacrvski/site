@@ -138,6 +138,9 @@
             <li>(4º) Multiplicar por (-1) os elementos da diagonal secundária.</li>
         </ol> 
         <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Matriz Inversa">
+        <p>A INVERSA DE UMA MATRIZ DE ORDEM 3 USANDO SISTEMAS</p>
+         <p>Para encontrar a inversa de uma matriz de ordem 3 usamos mesmo o
+procedimento feito anteriormente, usando 𝐴 ∙ 𝐴⁻¹ = I</p>
     </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
