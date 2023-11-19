@@ -122,7 +122,7 @@
     </div>
  <div class="container" id="conteudo-conteudo1" style="display: none;">
     <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
-    </p>A matriz inversa ou matriz invertível é um tipo de matriz quadrada, ou seja, que possui o mesmo número de linhas (m) e colunas (n). Ela ocorre quando o produto de duas matrizes resulta numa matriz identidade de mesma ordem (mesmo número de linhas e colunas).</p>
+    A matriz inversa ou matriz invertível é um tipo de matriz quadrada, ou seja, que possui o mesmo número de linhas (m) e colunas (n). Ela ocorre quando o produto de duas matrizes resulta numa matriz identidade de mesma ordem (mesmo número de linhas e colunas).
     <p><strong>IMPORTANTE!</strong></p>
     <ol>
         <li>Se A e B são matrizes quadradas de mesma ordem, ambas inversíveis, então 𝐴 × 𝐵 é inversível e (𝐴 × 𝐵)ˆ−1 = 𝐵ˆ−1 × 𝐴ˆ−1.</li>
