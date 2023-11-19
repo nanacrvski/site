@@ -10,7 +10,7 @@
             font-family: 'Caveat', sans-serif;
             margin: 0;
             padding: 0;
-            background: url('https://www.arquiprojeto.art.br/wp-content/uploads/2022/02/floral-22.jpg') fixed;
+            background: url('https://wallpapercave.com/wp/wp5247710.png') fixed;
             background-size: cover;
             color: #333;
         }
