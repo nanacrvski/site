@@ -133,7 +133,7 @@
         <p>No caso das matrizes de ordem 2, vemos que há um padrão na posição dos elementos da matriz original em relação à sua inversa. Portanto, podemos deixar esse método mais prático fazendo o seguinte:</p>
         <ol>
             <li>(1º) Calcular o determinante da matriz dada;</li>
-            <li>(2º) Multiplicar \(1/\text{det}(A)\) pela matriz dada;</li>
+            <li>(2º) Multiplicar 1/det(𝐴) pela matriz dada;</li>
             <li>(3º) Mudar de posição os elementos da diagonal principal;</li>
             <li>(4º) Multiplicar por (-1) os elementos da diagonal secundária.</li>
         </ol> 
