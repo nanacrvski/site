@@ -157,7 +157,6 @@
         <img src="caminho/para/sua/imagem-servicos.jpg" alt="Descrição da imagem de serviços">
         <a href="#" class="button" id="btn-saiba-mais-servicos">Saiba Mais</a>
     </div>
-
     <script>
         // JavaScript para controlar a exibição das seções
         const btnInicio = document.getElementById('btn-inicio');
