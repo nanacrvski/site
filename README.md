@@ -127,8 +127,9 @@
     </div>
     <div class="container" id="conteudo-conteudo1" style="display: none;">
         <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
-        <p>Dada uma matriz quadrada \(A\) de ordem \(n\), chamamos de inversa de \(A\) uma matriz \(A^{-1}\) tal que</p>
-        <p>\(A \cdot A^{-1} = A^{-1} \cdot A = I\)</p>
+        <p>Dada uma matriz quadrada A de ordem n, chamamos de inversa de A uma matriz A⁻¹ tal que</p>
+        <p>𝐴 ∙ 𝐴⁻¹ = 𝐴⁻¹ ∙ 𝐴 = I</p>
+         <p>onde 𝐼 é a matriz identidade de ordem n.</p>
         <p>No caso das matrizes de ordem 2, vemos que há um padrão na posição dos elementos da matriz original em relação à sua inversa. Portanto, podemos deixar esse método mais prático fazendo o seguinte:</p>
         <ol>
             <li>(1º) Calcular o determinante da matriz dada;</li>
