@@ -158,6 +158,7 @@
         <a href="#" class="button" id="btn-saiba-mais-servicos">Saiba Mais</a>
     </div>
     <script>
+        
         // JavaScript para controlar a exibição das seções
         const btnInicio = document.getElementById('btn-inicio');
         const btnConteudo1 = document.getElementById('btn-conteudo1');
