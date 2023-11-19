@@ -125,11 +125,13 @@
         <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
         <p>Dada uma matriz quadrada A de ordem n, chamamos de inversa de A uma matriz 𝐴⁻¹ tal que</p>
         <p>𝐴 ∙ 𝐴⁻¹ = 𝐴⁻¹ ∙ 𝐴 = I </p>
-        <p></p>No caso das matrizes de ordem 2, vemos que há um padrão na posição dos elementos da matriz original em relação a sua inversa. Portanto, podemos deixar esse método mais prático fazendo o seguinte:
-(1º) Calcular o determinante da matriz dada;
-(2º) Multiplicar 1/det(𝐴) pela matriz dada;
-(3º) Mudar de posição os elementos da diagonal principal;
-(4º) Multiplicar por (-1) os elementos da diagonal secundária.</p>
+        <p></p>No caso das matrizes de ordem 2, vemos que há um padrão na posição dos elementos da matriz original em relação a sua inversa. Portanto, podemos deixar esse método mais prático fazendo o seguinte:</p>
+<ol>
+        <li>(1º) Calcular o determinante da matriz dada;
+        <li>(2º) Multiplicar 1/det(𝐴) pela matriz dada;
+        <li>(3º) Mudar de posição os elementos da diagonal principal;
+        <li>(4º) Multiplicar por (-1) os elementos da diagonal secundária.
+<ol> 
         <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Matriz Inversa">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOnhYFZTmTvi9B-gdpRY3RFLc67zyHqEwvg&usqp=CAU" alt="Criptografia">
     </div>
