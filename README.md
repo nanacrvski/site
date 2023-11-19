@@ -159,7 +159,7 @@
         <p>Muitos fenômenos naturais, físicos e sociais têm comportamento cíclico ou periódico (que se repetem a cada determinado período), podendo ser modelados por funções trigonométricas. nesse sentido, essas funções são capazes de representar as oscilações desses fenômenos do decorrer de um intervalo de tempo. </p>
         <p>"As funções trigonométricas mais usuais são a função seno, a função cosseno e a função tangente. O estudo delas está ligado ao ciclo trigonométrico. </p>
         <p>Essas funções têm amplas aplicações em física, engenharia, computação gráfica e muitas outras áreas.</p>
-        <img src="[caminho/para/sua/imagem2.jpg](https://i.pinimg.com/736x/a1/01/6b/a1016b853f1a5f0bd0ca8f0fde83a26e.jpg)"
+         <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
     </div>
     <div class="container" id="conteudo-conteudo3" style="display: none;">
         <h2 style="color: #c2185b;">Análise Combinatória</h2>
