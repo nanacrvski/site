@@ -160,6 +160,8 @@
         <p>"As funções trigonométricas mais usuais são a função seno, a função cosseno e a função tangente. O estudo delas está ligado ao ciclo trigonométrico. </p>
         <p>Essas funções têm amplas aplicações em física, engenharia, computação gráfica e muitas outras áreas.</p>
          <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+         <p>FUNÇÃO SENO</p>
+         <p>É a função de ℝ em ℝ que a cada x ∈ ℝ faz corresponder o número real 𝑠𝑒𝑛(𝑥), ou seja, 𝑓: ℝ → ℝ 𝑥 → 𝑓(𝑥) = 𝑠𝑒𝑛(𝑥)</p>
     </div>
     <div class="container" id="conteudo-conteudo3" style="display: none;">
         <h2 style="color: #c2185b;">Análise Combinatória</h2>
