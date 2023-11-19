@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -155,9 +155,7 @@
     </div>
     <div class="container" id="conteudo-conteudo1" style="display: none;">
         <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
-
         <p>A matriz inversa é uma operação importante na álgebra linear. Ela é usada em diversos contextos, incluindo criptografia. Na criptografia, as matrizes são utilizadas para transformar dados de forma a proteger a informação.</p>
-
         <p><strong>IMPORTANTE!</strong></p>
         <ol>
             <li>Se A e B são matrizes quadradas de mesma ordem, ambas inversíveis, então 𝐴 × 𝐵 é inversível e (𝐴 × 𝐵)ˆ−1 = 𝐵ˆ−1 × 𝐴ˆ−1.</li>
@@ -165,9 +163,7 @@
             <li>A inversa de uma matriz é única.</li>
         </ol>
         <p>Teorema: Uma matriz quadrada A admite inversa se, e somente se, 𝑑𝑒𝑡(𝐴) ≠ 0.</p>
-
         <p>As propriedades da matriz inversa garantem que seja possível reverter a transformação, permitindo a recuperação dos dados originais apenas com a matriz inversa correta.</p>
-
         <img src="https://static.preparaenem.com/conteudo_legenda/d41c6cf1bc5500915e432ff23fb9a7cc.jpg" alt="Matriz Inversa">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOnhYFZTmTvi9B-gdpRY3RFLc67zyHqEwvg&usqp=CAU" alt="Criptografia">
     </div>
@@ -183,7 +179,6 @@
     <div class="container" id="conteudo-servicos" style="display: none;">
         <!-- Adicione informações e imagens para a autoavaliação aqui -->
     </div>
-
     <script>
         // JavaScript para controlar a exibição das seções
         const btnInicio = document.getElementById('btn-inicio');
@@ -198,7 +193,6 @@
         const conteudoConteudo3 = document.getElementById('conteudo-conteudo3');
         const conteudoConteudo4 = document.getElementById('conteudo-conteudo4');
         const conteudoServicos = document.getElementById('conteudo-servicos');
-
         btnInicio.addEventListener('click', () => {
             // Adicione mais conteúdos se necessário
             conteudoInicio.style.display = 'block';
@@ -208,7 +202,6 @@
             conteudoConteudo4.style.display = 'none';
             conteudoServicos.style.display = 'none';
         });
-
         btnConteudo1.addEventListener('click', () => {
             conteudoInicio.style.display = 'none';
             conteudoConteudo1.style.display = 'block';
@@ -217,7 +210,6 @@
             conteudoConteudo4.style.display = 'none';
             conteudoServicos.style.display = 'none';
         });
-
         btnConteudo2.addEventListener('click', () => {
             conteudoInicio.style.display = 'none';
             conteudoConteudo1.style.display = 'none';
@@ -226,7 +218,6 @@
             conteudoConteudo4.style.display = 'none';
             conteudoServicos.style.display = 'none';
         });
-
         btnConteudo3.addEventListener('click', () => {
             conteudoInicio.style.display = 'none';
             conteudoConteudo1.style.display = 'none';
@@ -235,7 +226,6 @@
             conteudoConteudo4.style.display = 'none';
             conteudoServicos.style.display = 'none';
         });
-
         btnConteudo4.addEventListener('click', () => {
             conteudoInicio.style.display = 'none';
             conteudoConteudo1.style.display = 'none';
@@ -244,7 +234,6 @@
             conteudoConteudo4.style.display = 'block';
             conteudoServicos.style.display = 'none';
         });
-
         btnServicos.addEventListener('click', () => {
             conteudoInicio.style.display = 'none';
             conteudoConteudo1.style.display = 'none';
@@ -255,7 +244,6 @@
         });
     </script>
 </body>
-
 </html>
 
 
