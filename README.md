@@ -120,10 +120,16 @@
         <a href="#" id="btn-conteudo3">Análise Combinatória</a>
         <a href="#" id="btn-conteudo4">Conteúdo 4</a>
         <a href="#" id="btn-servicos">Autoavaliação</a>
-    </nav>
+    </n
+        \][av>
     <div class="container" id="conteudo-inicio">
         <h2 style="color: #c2185b;">Início</h2>
         <p>Esta é a página inicial do nosso site.</p>
+    </div>
+         <div class="container" id="conteudo-conteudo4" style="display: none;">
+        <h2 style="color: #c2185b;">Conteúdo 4</h2>
+        <p>Este é um espaço reservado para informações sobre o quarto conteúdo do terceiro trimestre de matemática.</p>
+        <img src="caminho/para/sua/imagem4.jpg" alt="Descrição da imagem 4">
     </div>
     <div class="container" id="conteudo-conteudo1" style="display: none;">
         <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
@@ -169,11 +175,6 @@
         <p>Essa área é amplamente utilizada em situações que envolvem contagem de possibilidades, como em jogos, probabilidades e otimização.</p>
         <img src="caminho/para/sua/imagem3.jpg" alt="Análise Combinatória">
     </div>
-    <div class="container" id="conteudo-conteudo4" style="display: none;">
-        <h2 style="color: #c2185b;">Conteúdo 4</h2>
-        <p>Este é um espaço reservado para informações sobre o quarto conteúdo do terceiro trimestre de matemática.</p>
-        <img src="caminho/para/sua/imagem4.jpg" alt="Descrição da imagem 4">
-    </div>
     <div class="container" id="conteudo-servicos" style="display: none;">
         <h2 style="color: #c2185b;">Autoavaliação</h2>
         <p>Confira minha autoavaliação e meu progresso.</p>
@@ -184,16 +185,16 @@
     <script>
         // JavaScript para controlar a exibição das seções
         const btnInicio = document.getElementById('btn-inicio');
+        const btnConteudo4 = document.getElementById('btn-conteudo4');
         const btnConteudo1 = document.getElementById('btn-conteudo1');
         const btnConteudo2 = document.getElementById('btn-conteudo2');
         const btnConteudo3 = document.getElementById('btn-conteudo3');
-        const btnConteudo4 = document.getElementById('btn-conteudo4');
         const btnServicos = document.getElementById('btn-servicos');
         const conteudoInicio = document.getElementById('conteudo-inicio');
+        const conteudoConteudo4 = document.getElementById('conteudo-conteudo4');
         const conteudoConteudo1 = document.getElementById('conteudo-conteudo1');
         const conteudoConteudo2 = document.getElementById('conteudo-conteudo2');
         const conteudoConteudo3 = document.getElementById('conteudo-conteudo3');
-        const conteudoConteudo4 = document.getElementById('conteudo-conteudo4');
         const conteudoServicos = document.getElementById('conteudo-servicos');
 
         btnInicio.addEventListener('click', () => {
@@ -204,7 +205,15 @@
             conteudoConteudo4.style.display = 'none';
             conteudoServicos.style.display = 'none';
         });
-
+        
+        btnConteudo4.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'none';
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'block';
+            conteudoServicos.style.display = 'none';
+        });
         btnConteudo1.addEventListener('click', () => {
             conteudoInicio.style.display = 'none';
             conteudoConteudo1.style.display = 'block';
@@ -229,15 +238,6 @@
             conteudoConteudo2.style.display = 'none';
             conteudoConteudo3.style.display = 'block';
             conteudoConteudo4.style.display = 'none';
-            conteudoServicos.style.display = 'none';
-        });
-
-        btnConteudo4.addEventListener('click', () => {
-            conteudoInicio.style.display = 'none';
-            conteudoConteudo1.style.display = 'none';
-            conteudoConteudo2.style.display = 'none';
-            conteudoConteudo3.style.display = 'none';
-            conteudoConteudo4.style.display = 'block';
             conteudoServicos.style.display = 'none';
         });
 
