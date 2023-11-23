@@ -127,7 +127,31 @@
     <div class="container" id="conteudo-conteudo1" style="display: none;">
         <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
         <p>Dada uma matriz quadrada A de ordem n, chamamos de inversa de A uma matriz A⁻¹ tal que</p>
-        <!-- Conteúdo restante da seção 1 -->
+       <p>𝐴 ∙ 𝐴⁻¹ = 𝐴⁻¹ ∙ 𝐴 = I</p>
+        <p>Onde 𝐼 é a matriz identidade de ordem n.</p>
+        <p>No caso das matrizes de ordem 2, vemos que há um padrão na posição dos elementos da matriz original em relação à sua inversa. Portanto, podemos deixar esse método mais prático fazendo o seguinte:</p>
+        <ol>
+            <li>(1º) Calcular o determinante da matriz dada;</li>
+            <li>(2º) Multiplicar 1/det(𝐴) pela matriz dada;</li>
+            <li>(3º) Mudar de posição os elementos da diagonal principal;</li>
+            <li>(4º) Multiplicar por (-1) os elementos da diagonal secundária.</li>
+        </ol> 
+        <img src="https://i.pinimg.com/736x/ff/14/c4/ff14c463cc4fef7171059ffff7ae3605.jpg" alt="Matriz Inversa">
+        <p>A INVERSA DE UMA MATRIZ DE ORDEM 3 USANDO SISTEMAS</p>
+        <p>Para encontrar a inversa de uma matriz de ordem 3, usamos o mesmo procedimento feito anteriormente, usando 𝐴 ∙ 𝐴⁻¹ = I.</p>
+        <img src="https://i.pinimg.com/736x/25/95/f3/2595f393edeb157daa274bd3001ac6cb.jpg" alt="Matriz Inversa">
+        <p>A INVERSA DE UMA MATRIZ DE ORDEM 3 USANDO DETERMINANTES – REGRA PRÁTICA</p>
+        <ol>
+            <li>Calcular o determinante de A.</li>
+            <li>Repetir as duas primeiras colunas da matriz dada e, depois, repetir as duas primeiras linhas, ficando uma matriz 5x5.</li>
+            <li>Cancelar a primeira linha e primeira coluna.</li>
+            <li>Realizar o determinante de matrizes 2x2 dentro desta matriz grande, conforme o desenho.</li>
+            <li>Esses determinantes irão compor uma nova matriz 3x3, chamada de Matriz Adjunta. Mas CUIDADO! Os determinantes da mesma linha irão compor os elementos da coluna da nova matriz. </li>
+            <li>Dividir cada elemento da matriz adjunta pelo determinante de A e chegamos na matriz inversa.</li>
+        </ol>
+        <img src="https://i.pinimg.com/736x/29/3d/c9/293dc9898215c0875617ec9952d977fd.jpg" alt="Matriz Inversa">
+        <p>A CRIPTOGRAFIA</p>
+         <img src="https://i.pinimg.com/736x/05/25/fc/0525fc28b4abbde738c54e8bb2f4012a.jpg" alt="Descrição da imagem de serviços">
     </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
