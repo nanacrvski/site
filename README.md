@@ -114,10 +114,10 @@
     </header>
     <nav>
         <div id="btn-inicio">Início</div>
-        <div id="btn-conteudo1">Matriz Inversa e Criptografia</div>
-        <div id="btn-conteudo2">Funções Trigonométricas</div>
-        <div id="btn-conteudo3">Análise Combinatória</div>
-        <div id="btn-conteudo4">Conteúdo 4</div>
+        <div id="btn-conteudo1">Sistemas</div>
+        <div id="btn-conteudo2">Matriz Inversa e Criptografia</div>
+        <div id="btn-conteudo3">Funções trigonométricas</div>
+        <div id="btn-conteudo4">Análise combinatória</div>
         <div id="btn-servicos">Autoavaliação</div>
     </nav>
     <div class="container" id="conteudo-inicio">
@@ -125,6 +125,9 @@
         <p>Esta é a página inicial do nosso site.</p>
     </div>
     <div class="container" id="conteudo-conteudo1" style="display: none;">
+        <h2 style="color: #c2185b;">Sistemas</h2>
+    </div>
+    <div class="container" id="conteudo-conteudo3" style="display: none;">
         <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
         <p>Dada uma matriz quadrada A de ordem n, chamamos de inversa de A uma matriz A⁻¹ tal que</p>
        <p>𝐴 ∙ 𝐴⁻¹ = 𝐴⁻¹ ∙ 𝐴 = I</p>
@@ -154,20 +157,15 @@
          <img src="https://i.pinimg.com/736x/05/25/fc/0525fc28b4abbde738c54e8bb2f4012a.jpg" alt="Descrição da imagem de serviços">
     </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
-        <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
+        <h2 style="color: #c2185b;">Funções trigonométricas</h2>
         <p>Muitos fenômenos naturais, físicos e sociais têm comportamento cíclico ou periódico (que se repetem a cada determinado período), podendo ser modelados por funções trigonométricas.</p>
          <p>Essas funções têm amplas aplicações em física, engenharia, computação gráfica e muitas outras áreas.</p>
          <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
          <p>FUNÇÃO SENO</p>
          <p>É a função de ℝ em ℝ que a cada x ∈ ℝ faz corresponder o número real 𝑠𝑒𝑛(𝑥), ou seja, 𝑓: ℝ → ℝ 𝑥 → 𝑓(𝑥) = 𝑠𝑒𝑛(𝑥)</p>
     </div>
-    <div class="container" id="conteudo-conteudo3" style="display: none;">
-        <h2 style="color: #c2185b;">Análise Combinatória</h2>
-        <p>A análise combinatória é um ramo da matemática que estuda métodos de contagem e organização de elementos.</p>
-        <!-- Conteúdo restante da seção 3 -->
-    </div>
     <div class="container" id="conteudo-conteudo4" style="display: none;">
-        <h2 style="color: #c2185b;">Conteúdo 4</h2>
+        <h2 style="color: #c2185b;">Análise combinatória</h2>
         <p>Este é um espaço reservado para informações sobre o quarto conteúdo do terceiro trimestre de matemática.</p>
         <!-- Conteúdo restante da seção 4 -->
     </div>
