@@ -1,6 +1,4 @@
-
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -189,8 +187,17 @@ segundo ano do ensino médio, e faço técnico em mecatrônica, este é meu port
     </div>
     <div class="container" id="conteudo-conteudo4" style="display: none;">
         <h2 style="color: #c2185b;">Análise combinatória</h2>
-        <p>Este é um espaço reservado para informações sobre o quarto conteúdo do terceiro trimestre de matemática.</p>
-        <!-- Conteúdo restante da seção 4 -->
+        <p>A análise combinatória ou combinatória é a parte da Matemática que estuda métodos e técnicas que permitem resolver problemas relacionados com contagem. Muito utilizada nos estudos sobre probabilidade, ela faz a análise das possibilidades e das combinações possíveis entre um conjunto de elementos.</p>
+        <p> PRINCÍPIO FUNDAMENTAL DA CONTAGEM (PFC) OU PRINCÍPIO MULTIPLICATIVO</p>
+         <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+         <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+         <p> PERMUTAÇÃO </p>
+          <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+         <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+         <p> ARRANJO </p>
+         <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+         <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+         <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
     </div>
     <div class="container" id="conteudo-servicos" style="display: none;">
         <h2 style="color: #c2185b;">Autoavaliação</h2>
