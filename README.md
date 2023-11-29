@@ -122,7 +122,8 @@
     </nav>
     <div class="container" id="conteudo-inicio">
         <h2 style="color: #c2185b;">Início</h2>
-        <p>Esta é a página inicial do nosso site.</p>
+        <p>Olá! Meu nome é Ana Clara N. Cervinski, sou do
+segundo ano do ensino médio, e faço técnico em mecatrônica, este é meu portfólio do terceiro trimestre de matemática de 2023. Aqui falarei sobre as matérias estudadas durante esses meses. Juntamente com uma reflexão sobre mim mesma, e uma autoavaliação. Este portfólio é de extrema relevância para minha avaliação acadêmica, e me ajudará a analisar minha trajetória na diciplina de matemática, orientada pela docente Valéria Lessa. Com essa avaliação poderei gerenciar minhas tarefas perante a diciplina.  </p>
     </div>
     <div class="container" id="conteudo-conteudo1" style="display: none;">
         <h2 style="color: #c2185b;">Sistemas</h2>
