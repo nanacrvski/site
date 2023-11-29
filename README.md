@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -164,6 +164,28 @@ segundo ano do ensino médio, e faço técnico em mecatrônica, este é meu port
          <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
          <p>FUNÇÃO SENO</p>
          <p>É a função de ℝ em ℝ que a cada x ∈ ℝ faz corresponder o número real 𝑠𝑒𝑛(𝑥), ou seja, 𝑓: ℝ → ℝ 𝑥 → 𝑓(𝑥) = 𝑠𝑒𝑛(𝑥)</p>
+        <p> Gráfico: Para construir o gráfico, podemos atribuir valores para x e calcular os valores de sen(x), construindo uma tabela.</p>
+          <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+          <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+          <p>FUNÇÃO COSSENO</p>
+          <p>É a função de ℝ emℝ que a cada x ∈ℝ faz corresponder o número real 𝑐𝑜𝑠(𝑥), ou seja, 𝑓: ℝ → ℝ 𝑥 → 𝑓(𝑥) = 𝑐𝑜𝑠(𝑥)</p>
+          <p> Gráfico: Para construir o gráfico, podemos atribuir valores para x e calcular os valores de cos(x), construindo uma tabela.</p>
+           <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+           <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+          <p>FUNÇÃO TANGENTE</p>
+          <p> É a função definida por 𝑓(𝑥) = 𝑡𝑔(𝑥) 𝑜𝑢 𝑓(𝑥) = tan (𝑥) ou 𝑓(𝑥) = 𝑠𝑒𝑛 (𝑥) cos(𝑥), para todo 𝑥 ∈ 𝑅, tal que cos (𝑥) ≠ 0. 𝑓: ℝ → ℝ 𝑥 → 𝑡𝑔(𝑥)</p>
+          <p> Gráfico: Para construir o gráfico, podemos atribuir valores para x e calcular os valores de tg(x), construindo uma tabela. </p>
+           <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+           <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+           <p> CONSTRUÇÃO DO GRÁFICO DE FUNÇÕES TRIGONOMÉTRICAS </p>
+           <p> Para fazer o esboço do gráfico de uma função trigonométrica, podemos atribuir valores para x, em graus ou radianos, encontrar sua imagem e marcar os pontos no plano cartesiano, como já fizemos com outras funções. Porém, este método de “tabela” negligencia alguns valores importantes. Dessa forma, para realizar um gráfico de forma mais rápida e intuitiva, podemos realizar modificações nas funções “originais” cujos gráficos já são conhecidos.</p>
+           <p> Método 1: Uso da tabela </p>
+           <p> Esboçar o gráfico de apenas um período da função já é suficiente. Assim, atribua valores para x de 0 𝑎 2𝜋 num primeiro momento e verifique se precisa de mais valores </p>
+         <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+          <p> Método 2: Uso das variações nos coeficientes </p>
+          <p> As possibilidades de modificações/variações que temos são do tipo: 𝒇(𝒙) = 𝑨 + 𝑩 ∙ 𝒔𝒆𝒏(𝑪𝒙 + 𝑫) Os coeficientes A, B, C e D alteram a função da seguinte forma:</p>
+           <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+         <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
     </div>
     <div class="container" id="conteudo-conteudo4" style="display: none;">
         <h2 style="color: #c2185b;">Análise combinatória</h2>
