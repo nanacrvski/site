@@ -159,7 +159,17 @@ segundo ano do ensino médio, e faço técnico em mecatrônica, este é meu port
         <h2 style="color: #c2185b;">Funções trigonométricas</h2>
         <p>Muitos fenômenos naturais, físicos e sociais têm comportamento cíclico ou periódico (que se repetem a cada determinado período), podendo ser modelados por funções trigonométricas.</p>
          <p>Essas funções têm amplas aplicações em física, engenharia, computação gráfica e muitas outras áreas.</p>
+         <p> O Círculo Trigonométrico, também chamado de Ciclo ou Circunferência Trigonométrica, é uma representação gráfica que auxilia no cálculo das razões trigonométricas. </p>
          <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
+          <p>De acordo com a simetria do círculo trigonométrico temos que o eixo vertical corresponde ao seno e o eixo horizontal ao cosseno. Cada ponto dele está associado aos valores dos ângulos.Radianos do Círculo Trigonométrico. </p>
+          <p> A medida de um arco no círculo trigonométrico pode ser dada em grau (°) ou radiano (rad). </p>
+          <p> 1° corresponde a 1/360 da circunferência. A circunferência é dividida em 360 partes iguais ligadas ao centro, sendo que cada uma delas apresenta um ângulo que corresponde a 1°. </p>
+          <p> 1 radiano corresponde à medida de um arco da circunferência, cujo comprimento é igual ao raio da circunferência do arco que será medido. </p>
+          <p> Quando dividimos o círculo trigonométrico em quatro partes iguais, temos os quatro quadrantes que o constituem. </p>
+           <img src="https://static.todamateria.com.br/upload/58/5b/585bff5a9fef8-circulo-trigonometrico.jpg?auto_optimize=low" alt="Descrição da imagem de serviços">
+           <p> 1.° Quadrante: 0º, 2.° Quadrante: 90º, 3.° Quadrante: 180º, 4.° Quadrante: 270º </p>
+           <p> De acordo com o quadrante em que está inserido, os valores do seno, cosseno e tangente variam. Ou seja, os ângulos podem apresentar um valor positivo ou negativo. </p> 
+        <img src="https://static.todamateria.com.br/upload/58/58/585845fc6acfc-circulo-trigonometrico.jpg?auto_optimize=low" alt="Descrição da imagem de serviços">
          <p>FUNÇÃO SENO</p>
          <p>É a função de ℝ em ℝ que a cada x ∈ ℝ faz corresponder o número real 𝑠𝑒𝑛(𝑥), ou seja, 𝑓: ℝ → ℝ 𝑥 → 𝑓(𝑥) = 𝑠𝑒𝑛(𝑥)</p>
         <p> Gráfico: Para construir o gráfico, podemos atribuir valores para x e calcular os valores de sen(x), construindo uma tabela.</p>
