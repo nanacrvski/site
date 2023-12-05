@@ -250,9 +250,7 @@ substitui-se nas outras equações. </p>
         <p>Confira minha autoavaliação e meu progresso.</p>
         <a href="#" class="button" id="btn-saiba-mais-servicos">Saiba Mais</a>
     </div>
-
     <script>
-        // JavaScript para controlar a exibição das seções
         const btnInicio = document.getElementById('btn-inicio');
         const btnConteudo1 = document.getElementById('btn-conteudo1');
         const btnConteudo2 = document.getElementById('btn-conteudo2');
@@ -321,6 +319,5 @@ substitui-se nas outras equações. </p>
         });
     </script>
 </body>
-
 </html>
 
