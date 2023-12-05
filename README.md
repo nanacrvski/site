@@ -125,6 +125,16 @@ segundo ano do ensino médio, e faço técnico em mecatrônica, este é meu port
     </div>
     <div class="container" id="conteudo-conteudo1" style="display: none;">
         <h2 style="color: #c2185b;">Sistemas</h2>
+        <p> Muitos problemas em várias áreas da Ciência recaem na solução de sistemas lineares. Vamos ver como a álgebra matricial pode simplificar o estudo dos sistemas lineares. </p>
+        <p> EQUAÇÕES LINEARES </p>
+        <img src="https://i.pinimg.com/736x/ff/14/c4/ff14c463cc4fef7171059ffff7ae3605.jpg">
+        <img src="https://i.pinimg.com/736x/ff/14/c4/ff14c463cc4fef7171059ffff7ae3605.jpg">
+        <img src="https://i.pinimg.com/736x/ff/14/c4/ff14c463cc4fef7171059ffff7ae3605.jpg">
+        <p> Interpretação geométrica das equações lineares </p>
+        <p> Equações lineares de 2 incógnitas representam retas. As soluções da equação linear são infinitos pares ordenados (x, y), ou seja, infinitos pontos que pertencem a reta. </p>
+         <img src="https://slideplayer.com.br/slide/13933721/85/images/14/Interpreta%C3%A7%C3%A3o+Geom%C3%A9trica.jpg">
+         <p> Equações lineares de 3 incógnitas representam planos. As soluções da equação são infinitos pares ordenados (x, y, z), ou seja, infinitos pontos que pertencem ao plano.</p>
+         <img src="http://150.164.25.15/gaal/aulas_online/images_at4_03/at4_0316.gif">
     </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
