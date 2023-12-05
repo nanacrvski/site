@@ -134,7 +134,33 @@ segundo ano do ensino médio, e faço técnico em mecatrônica, este é meu port
         <p> Equações lineares de 2 incógnitas representam retas. As soluções da equação linear são infinitos pares ordenados (x, y), ou seja, infinitos pontos que pertencem a reta. </p>
          <img src="https://slideplayer.com.br/slide/13933721/85/images/14/Interpreta%C3%A7%C3%A3o+Geom%C3%A9trica.jpg">
          <p> Equações lineares de 3 incógnitas representam planos. As soluções da equação são infinitos pares ordenados (x, y, z), ou seja, infinitos pontos que pertencem ao plano.</p>
-         <img src="http://150.164.25.15/gaal/aulas_online/images_at4_03/at4_0316.gif">
+         <img src="https://www.geogebra.org/resource/kxfk6v8x/tteoHpBq2XnuinLq/material-kxfk6v8x.png">
+         <p> SISTEMAS LINEARES </p>
+         <p> Um sistema de equações é um conjunto de equações lineares com as mesmas incógnitas. </p>
+         <img src="https://www.geogebra.org/resource/kxfk6v8x/tteoHpBq2XnuinLq/material-kxfk6v8x.png">
+         <p> Chamamos de sistema 2x2 quando temos duas equações e 2 incógnitas, 3x3 quando temos 3 equações e 3 incógnitas, 2x4 quando temos 2 equações e 4 incógnitas e assim por diante.</p>
+         <p> A solução de um sistema linear </p>
+         <img src="https://www.geogebra.org/resource/kxfk6v8x/tteoHpBq2XnuinLq/material-kxfk6v8x.png">
+         <p> SISTEMAS LINEARES 2X2  </p>
+         <p>Esse tipo de sistema é bastante trabalhado na Matemática da Educação Básica. Vamos rever os dois tipos de resolução mais comuns: o Métodos da Adição e o Método da Substituição. </p>
+         <img src="https://www.geogebra.org/resource/kxfk6v8x/tteoHpBq2XnuinLq/material-kxfk6v8x.png">
+         <img src="https://www.geogebra.org/resource/kxfk6v8x/tteoHpBq2XnuinLq/material-kxfk6v8x.png">
+         <p> RELAÇÃO ENTRE SISTEMAS E MATRIZES </p>
+         <p> E possível representar um sistema na forma de multiplicação de matrizes.  </p>
+         <img src="https://www.geogebra.org/resource/kxfk6v8x/tteoHpBq2XnuinLq/material-kxfk6v8x.png">
+         <p> Uso de determinantes </p>
+         <p> O determinante da matriz quadrada incompleta (matriz dos coeficientes das incógnitas) da equação matricial, nos informa o tipo de solução que o sistema tem. </p>
+          <img src="https://www.geogebra.org/resource/kxfk6v8x/tteoHpBq2XnuinLq/material-kxfk6v8x.png">
+         <p> SISTEMAS LINEARES 3X3 </p>
+         <p> Um sistema linear 3x3 é um sistema que possui 3 incógnitas e 3 equações. Cada equação tem a representação geométrica de um plano. Vamos primeiro entender a posição dos planos a partir da classificação dos sistemas e depois veremos as formas de resolução desses sistemas. </p>
+          <p> Interpretação Geométrica dos Sistemas Lineares 3x3 Achar a solução de um sistema 3x3 é encontrar um ponto ou uma coleção de pontos de intersecção entre três planos representados pelas três equações lineares do sistema. Vejamos as diferentes posições1 dos planos a partir dos três tipos de soluções SPD, SPI e SI. </p>
+           <img src="https://www.geogebra.org/resource/kxfk6v8x/tteoHpBq2XnuinLq/material-kxfk6v8x.png">
+          <p> MÉTODO DA SUSBTITUIÇÃO/ADIÇÃO O método da substituição ou adição segue o padrão visto nos sistemas 2x2.
+            <p>  1) Para a substituição, escolhe-se uma equação, isola-se uma das incógnitas e
+substitui-se nas outras equações. </p>
+         <p> 2) Para a adição, escolhe-se duas equações, modifica-se uma delas a fim de que quando somadas uma das incógnicas se anule. Escolhe-se outras duas, usando a que não havia sido usada antes, e repete-se o processo. </p>
+          <img src="https://www.geogebra.org/resource/kxfk6v8x/tteoHpBq2XnuinLq/material-kxfk6v8x.png">
+         <img src="https://www.geogebra.org/resource/kxfk6v8x/tteoHpBq2XnuinLq/material-kxfk6v8x.png">
     </div>
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
