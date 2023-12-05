@@ -117,17 +117,17 @@
     </header>
     <nav>
         <div id="btn-inicio">Início</div>
-         <div id="btn-conteudo4">Sistemas</div>
-        <div id="btn-conteudo1">Matriz Inversa e Criptografia</div>
-        <div id="btn-conteudo2">Funções Trigonométricas</div>
-        <div id="btn-conteudo3">Análise Combinatória</div>
+         <div id="btn-conteudo1">Sistemas</div>
+        <div id="btn-conteudo2">Matriz Inversa e Criptografia</div>
+        <div id="btn-conteudo3">Funções Trigonométricas</div>
+        <div id="btn-conteudo4">Análise Combinatória</div>
         <div id="btn-servicos">Autoavaliação</div>
     </nav>
     <div class="container" id="conteudo-inicio">
         <h2 style="color: #c2185b;">Início</h2>
         <p>Esta é a página inicial do nosso site.</p>
     </div>
-      <div class="container" id="conteudo-conteudo4" style="display: none;">
+      <div class="container" id="conteudo-conteudo1" style="display: none;">
         <h2 style="color: #c2185b;">Sistemas</h2>
             <p> Muitos problemas em várias áreas da Ciência recaem na solução de sistemas lineares. Vamos ver como a álgebra matricial pode simplificar o estudo dos sistemas lineares. </p>
         <p> EQUAÇÕES LINEARES </p>
@@ -167,7 +167,7 @@ substitui-se nas outras equações. </p>
          <img src="https://www.geogebra.org/resource/kxfk6v8x/tteoHpBq2XnuinLq/material-kxfk6v8x.png">
          <p> . </p>
     </div>
-    <div class="container" id="conteudo-conteudo1" style="display: none;">
+    <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
         <p>Dada uma matriz quadrada A de ordem n, chamamos de inversa de A uma matriz A⁻¹ tal que</p>
        <p>𝐴 ∙ 𝐴⁻¹ = 𝐴⁻¹ ∙ 𝐴 = I</p>
@@ -196,7 +196,7 @@ substitui-se nas outras equações. </p>
         <p>A CRIPTOGRAFIA</p>
          <img src="https://i.pinimg.com/736x/05/25/fc/0525fc28b4abbde738c54e8bb2f4012a.jpg" alt="Descrição da imagem de serviços">
     </div>
-    <div class="container" id="conteudo-conteudo2" style="display: none;">
+    <div class="container" id="conteudo-conteudo3" style="display: none;">
         <h2 style="color: #c2185b;">Funções Trigonométricas</h2>
         <p>Muitos fenômenos naturais, físicos e sociais têm comportamento cíclico ou periódico (que se repetem a cada determinado período), podendo ser modelados por funções trigonométricas.</p>
          <p>Essas funções têm amplas aplicações em física, engenharia, computação gráfica e muitas outras áreas.</p>
@@ -236,7 +236,7 @@ substitui-se nas outras equações. </p>
            <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
          <img src="https://i.pinimg.com/564x/84/1c/0f/841c0fd84a99f62a26c81bc8b5163ce2.jpg" alt="Descrição da imagem de serviços">
     </div>
-    <div class="container" id="conteudo-conteudo3" style="display: none;">
+    <div class="container" id="conteudo-conteudo4" style="display: none;">
         <h2 style="color: #c2185b;">Análise Combinatória</h2>
          <p>A análise combinatória ou combinatória é a parte da Matemática que estuda métodos e técnicas que permitem resolver problemas relacionados com contagem. Muito utilizada nos estudos sobre probabilidade, ela faz a análise das possibilidades e das combinações possíveis entre um conjunto de elementos.</p>
         <p> PRINCÍPIO FUNDAMENTAL DA CONTAGEM (PFC) OU PRINCÍPIO MULTIPLICATIVO</p>
@@ -254,7 +254,7 @@ substitui-se nas outras equações. </p>
         <h2 style="color: #c2185b;">Autoavaliação</h2>
         <p>Confira minha autoavaliação e meu progresso.</p>
     </div>
-
+    
     <script>
         // JavaScript para controlar a exibição das seções
         const btnInicio = document.getElementById('btn-inicio');
