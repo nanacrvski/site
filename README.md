@@ -159,8 +159,9 @@ segundo ano do ensino médio, e faço técnico em mecatrônica, este é meu port
             <p>  1) Para a substituição, escolhe-se uma equação, isola-se uma das incógnitas e
 substitui-se nas outras equações. </p>
          <p> 2) Para a adição, escolhe-se duas equações, modifica-se uma delas a fim de que quando somadas uma das incógnicas se anule. Escolhe-se outras duas, usando a que não havia sido usada antes, e repete-se o processo. </p>
-          <img src="https://www.geogebra.org/resource/kxfk6v8x/tteoHpBq2XnuinLq/material-kxfk6v8x.png">
          <img src="https://www.geogebra.org/resource/kxfk6v8x/tteoHpBq2XnuinLq/material-kxfk6v8x.png">
+         <img src="https://www.geogebra.org/resource/kxfk6v8x/tteoHpBq2XnuinLq/material-kxfk6v8x.png">
+         <p> . </p>
          </div>  
     <div class="container" id="conteudo-conteudo2" style="display: none;">
         <h2 style="color: #c2185b;">Matriz Inversa e Criptografia</h2>
