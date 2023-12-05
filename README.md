@@ -251,9 +251,7 @@ substitui-se nas outras equações. </p>
         <p>Confira minha autoavaliação e meu progresso.</p>
         <a href="#" class="button" id="btn-saiba-mais-servicos">Saiba Mais</a>
     </div>
-    
-    <script>
-        
+    <script> 
         const btnInicio = document.getElementById('btn-inicio');
         const btnConteudo1 = document.getElementById('btn-conteudo1');
         const btnConteudo2 = document.getElementById('btn-conteudo2');
@@ -266,7 +264,6 @@ substitui-se nas outras equações. </p>
         const conteudoConteudo3 = document.getElementById('conteudo-conteudo3');
         const conteudoConteudo4 = document.getElementById('conteudo-conteudo4');
         const conteudoServicos = document.getElementById('conteudo-servicos');
-
         btnInicio.addEventListener('click', () => {
             conteudoInicio.style.display = 'block';
             conteudoConteudo1.style.display = 'none';
@@ -275,7 +272,6 @@ substitui-se nas outras equações. </p>
             conteudoConteudo4.style.display = 'none';
             conteudoServicos.style.display = 'none';
         });
-
         btnConteudo1.addEventListener('click', () => {
             conteudoInicio.style.display = 'none';
             conteudoConteudo1.style.display = 'block';
@@ -284,7 +280,6 @@ substitui-se nas outras equações. </p>
             conteudoConteudo4.style.display = 'none';
             conteudoServicos.style.display = 'none';
         });
-
         btnConteudo2.addEventListener('click', () => {
             conteudoInicio.style.display = 'none';
             conteudoConteudo1.style.display = 'none';
@@ -293,7 +288,6 @@ substitui-se nas outras equações. </p>
             conteudoConteudo4.style.display = 'none';
             conteudoServicos.style.display = 'none';
         });
-
         btnConteudo3.addEventListener('click', () => {
             conteudoInicio.style.display = 'none';
             conteudoConteudo1.style.display = 'none';
@@ -302,7 +296,6 @@ substitui-se nas outras equações. </p>
             conteudoConteudo4.style.display = 'none';
             conteudoServicos.style.display = 'none';
         });
-
         btnConteudo4.addEventListener('click', () => {
             conteudoInicio.style.display = 'none';
             conteudoConteudo1.style.display = 'none';
@@ -311,7 +304,6 @@ substitui-se nas outras equações. </p>
             conteudoConteudo4.style.display = 'block';
             conteudoServicos.style.display = 'none';
         });
-
         btnServicos.addEventListener('click', () => {
             conteudoInicio.style.display = 'none';
             conteudoConteudo1.style.display = 'none';
