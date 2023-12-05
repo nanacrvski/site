@@ -250,43 +250,74 @@ substitui-se nas outras equações. </p>
         <h2 style="color: #c2185b;">Autoavaliação</h2>
         <!-- ... (conteúdo omitido por brevidade) ... -->
     </div>
-    <script>
-        document.getElementById('btn-inicio').addEventListener('click', function () {
-            exibirConteudo('conteudo-inicio');
+    
+       <script> 
+        const btnInicio = document.getElementById('btn-inicio');
+        const btnConteudo1 = document.getElementById('btn-conteudo1');
+        const btnConteudo2 = document.getElementById('btn-conteudo2');
+        const btnConteudo3 = document.getElementById('btn-conteudo3');
+        const btnConteudo4 = document.getElementById('btn-conteudo4');
+        const btnServicos = document.getElementById('btn-servicos');
+        const conteudoInicio = document.getElementById('conteudo-inicio');
+        const conteudoConteudo1 = document.getElementById('conteudo-conteudo1');
+        const conteudoConteudo2 = document.getElementById('conteudo-conteudo2');
+        const conteudoConteudo3 = document.getElementById('conteudo-conteudo3');
+        const conteudoConteudo4 = document.getElementById('conteudo-conteudo4');
+        const conteudoServicos = document.getElementById('conteudo-servicos');
+           
+        btnInicio.addEventListener('click', () => {
+            conteudoInicio.style.display = 'block';
+            conteudoConteudo1.style.display = 'none';
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'none';
+            conteudoServicos.style.display = 'none';
         });
-
-        document.getElementById('btn-conteudo1').addEventListener('click', function () {
-            exibirConteudo('conteudo-conteudo1');
+        
+        btnConteudo1.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'block';
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'none';
+            conteudoServicos.style.display = 'none';
         });
-
-        document.getElementById('btn-conteudo2').addEventListener('click', function () {
-            exibirConteudo('conteudo-conteudo2');
+        
+        btnConteudo2.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'none';
+            conteudoConteudo2.style.display = 'block';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'none';
+            conteudoServicos.style.display = 'none';
         });
-
-        document.getElementById('btn-conteudo3').addEventListener('click', function () {
-            exibirConteudo('conteudo-conteudo3');
+        
+        btnConteudo3.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'none';
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'block';
+            conteudoConteudo4.style.display = 'none';
+            conteudoServicos.style.display = 'none';
         });
-
-        document.getElementById('btn-conteudo4').addEventListener('click', function () {
-            exibirConteudo('conteudo-conteudo4');
+        
+        btnConteudo4.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'none';
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'block';
+            conteudoServicos.style.display = 'none';
         });
-
-        document.getElementById('btn-servicos').addEventListener('click', function () {
-            exibirConteudo('conteudo-servicos');
+        
+        btnServicos.addEventListener('click', () => {
+            conteudoInicio.style.display = 'none';
+            conteudoConteudo1.style.display = 'none';
+            conteudoConteudo2.style.display = 'none';
+            conteudoConteudo3.style.display = 'none';
+            conteudoConteudo4.style.display = 'none';
+            conteudoServicos.style.display = 'block';
         });
-
-        function exibirConteudo(id) {
-            // Oculta todos os conteúdos
-            document.getElementById('conteudo-inicio').style.display = 'none';
-            document.getElementById('conteudo-conteudo1').style.display = 'none';
-            document.getElementById('conteudo-conteudo2').style.display = 'none';
-            document.getElementById('conteudo-conteudo3').style.display = 'none';
-            document.getElementById('conteudo-conteudo4').style.display = 'none';
-            document.getElementById('conteudo-servicos').style.display = 'none';
-
-            // Exibe o conteúdo correspondente ao ID fornecido
-            document.getElementById(id).style.display = 'block';
-        }
     </script>
 </body>
 
