@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <style>
         body {
-            background-color: #ffe6e6; /* Rosa claro */
+            background-color: #fde6ea; /* Rosa claro */
             font-family: Arial, sans-serif;
             color: #333; /* Cor do texto */
             padding: 0;
@@ -19,30 +20,43 @@
         }
         main {
             padding: 20px;
+            text-align: center;
         }
         h1 {
             color: #660066; /* Rosa escuro */
+            margin-top: 0;
         }
         h2 {
             color: #ff1a75; /* Rosa brilhante */
         }
         p {
             line-height: 1.6;
+            margin-bottom: 20px;
         }
         #gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 20px;
+            justify-items: center;
+            align-items: center;
+            margin-top: 20px;
         }
         .image-container {
-            width: 200px; /* Tamanho das imagens */
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        .image-container img {
-            max-width: 100%;
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-top: 100%;
+            overflow: hidden;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+        .image-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
         footer {
             background-color: #ff99cc; /* Rosa médio */
@@ -69,15 +83,12 @@
             <!-- Espaço para fotos -->
             <div class="image-container">
                 <img src="caminho-da-imagem1.jpg" alt="Descrição da imagem 1">
-                <div class="image-overlay"></div>
             </div>
             <div class="image-container">
                 <img src="caminho-da-imagem2.jpg" alt="Descrição da imagem 2">
-                <div class="image-overlay"></div>
             </div>
             <div class="image-container">
                 <img src="caminho-da-imagem3.jpg" alt="Descrição da imagem 3">
-                <div class="image-overlay"></div>
             </div>
             <!-- Adicione mais imagens conforme necessário -->
         </section>
