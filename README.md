@@ -14,7 +14,7 @@
     <main>
         <section id="intro">
             <h2>Meu Amor por Você é Infinito</h2>
-            <p>Em cada batida do meu coração, encontro o ritmo do seu.</p>
+            <p>Amor, Feliz dia dos namorados, eu te amo infinito, quero ficar do seu lado pra sempre, voce é tudo pra mim, além de meu namorado, é meu melhor amigo, pra todas as horas, sou completamente apaixonada por você, e quero que isso dure a eternidade. Obrigada por tanto </p>
         </section>
 
         <section id="gallery">
@@ -36,7 +36,7 @@
     </main>
 
     <footer>
-        <p>Feito com ❤️ por [Seu Nome]</p>
+        <p>Feito com ❤️ por Ana Clara(polakinha)</p>
     </footer>
 </body>
 </html>
