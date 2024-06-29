@@ -1,103 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dia dos Namorados</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Site Decorado Rosa</title>
     <style>
         body {
-            background-color: #fde6ea; /* Rosa claro */
             font-family: Arial, sans-serif;
-            color: #333; /* Cor do texto */
-            padding: 0;
+            background-image: url('https://www.example.com/caminho-para-imagem-fundo-florido.jpg');
+            background-size: cover;
+            color: #333;
             margin: 0;
+            padding: 0;
         }
+
         header {
-            background-color: #ff99cc; /* Rosa médio */
+            background-color: #ffccff;
             padding: 20px;
             text-align: center;
+            border-bottom: 2px solid #ff99cc;
         }
+
+        header h1 {
+            color: #ff66b2;
+        }
+
         main {
             padding: 20px;
-            text-align: center;
         }
-        h1 {
-            color: #660066; /* Rosa escuro */
-            margin-top: 0;
-        }
-        h2 {
-            color: #ff1a75; /* Rosa brilhante */
-        }
-        p {
-            line-height: 1.6;
+
+        section {
             margin-bottom: 20px;
-        }
-        #gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            grid-gap: 20px;
-            justify-items: center;
-            align-items: center;
-            margin-top: 20px;
-        }
-        .image-container {
-            position: relative;
-            width: 100%;
-            height: 0;
-            padding-top: 100%;
-            overflow: hidden;
+            background-color: rgba(255, 204, 255, 0.8);
+            padding: 15px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
         }
-        .image-container img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+
+        section h2 {
+            color: #ff6699;
         }
+
+        .balao {
+            font-size: 1.5em;
+            vertical-align: middle;
+        }
+
         footer {
-            background-color: #ff99cc; /* Rosa médio */
-            padding: 20px;
+            background-color: #ffccff;
+            padding: 10px;
             text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            border-top: 2px solid #ff99cc;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Feliz Dia dos Namorados!</h1>
+        <h1>Bem-vindo ao Nosso Site</h1>
     </header>
-
     <main>
-        <section id="intro">
-            <h2>Meu Amor por Você é Infinito</h2>
-            <p>Em cada batida do meu coração, encontro o ritmo do seu.</p>
+        <section>
+            <h2>Sobre Nós</h2>
+            <p>Nós adoramos criar conteúdos incríveis para nossos visitantes. <span class="balao">🎈</span></p>
         </section>
-
-        <section id="gallery">
-            <!-- Espaço para fotos -->
-            <div class="image-container">
-                <img src="caminho-da-imagem1.jpg" alt="Descrição da imagem 1">
-            </div>
-            <div class="image-container">
-                <img src="caminho-da-imagem2.jpg" alt="Descrição da imagem 2">
-            </div>
-            <div class="image-container">
-                <img src="caminho-da-imagem3.jpg" alt="Descrição da imagem 3">
-            </div>
-            <!-- Adicione mais imagens conforme necessário -->
+        <section>
+            <h2>Serviços</h2>
+            <p>Oferecemos uma variedade de serviços para atender às suas necessidades. <span class="balao">🎈</span></p>
+        </section>
+        <section>
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações. <span class="balao">🎈</span></p>
         </section>
     </main>
-
     <footer>
-        <p>Feito com ❤️ por [Seu Nome]</p>
+        <p>&copy; 2024 Site Decorado Rosa</p>
     </footer>
 </body>
 </html>
-
-
