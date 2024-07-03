@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Decorado Rosa</title>
+    <title>Para meu amor</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -55,19 +55,19 @@
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Nosso Site</h1>
+        <h1>Bem-vindo ao meu humilde site</h1>
     </header>
     <main>
         <section>
-            <h2>Sobre Nós</h2>
+            <h2>Nós</h2>
             <p>Nós adoramos criar conteúdos incríveis para nossos visitantes. <span class="balao">🎈</span></p>
         </section>
         <section>
-            <h2>Serviços</h2>
+            <h2>Eu te amo</h2>
             <p>Oferecemos uma variedade de serviços para atender às suas necessidades. <span class="balao">🎈</span></p>
         </section>
         <section>
-            <h2>Contato</h2>
+            <h2>Cookie</h2>
             <p>Entre em contato conosco para mais informações. <span class="balao">🎈</span></p>
         </section>
     </main>
