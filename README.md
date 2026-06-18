@@ -1,214 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Alex Carter | Developer Portfolio</title>
+<title>Ana Clara Nadaletti Cervinski | Resume</title>
 
 
 <style>
 
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Segoe UI',sans-serif;
-}
-
-
-html{
-scroll-behavior:smooth;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI", Arial, sans-serif;
 }
 
 
 body{
 
-background:#080808;
-color:white;
+    background:#0b0b0b;
+    color:white;
+    line-height:1.6;
+
+}
+
+
+.container{
+
+    width:85%;
+    max-width:1000px;
+    margin:auto;
+    padding:50px 0;
 
 }
 
 
 
-/* NAVBAR */
+/* HEADER */
+
 
 header{
 
-position:fixed;
-width:100%;
-background:#080808cc;
-backdrop-filter:blur(10px);
-z-index:10;
+    text-align:center;
+    padding:50px 20px;
+    background:linear-gradient(135deg,#00ffff,#7b2cff);
 
 }
 
 
-nav{
+header h1{
 
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:25px 10%;
+    font-size:45px;
+    color:#000;
 
 }
 
 
-.logo{
+header h2{
 
-font-size:35px;
-color:#00ffff;
-
-}
-
-
-ul{
-
-display:flex;
-gap:30px;
-list-style:none;
+    color:#111;
+    font-weight:500;
 
 }
 
 
-ul a{
+.contact{
 
-color:white;
-text-decoration:none;
-transition:.3s;
-
-}
-
-
-ul a:hover{
-
-color:#00ffff;
+    margin-top:20px;
+    color:#111;
 
 }
 
 
+.contact a{
 
-
-
-/* HERO */
-
-
-.hero{
-
-height:100vh;
-display:flex;
-align-items:center;
-justify-content:space-around;
-padding:0 10%;
-
-}
-
-
-.hero-text{
-
-max-width:600px;
-
-}
-
-
-.hero h1{
-
-font-size:60px;
-
-}
-
-
-.hero span{
-
-color:#00ffff;
-
-}
-
-
-.hero h2{
-
-margin-top:15px;
-
-}
-
-
-.hero p{
-
-margin:25px 0;
-font-size:18px;
-color:#aaa;
-
-}
-
-
-button,
-.contact-btn{
-
-display:inline-block;
-padding:15px 35px;
-
-background:#00ffff;
-color:black;
-
-border:none;
-border-radius:30px;
-
-font-weight:bold;
-cursor:pointer;
-
-text-decoration:none;
-
-transition:.3s;
-
-}
-
-
-button:hover,
-.contact-btn:hover{
-
-transform:scale(1.05);
-
-}
-
-
-
-/* CIRCLE */
-
-
-.circle{
-
-width:300px;
-height:300px;
-
-border-radius:50%;
-
-background:
-linear-gradient(45deg,#00ffff,#7b2cff);
-
-display:flex;
-align-items:center;
-justify-content:center;
-
-animation:float 4s infinite;
-
-}
-
-
-.code{
-
-font-size:80px;
-
-}
-
-
-@keyframes float{
-
-50%{
-
-transform:translateY(-20px);
-
-}
+    color:#111;
+    text-decoration:none;
+    font-weight:bold;
 
 }
 
@@ -221,109 +92,94 @@ transform:translateY(-20px);
 
 section{
 
-padding:100px 10%;
-text-align:center;
+    margin-top:40px;
 
 }
 
 
-section h2{
+h3{
 
-font-size:40px;
-margin-bottom:30px;
-
-}
-
-
-section p{
-
-max-width:800px;
-margin:auto;
-color:#aaa;
-font-size:18px;
+    font-size:30px;
+    color:#00ffff;
+    border-bottom:2px solid #00ffff;
+    padding-bottom:10px;
+    margin-bottom:20px;
 
 }
 
+
+
+p{
+
+    color:#ccc;
+    font-size:17px;
+
+}
 
 
 
 /* CARDS */
 
 
-.cards{
-
-display:flex;
-justify-content:center;
-gap:30px;
-flex-wrap:wrap;
-
-}
-
-
-
 .card{
 
-background:#111;
-
-width:300px;
-
-padding:30px;
-
-border-radius:20px;
-
-border:1px solid #222;
-
-transition:.3s;
+    background:#151515;
+    padding:25px;
+    margin:20px 0;
+    border-radius:15px;
+    border:1px solid #222;
+    transition:.3s;
 
 }
-
 
 
 .card:hover{
 
-transform:translateY(-10px);
-
-border-color:#00ffff;
-
-}
-
-
-.card h3{
-
-color:#00ffff;
-
-}
-
-
-.card p{
-
-margin-top:15px;
+    transform:translateY(-5px);
+    border-color:#00ffff;
 
 }
 
 
 
+.card h4{
 
-.project a{
+    color:white;
+    font-size:22px;
 
-display:block;
-margin-top:20px;
+}
 
-color:#00ffff;
-text-decoration:none;
+
+.card span{
+
+    color:#00ffff;
 
 }
 
 
 
-/* CONTACT */
+/* SKILLS */
 
 
-#contact{
+.skills{
 
-padding-bottom:120px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
 
 }
+
+
+.skill{
+
+    background:#151515;
+    padding:12px 25px;
+    border-radius:30px;
+    border:1px solid #333;
+    color:#00ffff;
+
+}
+
 
 
 
@@ -333,13 +189,9 @@ padding-bottom:120px;
 
 footer{
 
-background:#050505;
-
-padding:30px;
-
-text-align:center;
-
-color:#777;
+    text-align:center;
+    padding:30px;
+    color:#777;
 
 }
 
@@ -347,154 +199,87 @@ color:#777;
 
 
 
-/* MOBILE */
+@media(max-width:700px){
 
+header h1{
 
-@media(max-width:800px){
-
-
-.hero{
-
-flex-direction:column;
-text-align:center;
-padding-top:120px;
+font-size:32px;
 
 }
 
 
-.hero h1{
+.container{
 
-font-size:40px;
+width:90%;
+
+}
 
 }
 
 
-.circle{
-
-margin-top:50px;
-
-}
-
-
-nav{
-
-flex-direction:column;
-gap:20px;
-
-}
-
-
-}
 
 </style>
 
-
 </head>
-
 
 
 <body>
 
 
 
-
 <header>
 
-<nav>
-
-<h2 class="logo">AC.</h2>
-
-
-<ul>
-
-<li><a href="#about">About</a></li>
-
-<li><a href="#skills">Skills</a></li>
-
-<li><a href="#projects">Projects</a></li>
-
-<li><a href="#contact">Contact</a></li>
-
-</ul>
+<h1>
+Ana Clara Nadaletti Cervinski
+</h1>
 
 
-</nav>
+<h2>
+Education Student | Technology Enthusiast | Creative Learner
+</h2>
+
+
+<div class="contact">
+
+<p>
+📧 ana.clara@email.com
+</p>
+
+<p>
+🔗 github.com/anaclara
+</p>
+
+<p>
+📍 Brazil
+</p>
+
+</div>
+
 
 </header>
 
 
 
 
-
-<section class="hero">
-
-
-<div class="hero-text">
+<div class="container">
 
 
-<h1>
-Hi, I'm <span>Alex Carter</span>
-</h1>
 
 
-<h2>
-Full Stack Developer & Technology Enthusiast
-</h2>
 
+<section>
+
+<h3>
+Professional Summary
+</h3>
 
 
 <p>
 
-I create modern websites, applications and digital experiences
-focused on performance, design and innovation.
-
-</p>
-
-
-
-<button onclick="scrollProjects()">
-
-Explore My Work
-
-</button>
-
-
-
-</div>
-
-
-
-
-<div class="circle">
-
-<div class="code">
-
-&lt;/&gt;
-
-</div>
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-<section id="about">
-
-
-<h2>About Me</h2>
-
-
-<p>
-
-I am a passionate developer who loves building creative solutions
-with technology. My goal is to transform ideas into efficient,
-beautiful and functional digital products.
+Dedicated and creative student interested in education,
+technology, and innovative learning methods.
+Passionate about developing knowledge, creating projects,
+and exploring how technology can transform education and society.
 
 </p>
 
@@ -507,50 +292,205 @@ beautiful and functional digital products.
 
 
 
-<section id="skills">
+<section>
 
-
-<h2>My Skills</h2>
-
-
-<div class="cards">
-
-
-<div class="card">
-
-<h3>Frontend</h3>
-
-<p>
-HTML, CSS, JavaScript, React
-</p>
-
-</div>
-
-
+<h3>
+Education
+</h3>
 
 
 <div class="card">
 
-<h3>Backend</h3>
+
+<h4>
+Pedagogy
+</h4>
+
 
 <p>
-Python, Node.js, Databases
+
+<strong>Universidade Federal da Fronteira Sul (UFFS)</strong>
+
 </p>
+
+
+<p>
+
+Bachelor's Degree in Pedagogy
+
+</p>
+
+
+<p>
+
+Current Student
+
+</p>
+
 
 </div>
 
+
+</section>
+
+
+
+
+
+
+
+
+<section>
+
+<h3>
+Academic Interests
+</h3>
+
+
+<div class="card">
+
+<h4>
+Education and Technology
+</h4>
+
+
+<p>
+
+Research and exploration of digital tools,
+technology in education, and innovative teaching practices.
+
+</p>
+
+
+</div>
 
 
 
 
 <div class="card">
 
-<h3>Tools</h3>
+<h4>
+Educational Theory
+
+</h4>
+
 
 <p>
-Git, GitHub, Linux, Docker
+
+Interest in educational philosophies,
+social theories, and critical approaches to teaching.
+
 </p>
 
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section>
+
+<h3>
+Projects
+</h3>
+
+
+
+<div class="card">
+
+<h4>
+Robotics and Technology Project
+</h4>
+
+
+<p>
+
+Development of robotics projects involving programming,
+sensors, and automation concepts.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h4>
+Academic Research Projects
+</h4>
+
+
+<p>
+
+Production of academic texts, summaries,
+and research activities related to education.
+
+</p>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<section>
+
+<h3>
+Technical Skills
+</h3>
+
+
+
+<div class="skills">
+
+
+<div class="skill">
+HTML & CSS
+</div>
+
+
+<div class="skill">
+Python
+</div>
+
+
+<div class="skill">
+Git & GitHub
+</div>
+
+
+<div class="skill">
+Robotics
+</div>
+
+
+<div class="skill">
+Academic Research
+</div>
+
+
+<div class="skill">
+Digital Tools
 </div>
 
 
@@ -567,95 +507,26 @@ Git, GitHub, Linux, Docker
 
 
 
-<section id="projects">
+<section>
+
+<h3>
+Soft Skills
+</h3>
 
 
-<h2>Featured Projects</h2>
-
-
-
-<div class="cards">
-
-
-
-
-
-<div class="card project">
-
-
-<h3>AI Assistant</h3>
+<div class="card">
 
 
 <p>
 
-A smart assistant powered by artificial intelligence.
+✔ Creativity<br>
+✔ Communication<br>
+✔ Organization<br>
+✔ Critical Thinking<br>
+✔ Problem Solving<br>
+✔ Continuous Learning
 
 </p>
-
-
-<a href="#">
-View Project →
-
-</a>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="card project">
-
-
-<h3>Cyber Security Lab</h3>
-
-
-<p>
-
-A practical environment for learning cybersecurity.
-
-</p>
-
-
-<a href="#">
-View Project →
-
-</a>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="card project">
-
-
-<h3>Smart Dashboard</h3>
-
-
-<p>
-
-A responsive dashboard with data visualization.
-
-</p>
-
-
-<a href="#">
-View Project →
-
-</a>
-
-
-</div>
-
-
 
 
 </div>
@@ -671,31 +542,58 @@ View Project →
 
 
 
-<section id="contact">
+<section>
+
+<h3>
+Languages
+</h3>
 
 
-<h2>Contact</h2>
-
+<div class="card">
 
 <p>
 
-Interested in working together?
-
-</p>
-
+Portuguese — Native
 
 <br>
 
+English — Intermediate
 
-<a class="contact-btn" href="mailto:alex@email.com">
+</p>
 
-Send Email
-
-</a>
+</div>
 
 
 </section>
 
+
+
+
+
+
+<section>
+
+<h3>
+Career Objective
+</h3>
+
+
+<p>
+
+Seeking opportunities to develop my skills,
+combine education and technology,
+and contribute to projects focused on learning,
+innovation, and social development.
+
+</p>
+
+
+</section>
+
+
+
+
+</div>
 
 
 
@@ -703,39 +601,9 @@ Send Email
 
 <footer>
 
-<p>
-
-© 2026 Alex Carter. Built with passion and code.
-
-</p>
+© 2026 Ana Clara Nadaletti Cervinski
 
 </footer>
-
-
-
-
-
-
-
-<script>
-
-
-function scrollProjects(){
-
-document
-.querySelector("#projects")
-.scrollIntoView({
-
-behavior:"smooth"
-
-});
-
-}
-
-
-
-</script>
-
 
 
 
