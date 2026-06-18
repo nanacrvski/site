@@ -8,7 +8,6 @@
 
 <title>Ana Clara Nadaletti Cervinski | Resume</title>
 
-
 <style>
 
 *{
@@ -21,8 +20,8 @@
 
 body{
 
-    background:#0b0b0b;
-    color:white;
+    background:#fff0f6;
+    color:#4a1830;
     line-height:1.6;
 
 }
@@ -33,7 +32,7 @@ body{
     width:85%;
     max-width:1000px;
     margin:auto;
-    padding:50px 0;
+    padding:40px 0;
 
 }
 
@@ -45,8 +44,9 @@ body{
 header{
 
     text-align:center;
-    padding:50px 20px;
-    background:linear-gradient(135deg,#00ffff,#7b2cff);
+    padding:60px 20px;
+    background:linear-gradient(135deg,#ff69b4,#ffb6d9);
+    color:#4a1830;
 
 }
 
@@ -54,14 +54,14 @@ header{
 header h1{
 
     font-size:45px;
-    color:#000;
+    font-weight:800;
 
 }
 
 
 header h2{
 
-    color:#111;
+    margin-top:10px;
     font-weight:500;
 
 }
@@ -69,21 +69,25 @@ header h2{
 
 .contact{
 
-    margin-top:20px;
-    color:#111;
+    margin-top:25px;
+
+}
+
+
+.contact p{
+
+    color:#4a1830;
 
 }
 
 
 .contact a{
 
-    color:#111;
+    color:#9b145f;
     text-decoration:none;
     font-weight:bold;
 
 }
-
-
 
 
 
@@ -92,7 +96,7 @@ header h2{
 
 section{
 
-    margin-top:40px;
+    margin-top:35px;
 
 }
 
@@ -100,8 +104,8 @@ section{
 h3{
 
     font-size:30px;
-    color:#00ffff;
-    border-bottom:2px solid #00ffff;
+    color:#d63384;
+    border-bottom:3px solid #ff69b4;
     padding-bottom:10px;
     margin-bottom:20px;
 
@@ -111,7 +115,7 @@ h3{
 
 p{
 
-    color:#ccc;
+    color:#6b2948;
     font-size:17px;
 
 }
@@ -123,11 +127,15 @@ p{
 
 .card{
 
-    background:#151515;
+    background:white;
     padding:25px;
     margin:20px 0;
-    border-radius:15px;
-    border:1px solid #222;
+    border-radius:20px;
+
+    border:2px solid #ffc1dc;
+
+    box-shadow:0 5px 15px rgba(214,51,132,0.15);
+
     transition:.3s;
 
 }
@@ -135,8 +143,9 @@ p{
 
 .card:hover{
 
-    transform:translateY(-5px);
-    border-color:#00ffff;
+    transform:translateY(-6px);
+
+    border-color:#ff69b4;
 
 }
 
@@ -144,17 +153,18 @@ p{
 
 .card h4{
 
-    color:white;
-    font-size:22px;
+    color:#c2185b;
+    font-size:23px;
 
 }
 
 
 .card span{
 
-    color:#00ffff;
+    color:#ff69b4;
 
 }
+
 
 
 
@@ -172,11 +182,17 @@ p{
 
 .skill{
 
-    background:#151515;
+    background:#ff69b4;
+
     padding:12px 25px;
+
     border-radius:30px;
-    border:1px solid #333;
-    color:#00ffff;
+
+    color:white;
+
+    font-weight:bold;
+
+    box-shadow:0 4px 10px rgba(255,105,180,.3);
 
 }
 
@@ -190,8 +206,14 @@ p{
 footer{
 
     text-align:center;
+
     padding:30px;
-    color:#777;
+
+    background:#ffd6e8;
+
+    color:#9b145f;
+
+    font-weight:bold;
 
 }
 
@@ -199,7 +221,11 @@ footer{
 
 
 
+/* MOBILE */
+
+
 @media(max-width:700px){
+
 
 header h1{
 
@@ -226,8 +252,8 @@ width:90%;
 <body>
 
 
-
 <header>
+
 
 <h1>
 Ana Clara Nadaletti Cervinski
@@ -235,7 +261,7 @@ Ana Clara Nadaletti Cervinski
 
 
 <h2>
-Education Student | Technology Enthusiast | Creative Learner
+Education Student | Creative Learner | Technology Enthusiast
 </h2>
 
 
@@ -276,15 +302,15 @@ Professional Summary
 
 <p>
 
-Dedicated and creative student interested in education,
+Creative and dedicated student interested in education,
 technology, and innovative learning methods.
-Passionate about developing knowledge, creating projects,
-and exploring how technology can transform education and society.
+Passionate about research, academic development,
+and creating meaningful educational experiences.
 
 </p>
 
-
 </section>
+
 
 
 
@@ -303,28 +329,17 @@ Education
 
 
 <h4>
-Pedagogy
+Bachelor's Degree in Pedagogy
 </h4>
 
 
 <p>
-
-<strong>Universidade Federal da Fronteira Sul (UFFS)</strong>
-
+Universidade Federal da Fronteira Sul (UFFS)
 </p>
 
 
 <p>
-
-Bachelor's Degree in Pedagogy
-
-</p>
-
-
-<p>
-
 Current Student
-
 </p>
 
 
@@ -350,17 +365,15 @@ Academic Interests
 <div class="card">
 
 <h4>
-Education and Technology
+Education & Technology
 </h4>
-
 
 <p>
 
-Research and exploration of digital tools,
-technology in education, and innovative teaching practices.
+Research about digital education,
+learning technologies, and innovative teaching strategies.
 
 </p>
-
 
 </div>
 
@@ -371,17 +384,14 @@ technology in education, and innovative teaching practices.
 
 <h4>
 Educational Theory
-
 </h4>
-
 
 <p>
 
 Interest in educational philosophies,
-social theories, and critical approaches to teaching.
+critical education, and social theories.
 
 </p>
-
 
 </div>
 
@@ -407,17 +417,15 @@ Projects
 <div class="card">
 
 <h4>
-Robotics and Technology Project
+Robotics and Programming Projects
 </h4>
-
 
 <p>
 
-Development of robotics projects involving programming,
-sensors, and automation concepts.
+Development of technology projects involving
+robotics, programming, sensors, and automation.
 
 </p>
-
 
 </div>
 
@@ -428,23 +436,21 @@ sensors, and automation concepts.
 <div class="card">
 
 <h4>
-Academic Research Projects
+Academic Research
 </h4>
-
 
 <p>
 
-Production of academic texts, summaries,
-and research activities related to education.
+Creation of academic papers, summaries,
+and educational research activities.
 
 </p>
-
 
 </div>
 
 
-
 </section>
+
 
 
 
@@ -458,7 +464,6 @@ and research activities related to education.
 <h3>
 Technical Skills
 </h3>
-
 
 
 <div class="skills">
@@ -475,7 +480,7 @@ Python
 
 
 <div class="skill">
-Git & GitHub
+GitHub
 </div>
 
 
@@ -485,12 +490,12 @@ Robotics
 
 
 <div class="skill">
-Academic Research
+Research
 </div>
 
 
 <div class="skill">
-Digital Tools
+Digital Education
 </div>
 
 
@@ -498,7 +503,6 @@ Digital Tools
 
 
 </section>
-
 
 
 
@@ -516,15 +520,14 @@ Soft Skills
 
 <div class="card">
 
-
 <p>
 
-✔ Creativity<br>
-✔ Communication<br>
-✔ Organization<br>
-✔ Critical Thinking<br>
-✔ Problem Solving<br>
-✔ Continuous Learning
+🌸 Creativity<br>
+🌸 Communication<br>
+🌸 Organization<br>
+🌸 Critical Thinking<br>
+🌸 Problem Solving<br>
+🌸 Teamwork
 
 </p>
 
@@ -533,7 +536,6 @@ Soft Skills
 
 
 </section>
-
 
 
 
@@ -561,10 +563,14 @@ English — Intermediate
 
 </p>
 
+
 </div>
 
 
 </section>
+
+
+
 
 
 
@@ -580,15 +586,17 @@ Career Objective
 
 <p>
 
-Seeking opportunities to develop my skills,
-combine education and technology,
-and contribute to projects focused on learning,
-innovation, and social development.
+To develop my academic and professional skills,
+combining education and technology to create
+innovative solutions that contribute to learning
+and social development.
 
 </p>
 
 
 </section>
+
+
 
 
 
@@ -601,7 +609,7 @@ innovation, and social development.
 
 <footer>
 
-© 2026 Ana Clara Nadaletti Cervinski
+💗 © 2026 Ana Clara Nadaletti Cervinski 💗
 
 </footer>
 
