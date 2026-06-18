@@ -1,196 +1,744 @@
-<3
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Meu Perfil Y2K</title>
+
+<title>Alex Carter | Developer Portfolio</title>
+
 
 <style>
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Verdana,sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
 }
+
+
+html{
+scroll-behavior:smooth;
+}
+
 
 body{
-    background:linear-gradient(135deg,#6f6dff,#a85cff,#d98cff);
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding:30px;
+
+background:#080808;
+color:white;
+
 }
 
-.container{
-    width:1000px;
-    background:rgba(255,255,255,0.15);
-    backdrop-filter:blur(10px);
-    border:3px solid #d8c0ff;
-    border-radius:25px;
-    padding:20px;
-    box-shadow:0 0 30px rgba(255,255,255,0.4);
+
+
+/* NAVBAR */
+
+header{
+
+position:fixed;
+width:100%;
+background:#080808cc;
+backdrop-filter:blur(10px);
+z-index:10;
+
 }
 
-.topbar{
-    background:linear-gradient(to bottom,#caa8ff,#9f7cff);
-    border-radius:20px;
-    padding:10px;
-    text-align:center;
-    color:white;
-    font-weight:bold;
-    margin-bottom:20px;
+
+nav{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 10%;
+
 }
 
-.menu{
-    display:flex;
-    gap:15px;
-    margin-bottom:20px;
+
+.logo{
+
+font-size:35px;
+color:#00ffff;
+
 }
 
-.menu button{
-    flex:1;
-    border:none;
-    padding:12px;
-    border-radius:30px;
-    background:linear-gradient(to bottom,#ffb1ff,#9b7cff);
-    color:white;
-    font-weight:bold;
-    cursor:pointer;
+
+ul{
+
+display:flex;
+gap:30px;
+list-style:none;
+
 }
 
-.menu button:hover{
-    transform:scale(1.05);
+
+ul a{
+
+color:white;
+text-decoration:none;
+transition:.3s;
+
 }
 
-.content{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:20px;
+
+ul a:hover{
+
+color:#00ffff;
+
 }
+
+
+
+
+
+/* HERO */
+
+
+.hero{
+
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:space-around;
+padding:0 10%;
+
+}
+
+
+.hero-text{
+
+max-width:600px;
+
+}
+
+
+.hero h1{
+
+font-size:60px;
+
+}
+
+
+.hero span{
+
+color:#00ffff;
+
+}
+
+
+.hero h2{
+
+margin-top:15px;
+
+}
+
+
+.hero p{
+
+margin:25px 0;
+font-size:18px;
+color:#aaa;
+
+}
+
+
+button,
+.contact-btn{
+
+display:inline-block;
+padding:15px 35px;
+
+background:#00ffff;
+color:black;
+
+border:none;
+border-radius:30px;
+
+font-weight:bold;
+cursor:pointer;
+
+text-decoration:none;
+
+transition:.3s;
+
+}
+
+
+button:hover,
+.contact-btn:hover{
+
+transform:scale(1.05);
+
+}
+
+
+
+/* CIRCLE */
+
+
+.circle{
+
+width:300px;
+height:300px;
+
+border-radius:50%;
+
+background:
+linear-gradient(45deg,#00ffff,#7b2cff);
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+animation:float 4s infinite;
+
+}
+
+
+.code{
+
+font-size:80px;
+
+}
+
+
+@keyframes float{
+
+50%{
+
+transform:translateY(-20px);
+
+}
+
+}
+
+
+
+
+
+/* SECTIONS */
+
+
+section{
+
+padding:100px 10%;
+text-align:center;
+
+}
+
+
+section h2{
+
+font-size:40px;
+margin-bottom:30px;
+
+}
+
+
+section p{
+
+max-width:800px;
+margin:auto;
+color:#aaa;
+font-size:18px;
+
+}
+
+
+
+
+/* CARDS */
+
+
+.cards{
+
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+
+}
+
+
 
 .card{
-    background:rgba(255,255,255,0.25);
-    border:2px solid #d9c7ff;
-    border-radius:20px;
-    padding:15px;
+
+background:#111;
+
+width:300px;
+
+padding:30px;
+
+border-radius:20px;
+
+border:1px solid #222;
+
+transition:.3s;
+
 }
 
-.card h2{
-    color:white;
-    margin-bottom:10px;
+
+
+.card:hover{
+
+transform:translateY(-10px);
+
+border-color:#00ffff;
+
 }
+
+
+.card h3{
+
+color:#00ffff;
+
+}
+
 
 .card p{
-    color:white;
-    line-height:1.5;
+
+margin-top:15px;
+
 }
 
-.gallery{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:10px;
+
+
+
+.project a{
+
+display:block;
+margin-top:20px;
+
+color:#00ffff;
+text-decoration:none;
+
 }
 
-.img{
-    height:140px;
-    border-radius:15px;
-    background:linear-gradient(45deg,#ffd6ff,#a1d7ff);
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    color:#6a00a8;
-    font-weight:bold;
+
+
+/* CONTACT */
+
+
+#contact{
+
+padding-bottom:120px;
+
 }
 
-.big{
-    margin-top:10px;
-    height:180px;
+
+
+
+/* FOOTER */
+
+
+footer{
+
+background:#050505;
+
+padding:30px;
+
+text-align:center;
+
+color:#777;
+
 }
 
-.footer{
-    margin-top:20px;
-    text-align:center;
-    color:white;
+
+
+
+
+/* MOBILE */
+
+
+@media(max-width:800px){
+
+
+.hero{
+
+flex-direction:column;
+text-align:center;
+padding-top:120px;
+
+}
+
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+
+.circle{
+
+margin-top:50px;
+
+}
+
+
+nav{
+
+flex-direction:column;
+gap:20px;
+
+}
+
+
 }
 
 </style>
+
+
 </head>
+
+
+
 <body>
 
-<div class="container">
 
-    <div class="topbar">
-        ✨ site by anac ✨
-    </div>
 
-    <div class="menu">
-        <button>🏠 Home</button>
-        <button>🎀 Sobre</button>
-        <button>📷 Galeria</button>
-        <button>💌 Contato</button>
-    </div>
 
-    <div class="content">
+<header>
 
-        <div class="card">
-            <h2>💜 Sobre Mim</h2>
+<nav>
 
-            <p>
-                Nome: Anac
-            </p>
+<h2 class="logo">AC.</h2>
 
-            <br>
 
-            <p>
-                Estudante de pedagogia,
-                apaixonado por tecnologia,
-                programação e design.
-            </p>
+<ul>
 
-            <br>
+<li><a href="#about">About</a></li>
 
-            <div class="gallery">
-                <div class="img">Imagem 1</div>
-                <div class="img">Imagem 2</div>
-            </div>
+<li><a href="#skills">Skills</a></li>
 
-            <div class="img big">
-                Imagem Destaque
-            </div>
-        </div>
+<li><a href="#projects">Projects</a></li>
 
-        <div class="card">
+<li><a href="#contact">Contact</a></li>
 
-            <h2>🌸 Perfil</h2>
+</ul>
 
-            <div class="gallery">
-                <div class="https://i.pinimg.com/736x/b5/99/63/b59963bb3889e2ef90ce4a1750b87c3c.jpg">Foto</div>
-                <div class="img">Avatar</div>
-                <div class="img">Anime</div>
-                <div class="img">Arte</div>
-            </div>
 
-            <br>
+</nav>
 
-            <h2>⭐ Novidades</h2>
+</header>
 
-            <p>
-                Bem-vindo ao meu espaço pessoal.
-                Aqui compartilho meus projetos,
-                estudos e hobbies.
-            </p>
 
-        </div>
 
-    </div>
 
-    <div class="footer">
-        💖 Criado por Anac • 2026 💖
-    </div>
+
+<section class="hero">
+
+
+<div class="hero-text">
+
+
+<h1>
+Hi, I'm <span>Alex Carter</span>
+</h1>
+
+
+<h2>
+Full Stack Developer & Technology Enthusiast
+</h2>
+
+
+
+<p>
+
+I create modern websites, applications and digital experiences
+focused on performance, design and innovation.
+
+</p>
+
+
+
+<button onclick="scrollProjects()">
+
+Explore My Work
+
+</button>
+
+
 
 </div>
 
+
+
+
+<div class="circle">
+
+<div class="code">
+
+&lt;/&gt;
+
+</div>
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section id="about">
+
+
+<h2>About Me</h2>
+
+
+<p>
+
+I am a passionate developer who loves building creative solutions
+with technology. My goal is to transform ideas into efficient,
+beautiful and functional digital products.
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+<section id="skills">
+
+
+<h2>My Skills</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>Frontend</h3>
+
+<p>
+HTML, CSS, JavaScript, React
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>Backend</h3>
+
+<p>
+Python, Node.js, Databases
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>Tools</h3>
+
+<p>
+Git, GitHub, Linux, Docker
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section id="projects">
+
+
+<h2>Featured Projects</h2>
+
+
+
+<div class="cards">
+
+
+
+
+
+<div class="card project">
+
+
+<h3>AI Assistant</h3>
+
+
+<p>
+
+A smart assistant powered by artificial intelligence.
+
+</p>
+
+
+<a href="#">
+View Project →
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card project">
+
+
+<h3>Cyber Security Lab</h3>
+
+
+<p>
+
+A practical environment for learning cybersecurity.
+
+</p>
+
+
+<a href="#">
+View Project →
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card project">
+
+
+<h3>Smart Dashboard</h3>
+
+
+<p>
+
+A responsive dashboard with data visualization.
+
+</p>
+
+
+<a href="#">
+View Project →
+
+</a>
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section id="contact">
+
+
+<h2>Contact</h2>
+
+
+<p>
+
+Interested in working together?
+
+</p>
+
+
+<br>
+
+
+<a class="contact-btn" href="mailto:alex@email.com">
+
+Send Email
+
+</a>
+
+
+</section>
+
+
+
+
+
+
+<footer>
+
+<p>
+
+© 2026 Alex Carter. Built with passion and code.
+
+</p>
+
+</footer>
+
+
+
+
+
+
+
+<script>
+
+
+function scrollProjects(){
+
+document
+.querySelector("#projects")
+.scrollIntoView({
+
+behavior:"smooth"
+
+});
+
+}
+
+
+
+</script>
+
+
+
+
 </body>
+
 </html>
