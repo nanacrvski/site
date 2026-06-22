@@ -453,7 +453,7 @@ cigarro / cigarro / cigarro
 
 <p>
 
-Card by xiu.carrd.co
+
 
 aaaaaa.
 
@@ -471,15 +471,15 @@ aaaaaa
 <div class="gallery">
 
 <div class="image">
-IMAGE HERE
+
 </div>
 
 <div class="[image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMSdYKTdoV-4BC2xHM2-GCQ6EyvfeeYym0vbUNMX4Qk0pGkz4UdQf_r0&s=10)">
-IMAGE HERE
+
 </div>
 
 <div class="image big-image">
-BIG IMAGE HERE
+
 </div>
 
 </div>
@@ -507,19 +507,19 @@ BIG IMAGE HERE
 <div class="gallery">
 
 <div class="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTowNlSKs2vOfeVsqAQCod10P9eyieE5aR1GD2kvj48A&s=10">
-IMAGE
+
 </div>
 
 <div class="https://media.licdn.com/dms/image/v2/D4D03AQH4w5KTKOCJ6A/profile-displayphoto-scale_200_200/B4DZflvdvHG8Ac-/0/1751906118015?e=2147483647&v=beta&t=_dIKWU_gG8v3_SYxyhWr-j6xWUmswf-XSYaBqwCAz_w">
-IMAGE
+
 </div>
 
 <div class="image">
-IMAGE
+
 </div>
 
 <div class="image">
-IMAGE
+
 </div>
 
 </div>
@@ -540,23 +540,19 @@ Before Following ⚠
 
 
 <h2>
-▣ TITLE HERE
+▣ anac
 </h2>
 
 
 <p>
 
-Check my carrd before using.
-
-Nulla sed euismod velit,
-lectus.
+.
 
 <strong>
-Suspendisse maximus
+.
 </strong>
 
-nisl a eleifend auctor.
-
+.
 </p>
 
 
