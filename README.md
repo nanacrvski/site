@@ -603,7 +603,7 @@ aaaaaa
 
 <div class="section-title">
 
-Before Following ⚠
+.
 
 </div>
 
