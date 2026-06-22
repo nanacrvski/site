@@ -1,9 +1,13 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>site da anac</title>
+
 
 <style>
 
@@ -11,81 +15,85 @@
 
 
 *{
-    box-sizing:border-box;
+box-sizing:border-box;
 }
+
 
 body{
 
-    margin:0;
-    min-height:100vh;
+margin:0;
+min-height:100vh;
 
-    background:
-    linear-gradient(120deg,#271c78,#9c62ff,#ff9fe8);
+background:
+linear-gradient(120deg,#26136b,#9b61ff,#ff9ee8);
 
-    font-family:"Orbitron",sans-serif;
+font-family:"Orbitron",sans-serif;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+display:flex;
+justify-content:center;
+align-items:center;
 
-    overflow-x:hidden;
 }
 
 
-/* janela */
 
 .window{
 
-    width:690px;
-    background:
-    linear-gradient(#b69aff,#6454dd);
+width:700px;
 
-    border-radius:25px;
+background:
+linear-gradient(#bda5ff,#5d45db);
 
-    padding:15px;
+border-radius:25px;
 
-    box-shadow:
-    0 0 30px #ff9cff,
-    inset 0 0 20px white;
+padding:15px;
+
+box-shadow:
+0 0 35px #ff9cff,
+inset 0 0 20px white;
 
 }
 
 
 
-/* topo */
+/* TOPO */
+
 
 .top{
 
 height:55px;
 
 background:
-linear-gradient(#f7b9ff,#7c4cff);
+linear-gradient(#f7b7ff,#7045ff);
 
 border-radius:20px;
 
 display:flex;
 
-align-items:center;
-
 justify-content:center;
 
-position:relative;
+align-items:center;
 
 font-size:22px;
 
 color:white;
 
-text-shadow:0 0 8px white;
+text-shadow:0 0 10px white;
+
+position:relative;
 
 }
+
 
 
 .buttons{
 
 position:absolute;
+
 right:20px;
 
 display:flex;
+
 gap:10px;
 
 }
@@ -93,31 +101,33 @@ gap:10px;
 
 .circle{
 
-width:35px;
 height:35px;
+width:35px;
 
 border-radius:50%;
 
 background:
-radial-gradient(circle,#ffb5ff,#8b40d8);
+radial-gradient(circle,#ffb9ff,#783bd8);
 
-border:2px solid #d8b4ff;
+border:2px solid white;
 
 }
 
 
 
-/* navegação */
+/* MENU */
 
 
 .nav{
 
 display:flex;
+
 gap:12px;
 
 margin:18px 10px;
 
 }
+
 
 
 .nav button{
@@ -131,39 +141,33 @@ padding:12px;
 border-radius:30px;
 
 background:
-linear-gradient(#ff9ff0,#7555ff);
+linear-gradient(#ff9de8,#7254ff);
 
 color:white;
 
 font-family:inherit;
 
-font-weight:bold;
-
-font-size:14px;
+cursor:pointer;
 
 box-shadow:
-inset 0 0 10px white,
-0 0 10px #e67aff;
+inset 0 0 10px white;
 
 }
 
 
 
-/* titulo */
 
 .viewer{
 
 background:#7654e8;
 
-color:white;
-
-padding:8px 25px;
+padding:8px 20px;
 
 border-radius:20px;
 
-width:max-content;
+color:white;
 
-margin-bottom:15px;
+width:max-content;
 
 font-size:14px;
 
@@ -171,15 +175,17 @@ font-size:14px;
 
 
 
-/* conteudo */
+/* CONTEUDO */
 
 
 .content{
 
-background:
-linear-gradient(130deg,#ffffff,#f5ddff);
+margin-top:15px;
 
-border-radius:10px;
+background:
+linear-gradient(130deg,#fff,#efdfff);
+
+border-radius:12px;
 
 padding:20px;
 
@@ -196,19 +202,16 @@ gap:15px;
 
 .section{
 
-background:#fff;
+background:white;
 
 padding:12px;
 
-border-radius:10px;
-
-color:#6b44c7;
+border-radius:12px;
 
 }
 
 
 
-/* titulo seção */
 
 .section-title{
 
@@ -218,41 +221,35 @@ color:white;
 
 padding:8px;
 
-border-radius:10px 10px 0 0;
-
-font-size:15px;
+border-radius:10px;
 
 }
-
 
 
 
 h1{
 
+color:#6844d4;
+
 font-size:30px;
 
-margin:10px 0;
-
-color:#6342cc;
-
 }
+
 
 
 p{
 
-font-family:Arial,sans-serif;
+font-family:Arial;
 
-font-size:14px;
+color:#745acb;
 
 line-height:1.5;
-
-color:#7158c8;
 
 }
 
 
 
-/* imagens */
+/* IMAGENS */
 
 
 .gallery{
@@ -266,6 +263,7 @@ gap:8px;
 }
 
 
+
 .image{
 
 height:110px;
@@ -274,23 +272,24 @@ border-radius:15px;
 
 border:3px solid #9d74ff;
 
+overflow:hidden;
+
 background:
+linear-gradient(45deg,#ffb6ef,#7865ff);
 
-linear-gradient(
-45deg,
-#ffb6ef,
-#7a6cff
-);
+}
 
-display:flex;
 
-justify-content:center;
 
-align-items:center;
+.image img{
 
-color:white;
+width:100%;
 
-font-size:12px;
+height:100%;
+
+object-fit:cover;
+
+display:block;
 
 }
 
@@ -306,37 +305,8 @@ height:130px;
 
 
 
+/* REDES */
 
-/* rodape */
-
-.footer{
-
-margin-top:15px;
-
-height:55px;
-
-background:
-linear-gradient(#ffb2f6,#7455df);
-
-border-radius:20px;
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-color:white;
-
-font-size:20px;
-
-box-shadow:inset 0 0 15px white;
-
-}
-
-
-
-/* social */
 
 .social{
 
@@ -344,36 +314,69 @@ display:flex;
 
 gap:10px;
 
-margin-bottom:10px;
-
 }
+
 
 
 .social div{
 
-height:40px;
 width:40px;
+
+height:40px;
 
 border-radius:50%;
 
-background:#7855e8;
+background:#7955e8;
 
 color:white;
 
 display:flex;
 
 align-items:center;
+
 justify-content:center;
 
 }
 
 
 
+
+.footer{
+
+
+height:55px;
+
+margin-top:15px;
+
+border-radius:20px;
+
+background:
+linear-gradient(#ffb2f5,#7654dd);
+
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:20px;
+
+color:white;
+
+}
+
+
+
+
 @media(max-width:700px){
 
 .window{
+
 width:95%;
+
 }
+
 
 .content{
 
@@ -381,23 +384,28 @@ grid-template-columns:1fr;
 
 }
 
+
 }
+
 
 </style>
 
-</head>
 
+</head>
 
 
 <body>
 
 
+
 <div class="window">
+
 
 
 <div class="top">
 
-Untitled
+Ana Clara
+
 
 <div class="buttons">
 
@@ -407,17 +415,22 @@ Untitled
 
 </div>
 
+
 </div>
+
 
 
 
 <div class="nav">
 
 <button>home</button>
+
 <button>platforms</button>
+
 <button>sobre mim</button>
 
 </div>
+
 
 
 
@@ -429,69 +442,103 @@ CURRENTLY VIEWING: ABOUT ME
 
 
 
+
+
 <div class="content">
+
+
+
 
 
 <div>
 
 
+
 <div class="section">
 
+
 <div class="section-title">
+
 ⓘ | About Me
+
 </div>
+
 
 
 <h1>
+
 ▣ ana clara
+
 </h1>
 
+
 <p>
+
 cigarro / cigarro / cigarro
+
 </p>
 
 
+
 <p>
-
-
 
 aaaaaa.
 
+<br><br>
+
 aaaaaa
+
 </p>
 
 
+
 </div>
+
 
 
 
 <br>
 
 
+
 <div class="gallery">
+
 
 <div class="image">
 
-</div>
-
-<div class="[image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMSdYKTdoV-4BC2xHM2-GCQ6EyvfeeYym0vbUNMX4Qk0pGkz4UdQf_r0&s=10)">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMSdYKTdoV-4BC2xHM2-GCQ6EyvfeeYym0vbUNMX4Qk0pGkz4UdQf_r0&s=10">
 
 </div>
+
+
+
+<div class="image">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTowNlSKs2vOfeVsqAQCod10P9eyieE5aR1GD2kvj48A&s=10">
+
+</div>
+
+
 
 <div class="image big-image">
 
-</div>
+<img src="https://media.licdn.com/dms/image/v2/D4D03AQH4w5KTKOCJ6A/profile-displayphoto-scale_200_200/B4DZflvdvHG8Ac-/0/1751906118015?e=2147483647&v=beta&t=_dIKWU_gG8v3_SYxyhWr-j6xWUmswf-XSYaBqwCAz_w">
 
 </div>
 
 
+</div>
+
+
 
 </div>
+
 
 
 
 
 <div>
+
 
 
 <div class="social">
@@ -503,30 +550,53 @@ aaaaaa
 </div>
 
 
+<br>
+
+
 
 <div class="gallery">
 
-<div class="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTowNlSKs2vOfeVsqAQCod10P9eyieE5aR1GD2kvj48A&s=10">
-
-</div>
-
-<div class="https://media.licdn.com/dms/image/v2/D4D03AQH4w5KTKOCJ6A/profile-displayphoto-scale_200_200/B4DZflvdvHG8Ac-/0/1751906118015?e=2147483647&v=beta&t=_dIKWU_gG8v3_SYxyhWr-j6xWUmswf-XSYaBqwCAz_w">
-
-</div>
 
 <div class="image">
 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMSdYKTdoV-4BC2xHM2-GCQ6EyvfeeYym0vbUNMX4Qk0pGkz4UdQf_r0&s=10">
+
 </div>
+
+
 
 <div class="image">
 
-</div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTowNlSKs2vOfeVsqAQCod10P9eyieE5aR1GD2kvj48A&s=10">
 
 </div>
+
+
+
+<div class="image">
+
+<img src="https://via.placeholder.com/300">
+
+</div>
+
+
+
+<div class="image">
+
+<img src="https://via.placeholder.com/300">
+
+</div>
+
+
+
+</div>
+
 
 
 
 <br>
+
+
 
 
 <div class="section">
@@ -540,19 +610,29 @@ Before Following ⚠
 
 
 <h2>
+
 ▣ anac
+
 </h2>
+
 
 
 <p>
 
 .
 
+<br>
+
 <strong>
-.
-</strong>
 
 .
+
+</strong>
+
+<br>
+
+.
+
 </p>
 
 
@@ -564,20 +644,27 @@ Before Following ⚠
 
 
 
+
 </div>
+
+
+
 
 
 
 <div class="footer">
 
-Untitled
+Ana Clara
 
 </div>
 
 
 
+
 </div>
+
 
 
 </body>
+
 </html>
