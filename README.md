@@ -435,7 +435,7 @@ Ana Clara
 
 <div class="viewer">
 
-CURRENTLY VIEWING: ABOUT ME
+anac
 
 </div>
 
