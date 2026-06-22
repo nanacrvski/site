@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Untitled</title>
+<title>site da anac</title>
 
 <style>
 
@@ -416,7 +415,7 @@ Untitled
 
 <button>home</button>
 <button>platforms</button>
-<button>metrics</button>
+<button>sobre mim</button>
 
 </div>
 
@@ -444,11 +443,11 @@ CURRENTLY VIEWING: ABOUT ME
 
 
 <h1>
-▣ NAME
+▣ ana clara
 </h1>
 
 <p>
-INFO / INFO / INFO
+cigarro / cigarro / cigarro
 </p>
 
 
@@ -456,14 +455,9 @@ INFO / INFO / INFO
 
 Card by xiu.carrd.co
 
-enim, nec blandit lectus interdum non.
-Nulla sed euismod velit,
-euismod iaculis lectus.
+aaaaaa.
 
-Suspendisse maximus,
-nisl a eleifend auctor,
-lectus libero luctus ex.
-
+aaaaaa
 </p>
 
 
@@ -480,7 +474,7 @@ lectus libero luctus ex.
 IMAGE HERE
 </div>
 
-<div class="image">
+<div class="[image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMSdYKTdoV-4BC2xHM2-GCQ6EyvfeeYym0vbUNMX4Qk0pGkz4UdQf_r0&s=10)">
 IMAGE HERE
 </div>
 
@@ -512,11 +506,11 @@ BIG IMAGE HERE
 
 <div class="gallery">
 
-<div class="image">
+<div class="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTowNlSKs2vOfeVsqAQCod10P9eyieE5aR1GD2kvj48A&s=10">
 IMAGE
 </div>
 
-<div class="image">
+<div class="https://media.licdn.com/dms/image/v2/D4D03AQH4w5KTKOCJ6A/profile-displayphoto-scale_200_200/B4DZflvdvHG8Ac-/0/1751906118015?e=2147483647&v=beta&t=_dIKWU_gG8v3_SYxyhWr-j6xWUmswf-XSYaBqwCAz_w">
 IMAGE
 </div>
 
