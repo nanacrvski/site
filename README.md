@@ -1,94 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Pink Cyber Profile</title>
+<title>♡ Kawaii Gamer Profile ♡</title>
+
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&family=Quicksand:wght@500;700&display=swap');
 
 
 *{
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
-    font-family:'Orbitron', sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 
 body{
 
-    min-height:100vh;
-    background:
-    radial-gradient(circle,#ff8cff,#8b3dff,#241047);
+font-family:'Quicksand',sans-serif;
 
-    color:white;
-    overflow-x:hidden;
+min-height:100vh;
+
+background:
+
+linear-gradient(
+135deg,
+#ffd6f7,
+#d8c5ff,
+#ffb8e8
+);
+
+color:#6b3fa0;
+
+overflow-x:hidden;
 
 }
 
 
 /* estrelas */
 
-body::before{
+body:before{
 
-content:"";
+content:"♡ ✦ ☆ ✧ ♡ ✦";
+
 position:fixed;
-width:100%;
-height:100%;
 
-background-image:
-radial-gradient(#fff 1px,transparent 1px);
+font-size:50px;
 
-background-size:40px 40px;
-opacity:.2;
+color:white;
+
+opacity:.5;
+
+animation:float 8s infinite linear;
+
+}
+
+
+@keyframes float{
+
+from{
+transform:translateY(100vh);
+}
+
+to{
+transform:translateY(-100vh);
+}
 
 }
 
 
 
-/* janela */
+/* computador */
 
-.container{
+.window{
 
 width:90%;
+
 max-width:1100px;
 
-margin:50px auto;
+margin:40px auto;
 
-background:
-rgba(255,255,255,.15);
+background:#fff0ff;
 
-border:3px solid #ff8cff;
+border:5px solid #d88cff;
 
 border-radius:35px;
 
-padding:25px;
+padding:20px;
 
 box-shadow:
 
-0 0 30px #ff3cff,
-inset 0 0 40px #9d4cff;
-
-backdrop-filter:blur(15px);
+0 0 40px #ff8de8;
 
 }
 
 
 
-/* barra */
+/* topo */
 
-.top{
+
+.header{
 
 height:70px;
 
 background:
-linear-gradient(90deg,#ff5eea,#8d55ff);
 
-border-radius:30px;
+linear-gradient(
+90deg,
+#ff8bdc,
+#b78cff
+);
+
+border-radius:25px;
 
 display:flex;
 
@@ -96,58 +124,94 @@ align-items:center;
 
 justify-content:center;
 
-font-size:30px;
+font-family:'Silkscreen';
 
-box-shadow:0 0 20px pink;
+font-size:25px;
+
+color:white;
+
+box-shadow:inset 0 0 20px white;
 
 }
 
 
-.buttons{
+.dots{
+
+position:absolute;
+
+margin-left:20px;
+
+}
+
+
+.dot{
+
+display:inline-block;
+
+width:18px;
+
+height:18px;
+
+border-radius:50%;
+
+background:white;
+
+margin:5px;
+
+}
+
+
+
+
+
+.menu{
 
 display:flex;
+
 justify-content:center;
+
 gap:20px;
+
 margin:25px;
 
 }
 
 
-button{
-
-background:
-linear-gradient(#ff9cf7,#8b4cff);
+.menu button{
 
 border:none;
 
-padding:15px 35px;
+padding:14px 30px;
 
 border-radius:30px;
 
+background:#ffb5ec;
+
 color:white;
+
+font-weight:bold;
 
 font-size:16px;
 
 cursor:pointer;
 
 box-shadow:
-0 0 15px #ff7cff;
+
+0 5px 0 #d46bd0;
 
 }
 
 
-button:hover{
+.menu button:hover{
 
-transform:scale(1.1);
+transform:translateY(-5px);
 
 }
 
 
 
-/* layout */
 
-
-.content{
+.grid{
 
 display:grid;
 
@@ -159,28 +223,35 @@ gap:25px;
 
 
 
+/* cards */
+
+
 .card{
 
-background:
-rgba(255,255,255,.12);
+background:white;
 
-border:2px solid #ff8cff;
-
-border-radius:25px;
+border-radius:30px;
 
 padding:25px;
 
+border:4px solid #efa1ff;
+
 box-shadow:
-0 0 20px #b94cff;
+
+0 10px 0 #e6b1ff;
 
 }
 
 
+
+
 .title{
 
-font-size:25px;
+font-family:'Silkscreen';
 
-color:#ffd1ff;
+font-size:20px;
+
+color:#b14cff;
 
 margin-bottom:20px;
 
@@ -188,29 +259,25 @@ margin-bottom:20px;
 
 
 
+
 /* perfil */
-
-
-.profile{
-
-display:flex;
-
-align-items:center;
-
-gap:20px;
-
-}
 
 
 .avatar{
 
-width:130px;
-height:130px;
+width:150px;
 
-border-radius:30px;
+height:150px;
+
+border-radius:40px;
 
 background:
-linear-gradient(135deg,#ff7be9,#713cff);
+
+linear-gradient(
+135deg,
+#ff9eea,
+#a987ff
+);
 
 display:flex;
 
@@ -218,16 +285,74 @@ align-items:center;
 
 justify-content:center;
 
-font-size:60px;
+font-size:80px;
 
 box-shadow:
-0 0 25px pink;
+
+0 0 25px #ff8cdf;
+
+}
+
+
+.profile{
+
+display:flex;
+
+gap:20px;
+
+align-items:center;
 
 }
 
 
 
-/* imagens */
+
+.level{
+
+background:#ffe1fa;
+
+padding:15px;
+
+border-radius:20px;
+
+margin-top:20px;
+
+}
+
+
+.bar{
+
+height:20px;
+
+background:#ead5ff;
+
+border-radius:20px;
+
+overflow:hidden;
+
+}
+
+
+.progress{
+
+height:100%;
+
+width:80%;
+
+background:
+
+linear-gradient(
+90deg,
+#ff6bd6,
+#9d70ff
+);
+
+}
+
+
+
+
+/* galeria */
 
 
 .gallery{
@@ -245,70 +370,85 @@ gap:15px;
 
 width:100%;
 
-height:130px;
+height:140px;
 
 object-fit:cover;
 
-border-radius:20px;
+border-radius:25px;
 
-border:3px solid #ff8cff;
-
-box-shadow:
-0 0 15px #ff55ff;
+border:4px solid #ffb0ee;
 
 }
 
 
 
-/* barra inferior */
+
+
+/* games */
+
+
+.game{
+
+display:flex;
+
+align-items:center;
+
+gap:15px;
+
+background:#ffe9fa;
+
+padding:15px;
+
+border-radius:20px;
+
+margin:10px 0;
+
+}
+
+
+.icon{
+
+font-size:35px;
+
+}
+
+
 
 
 .footer{
 
 margin-top:25px;
 
-background:
-linear-gradient(90deg,#8c42ff,#ff55dd);
-
 padding:20px;
+
+background:#d18cff;
 
 border-radius:25px;
 
 text-align:center;
 
-}
-
-
-
-.social a{
-
-display:inline-block;
-
-margin:10px;
-
-padding:12px 20px;
-
-background:#ff7be8;
-
-border-radius:20px;
-
 color:white;
 
-text-decoration:none;
-
-box-shadow:
-0 0 15px pink;
-
 }
+
+
 
 
 @media(max-width:800px){
 
-.content{
+.grid{
 
 grid-template-columns:1fr;
 
 }
+
+
+.profile{
+
+flex-direction:column;
+
+}
+
 
 }
 
@@ -319,33 +459,35 @@ grid-template-columns:1fr;
 </head>
 
 
+
 <body>
 
 
-
-<div class="container">
-
-
-<div class="top">
-
-✦ PINK CYBER WORLD ✦
-
-</div>
+<div class="window">
 
 
+<div class="header">
 
-<div class="buttons">
-
-<button>HOME</button>
-<button>PROJECTS</button>
-<button>METRICS</button>
+♡ KAWAII GAMER PROFILE ♡
 
 </div>
 
 
 
+<div class="menu">
 
-<div class="content">
+<button>🏠 HOME</button>
+
+<button>🎮 GAMES</button>
+
+<button>✨ SKILLS</button>
+
+</div>
+
+
+
+<div class="grid">
+
 
 
 <div>
@@ -356,7 +498,7 @@ grid-template-columns:1fr;
 
 <div class="title">
 
-💜 ABOUT ME
+🌸 PLAYER PROFILE
 
 </div>
 
@@ -366,33 +508,64 @@ grid-template-columns:1fr;
 
 <div class="avatar">
 
-☆
-
+🐰
 
 </div>
 
 
 <div>
 
-<h2>ANA CLARA</h2>
+<h2>
+
+ANA CLARA
+
+</h2>
+
 
 <p>
-Digital creator ✦ student ✦ dreamer
+
+🎀 Gamer Girl
+
 </p>
 
 <p>
 
-♡ Welcome to my little pink universe ♡
+💜 Digital Creator
 
 </p>
 
-</div>
+
+<p>
+
+⭐ Level 99
+
+</p>
 
 
 </div>
 
 
 </div>
+
+
+<div class="level">
+
+XP: 8000 / 10000
+
+
+<div class="bar">
+
+<div class="progress"></div>
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
 
 
 
@@ -404,29 +577,49 @@ Digital creator ✦ student ✦ dreamer
 
 <div class="title">
 
-🌸 INFORMATION
+🎮 FAVORITE GAMES
 
 </div>
 
 
-<p>
+<div class="game">
 
-✦ Web designer<br><br>
+<div class="icon">
+🌸
+</div>
 
-✦ Creative projects<br><br>
+Cute Adventures
 
-✦ Technology lover<br><br>
+</div>
 
-✦ Pink aesthetic enthusiast
 
-</p>
+<div class="game">
+
+<div class="icon">
+💜
+</div>
+
+Fantasy RPG
+
+</div>
+
+
+<div class="game">
+
+<div class="icon">
+⭐
+</div>
+
+Minecraft
+
+</div>
+
 
 
 </div>
 
 
 </div>
-
 
 
 
@@ -439,7 +632,7 @@ Digital creator ✦ student ✦ dreamer
 
 <div class="title">
 
-🪐 GALLERY
+📸 GALLERY
 
 </div>
 
@@ -447,13 +640,13 @@ Digital creator ✦ student ✦ dreamer
 <div class="gallery">
 
 
-<img src="https://picsum.photos/300/200?1">
+<img src="https://picsum.photos/300/300?random=5">
 
-<img src="https://picsum.photos/300/200?2">
+<img src="https://picsum.photos/300/300?random=6">
 
-<img src="https://picsum.photos/300/200?3">
+<img src="https://picsum.photos/300/300?random=7">
 
-<img src="https://picsum.photos/300/200?4">
+<img src="https://picsum.photos/300/300?random=8">
 
 
 </div>
@@ -466,34 +659,38 @@ Digital creator ✦ student ✦ dreamer
 <br>
 
 
+
 <div class="card">
 
 
 <div class="title">
 
-💿 BEFORE FOLLOWING
+💌 ABOUT ME
 
 </div>
 
 
 <p>
 
-Please respect this space ✨
+♡ Welcome to my kawaii world ♡
 
 <br><br>
 
-I create, design and explore
-new digital worlds.
+I love games, art,
+technology and creating
+cute digital things.
+
+<br><br>
+
+🎀 Always leveling up!
 
 </p>
 
 
-
 </div>
 
 
 </div>
-
 
 
 </div>
@@ -504,20 +701,12 @@ new digital worlds.
 <div class="footer">
 
 
-<div class="social">
+♡ Instagram ♡ Github ♡ Discord ♡
 
 
-<a href="#">Instagram</a>
+<br><br>
 
-<a href="#">Github</a>
-
-<a href="#">TikTok</a>
-
-
-</div>
-
-
-© 2026 Pink Cyber Profile
+Made with pink pixels ✨
 
 
 </div>
@@ -528,4 +717,5 @@ new digital worlds.
 
 
 </body>
+
 </html>
