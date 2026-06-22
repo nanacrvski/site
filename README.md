@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 
@@ -640,7 +639,7 @@ Minecraft
 <div class="gallery">
 
 
-<img src="https://picsum.photos/300/300?random=5">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMSdYKTdoV-4BC2xHM2-GCQ6EyvfeeYym0vbUNMX4Qk0pGkz4UdQf_r0&s=10">
 
 <img src="https://picsum.photos/300/300?random=6">
 
