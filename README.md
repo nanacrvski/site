@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -559,7 +558,7 @@ aaaaaa
 
 <div class="image">
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMSdYKTdoV-4BC2xHM2-GCQ6EyvfeeYym0vbUNMX4Qk0pGkz4UdQf_r0&s=10">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKC297Mx4AKSaseO3H_IoBZwSqPDkCQsr_9P1O3mstezMStQNPc9kusGY&s=10">
 
 </div>
 
@@ -567,15 +566,7 @@ aaaaaa
 
 <div class="image">
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTowNlSKs2vOfeVsqAQCod10P9eyieE5aR1GD2kvj48A&s=10">
-
-</div>
-
-
-
-<div class="image">
-
-<img src="https://via.placeholder.com/300">
+<img src="https://i.pinimg.com/1200x/60/c8/f5/60c8f53cef8ebf5576593c5b13976cdd.jpg">
 
 </div>
 
@@ -584,6 +575,14 @@ aaaaaa
 <div class="image">
 
 <img src="https://via.placeholder.com/300">
+
+</div>
+
+
+
+<div class="image">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWWYMfUV95T-rm4Z7eND42kDPnUdPqpnBFZGOoyjkjEg&s=10">
 
 </div>
 
