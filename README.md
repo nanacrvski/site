@@ -1,100 +1,53 @@
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>♡ Kawaii Gamer Profile ♡</title>
-
+<title>Untitled</title>
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&family=Quicksand:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
 
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
+    box-sizing:border-box;
 }
-
 
 body{
 
-font-family:'Quicksand',sans-serif;
+    margin:0;
+    min-height:100vh;
 
-min-height:100vh;
+    background:
+    linear-gradient(120deg,#271c78,#9c62ff,#ff9fe8);
 
-background:
+    font-family:"Orbitron",sans-serif;
 
-linear-gradient(
-135deg,
-#ffd6f7,
-#d8c5ff,
-#ffb8e8
-);
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
-color:#6b3fa0;
-
-overflow-x:hidden;
-
+    overflow-x:hidden;
 }
 
 
-/* estrelas */
-
-body:before{
-
-content:"♡ ✦ ☆ ✧ ♡ ✦";
-
-position:fixed;
-
-font-size:50px;
-
-color:white;
-
-opacity:.5;
-
-animation:float 8s infinite linear;
-
-}
-
-
-@keyframes float{
-
-from{
-transform:translateY(100vh);
-}
-
-to{
-transform:translateY(-100vh);
-}
-
-}
-
-
-
-/* computador */
+/* janela */
 
 .window{
 
-width:90%;
+    width:690px;
+    background:
+    linear-gradient(#b69aff,#6454dd);
 
-max-width:1100px;
+    border-radius:25px;
 
-margin:40px auto;
+    padding:15px;
 
-background:#fff0ff;
-
-border:5px solid #d88cff;
-
-border-radius:35px;
-
-padding:20px;
-
-box-shadow:
-
-0 0 40px #ff8de8;
+    box-shadow:
+    0 0 30px #ff9cff,
+    inset 0 0 20px white;
 
 }
 
@@ -102,20 +55,14 @@ box-shadow:
 
 /* topo */
 
+.top{
 
-.header{
-
-height:70px;
+height:55px;
 
 background:
+linear-gradient(#f7b9ff,#7c4cff);
 
-linear-gradient(
-90deg,
-#ff8bdc,
-#b78cff
-);
-
-border-radius:25px;
+border-radius:20px;
 
 display:flex;
 
@@ -123,335 +70,319 @@ align-items:center;
 
 justify-content:center;
 
-font-family:'Silkscreen';
+position:relative;
 
-font-size:25px;
+font-size:22px;
 
 color:white;
 
-box-shadow:inset 0 0 20px white;
+text-shadow:0 0 8px white;
 
 }
 
 
-.dots{
+.buttons{
 
 position:absolute;
+right:20px;
 
-margin-left:20px;
+display:flex;
+gap:10px;
 
 }
 
 
-.dot{
+.circle{
 
-display:inline-block;
-
-width:18px;
-
-height:18px;
+width:35px;
+height:35px;
 
 border-radius:50%;
 
-background:white;
+background:
+radial-gradient(circle,#ffb5ff,#8b40d8);
 
-margin:5px;
+border:2px solid #d8b4ff;
 
 }
 
 
 
+/* navegação */
 
 
-.menu{
+.nav{
 
 display:flex;
+gap:12px;
 
-justify-content:center;
-
-gap:20px;
-
-margin:25px;
+margin:18px 10px;
 
 }
 
 
-.menu button{
+.nav button{
+
+flex:1;
 
 border:none;
 
-padding:14px 30px;
+padding:12px;
 
 border-radius:30px;
 
-background:#ffb5ec;
+background:
+linear-gradient(#ff9ff0,#7555ff);
 
 color:white;
 
+font-family:inherit;
+
 font-weight:bold;
 
-font-size:16px;
-
-cursor:pointer;
+font-size:14px;
 
 box-shadow:
-
-0 5px 0 #d46bd0;
-
-}
-
-
-.menu button:hover{
-
-transform:translateY(-5px);
+inset 0 0 10px white,
+0 0 10px #e67aff;
 
 }
 
 
 
+/* titulo */
 
-.grid{
+.viewer{
+
+background:#7654e8;
+
+color:white;
+
+padding:8px 25px;
+
+border-radius:20px;
+
+width:max-content;
+
+margin-bottom:15px;
+
+font-size:14px;
+
+}
+
+
+
+/* conteudo */
+
+
+.content{
+
+background:
+linear-gradient(130deg,#ffffff,#f5ddff);
+
+border-radius:10px;
+
+padding:20px;
 
 display:grid;
 
 grid-template-columns:1fr 1fr;
 
-gap:25px;
-
-}
-
-
-
-/* cards */
-
-
-.card{
-
-background:white;
-
-border-radius:30px;
-
-padding:25px;
-
-border:4px solid #efa1ff;
-
-box-shadow:
-
-0 10px 0 #e6b1ff;
+gap:15px;
 
 }
 
 
 
 
-.title{
+.section{
 
-font-family:'Silkscreen';
+background:#fff;
 
-font-size:20px;
+padding:12px;
 
-color:#b14cff;
+border-radius:10px;
 
-margin-bottom:20px;
+color:#6b44c7;
+
+}
+
+
+
+/* titulo seção */
+
+.section-title{
+
+background:#7954e8;
+
+color:white;
+
+padding:8px;
+
+border-radius:10px 10px 0 0;
+
+font-size:15px;
 
 }
 
 
 
 
-/* perfil */
+h1{
 
+font-size:30px;
 
-.avatar{
+margin:10px 0;
 
-width:150px;
-
-height:150px;
-
-border-radius:40px;
-
-background:
-
-linear-gradient(
-135deg,
-#ff9eea,
-#a987ff
-);
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-font-size:80px;
-
-box-shadow:
-
-0 0 25px #ff8cdf;
+color:#6342cc;
 
 }
 
 
-.profile{
+p{
 
-display:flex;
+font-family:Arial,sans-serif;
 
-gap:20px;
+font-size:14px;
 
-align-items:center;
+line-height:1.5;
+
+color:#7158c8;
 
 }
 
 
 
-
-.level{
-
-background:#ffe1fa;
-
-padding:15px;
-
-border-radius:20px;
-
-margin-top:20px;
-
-}
-
-
-.bar{
-
-height:20px;
-
-background:#ead5ff;
-
-border-radius:20px;
-
-overflow:hidden;
-
-}
-
-
-.progress{
-
-height:100%;
-
-width:80%;
-
-background:
-
-linear-gradient(
-90deg,
-#ff6bd6,
-#9d70ff
-);
-
-}
-
-
-
-
-/* galeria */
+/* imagens */
 
 
 .gallery{
 
 display:grid;
 
-grid-template-columns:repeat(2,1fr);
+grid-template-columns:1fr 1fr;
 
-gap:15px;
-
-}
-
-
-.gallery img{
-
-width:100%;
-
-height:140px;
-
-object-fit:cover;
-
-border-radius:25px;
-
-border:4px solid #ffb0ee;
+gap:8px;
 
 }
 
 
+.image{
+
+height:110px;
+
+border-radius:15px;
+
+border:3px solid #9d74ff;
+
+background:
+
+linear-gradient(
+45deg,
+#ffb6ef,
+#7a6cff
+);
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+color:white;
+
+font-size:12px;
+
+}
 
 
 
-/* games */
+.big-image{
+
+grid-column:span 2;
+
+height:130px;
+
+}
 
 
-.game{
+
+
+/* rodape */
+
+.footer{
+
+margin-top:15px;
+
+height:55px;
+
+background:
+linear-gradient(#ffb2f6,#7455df);
+
+border-radius:20px;
 
 display:flex;
 
 align-items:center;
 
-gap:15px;
-
-background:#ffe9fa;
-
-padding:15px;
-
-border-radius:20px;
-
-margin:10px 0;
-
-}
-
-
-.icon{
-
-font-size:35px;
-
-}
-
-
-
-
-.footer{
-
-margin-top:25px;
-
-padding:20px;
-
-background:#d18cff;
-
-border-radius:25px;
-
-text-align:center;
+justify-content:center;
 
 color:white;
 
+font-size:20px;
+
+box-shadow:inset 0 0 15px white;
+
 }
 
 
 
+/* social */
 
-@media(max-width:800px){
+.social{
 
-.grid{
+display:flex;
+
+gap:10px;
+
+margin-bottom:10px;
+
+}
+
+
+.social div{
+
+height:40px;
+width:40px;
+
+border-radius:50%;
+
+background:#7855e8;
+
+color:white;
+
+display:flex;
+
+align-items:center;
+justify-content:center;
+
+}
+
+
+
+@media(max-width:700px){
+
+.window{
+width:95%;
+}
+
+.content{
 
 grid-template-columns:1fr;
 
 }
 
-
-.profile{
-
-flex-direction:column;
-
 }
-
-
-}
-
-
 
 </style>
 
@@ -465,78 +396,172 @@ flex-direction:column;
 <div class="window">
 
 
-<div class="header">
+<div class="top">
 
-♡ KAWAII GAMER PROFILE ♡
+Untitled
+
+<div class="buttons">
+
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+
+</div>
 
 </div>
 
 
 
-<div class="menu">
+<div class="nav">
 
-<button>🏠 HOME</button>
-
-<button>🎮 GAMES</button>
-
-<button>✨ SKILLS</button>
+<button>home</button>
+<button>platforms</button>
+<button>metrics</button>
 
 </div>
 
 
 
-<div class="grid">
+<div class="viewer">
+
+CURRENTLY VIEWING: ABOUT ME
+
+</div>
+
+
+
+<div class="content">
+
+
+<div>
+
+
+<div class="section">
+
+<div class="section-title">
+ⓘ | About Me
+</div>
+
+
+<h1>
+▣ NAME
+</h1>
+
+<p>
+INFO / INFO / INFO
+</p>
+
+
+<p>
+
+Card by xiu.carrd.co
+
+enim, nec blandit lectus interdum non.
+Nulla sed euismod velit,
+euismod iaculis lectus.
+
+Suspendisse maximus,
+nisl a eleifend auctor,
+lectus libero luctus ex.
+
+</p>
+
+
+</div>
+
+
+
+<br>
+
+
+<div class="gallery">
+
+<div class="image">
+IMAGE HERE
+</div>
+
+<div class="image">
+IMAGE HERE
+</div>
+
+<div class="image big-image">
+BIG IMAGE HERE
+</div>
+
+</div>
+
+
+
+</div>
+
 
 
 
 <div>
 
 
-<div class="card">
+<div class="social">
 
-
-<div class="title">
-
-🌸 PLAYER PROFILE
-
-</div>
-
-
-<div class="profile">
-
-
-<div class="avatar">
-
-🐰
+<div>◎</div>
+<div>▶</div>
+<div>♪</div>
 
 </div>
 
 
-<div>
+
+<div class="gallery">
+
+<div class="image">
+IMAGE
+</div>
+
+<div class="image">
+IMAGE
+</div>
+
+<div class="image">
+IMAGE
+</div>
+
+<div class="image">
+IMAGE
+</div>
+
+</div>
+
+
+
+<br>
+
+
+<div class="section">
+
+
+<div class="section-title">
+
+Before Following ⚠
+
+</div>
+
 
 <h2>
-
-ANA CLARA
-
+▣ TITLE HERE
 </h2>
 
 
 <p>
 
-🎀 Gamer Girl
+Check my carrd before using.
 
-</p>
+Nulla sed euismod velit,
+lectus.
 
-<p>
+<strong>
+Suspendisse maximus
+</strong>
 
-💜 Digital Creator
-
-</p>
-
-
-<p>
-
-⭐ Level 99
+nisl a eleifend auctor.
 
 </p>
 
@@ -544,169 +569,18 @@ ANA CLARA
 </div>
 
 
-</div>
-
-
-<div class="level">
-
-XP: 8000 / 10000
-
-
-<div class="bar">
-
-<div class="progress"></div>
-
-</div>
-
 
 </div>
 
 
 
 </div>
-
-
-
-
-<br>
-
-
-
-<div class="card">
-
-<div class="title">
-
-🎮 FAVORITE GAMES
-
-</div>
-
-
-<div class="game">
-
-<div class="icon">
-🌸
-</div>
-
-Cute Adventures
-
-</div>
-
-
-<div class="game">
-
-<div class="icon">
-💜
-</div>
-
-Fantasy RPG
-
-</div>
-
-
-<div class="game">
-
-<div class="icon">
-⭐
-</div>
-
-Minecraft
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-
-
-<div>
-
-
-<div class="card">
-
-
-<div class="title">
-
-📸 GALLERY
-
-</div>
-
-
-<div class="gallery">
-
-
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMSdYKTdoV-4BC2xHM2-GCQ6EyvfeeYym0vbUNMX4Qk0pGkz4UdQf_r0&s=10">
-
-<img src="https://picsum.photos/300/300?random=6">
-
-<img src="https://picsum.photos/300/300?random=7">
-
-<img src="https://picsum.photos/300/300?random=8">
-
-
-</div>
-
-
-</div>
-
-
-
-<br>
-
-
-
-<div class="card">
-
-
-<div class="title">
-
-💌 ABOUT ME
-
-</div>
-
-
-<p>
-
-♡ Welcome to my kawaii world ♡
-
-<br><br>
-
-I love games, art,
-technology and creating
-cute digital things.
-
-<br><br>
-
-🎀 Always leveling up!
-
-</p>
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
 
 
 
 <div class="footer">
 
-
-♡ Instagram ♡ Github ♡ Discord ♡
-
-
-<br><br>
-
-Made with pink pixels ✨
-
+Untitled
 
 </div>
 
@@ -716,5 +590,4 @@ Made with pink pixels ✨
 
 
 </body>
-
 </html>
