@@ -17,9 +17,9 @@ body{
 margin:0;
 min-height:100vh;
 
-/* ROSA PASTEL + TOQUE VERDE */
+/* ROSA PASTEL PURO */
 background:
-linear-gradient(120deg,#ffe4f2,#ffd6ec,#fff0f8,#eaffea);
+linear-gradient(120deg,#ffe4f2,#ffd6ec,#fff0f8,#ffeaf5);
 
 font-family:"Orbitron",sans-serif;
 display:flex;
@@ -30,16 +30,16 @@ align-items:center;
 .window{
 width:700px;
 
-/* ROSA DOMINANTE COM VERDE SUAVE */
+/* ROSA PASTEL SUAVE */
 background:
-linear-gradient(135deg,#ffe0f0,#ffd1ea,#f0fff4);
+linear-gradient(135deg,#ffe0f0,#ffd1ea,#fff5fb);
 
 border-radius:25px;
 padding:15px;
 
 box-shadow:
 0 0 18px #ff9ad5,
-0 0 12px #39ff14,
+0 0 10px #ffc1e3,
 inset 0 0 15px #ffffff;
 }
 
@@ -48,9 +48,9 @@ inset 0 0 15px #ffffff;
 .top{
 height:55px;
 
-/* ROSA + VERDE NEON LEVE */
+/* ROSA PASTEL */
 background:
-linear-gradient(90deg,#ff9ad5,#ffb6dc,#39ff14);
+linear-gradient(90deg,#ffb6dc,#ffd1ea,#ffe4f2);
 
 border-radius:20px;
 
@@ -59,8 +59,8 @@ justify-content:center;
 align-items:center;
 
 font-size:22px;
-color:#fff;
-text-shadow:0 0 8px #ff4fa3;
+color:#ffffff;
+text-shadow:0 0 8px #ff9ad5;
 
 position:relative;
 }
@@ -77,11 +77,11 @@ height:35px;
 width:35px;
 border-radius:50%;
 
-/* ROSA COM NEON VERDE DETALHE */
+/* ROSA CLARO */
 background:
-radial-gradient(circle,#ffd1ea,#39ff14);
+radial-gradient(circle,#ffffff,#ffd1ea);
 
-border:2px solid #ff9ad5;
+border:2px solid #ffb6dc;
 }
 
 /* MENU */
@@ -98,17 +98,17 @@ border:none;
 padding:12px;
 border-radius:30px;
 
-/* ROSA + TOQUE VERDE */
+/* ROSA PASTEL */
 background:
-linear-gradient(90deg,#ffb6dc,#ffd1ea,#c8ffd6);
+linear-gradient(90deg,#ffb6dc,#ffd1ea,#ffe4f2);
 
-color:#fff;
+color:white;
 font-family:inherit;
 cursor:pointer;
 
 box-shadow:
 inset 0 0 10px #fff,
-0 0 8px #39ff14;
+0 0 6px #ff9ad5;
 }
 
 .viewer{
@@ -119,16 +119,13 @@ color:#ff4fa3;
 width:max-content;
 font-size:14px;
 font-weight:bold;
-box-shadow:0 0 6px #39ff14;
 }
-
-/* CONTEÚDO */
 
 .content{
 margin-top:15px;
 
 background:
-linear-gradient(130deg,#ffffff,#ffeaf5,#eaffea);
+linear-gradient(130deg,#ffffff,#ffeaf5,#fff5fb);
 
 border-radius:12px;
 padding:20px;
@@ -146,7 +143,7 @@ box-shadow:0 0 10px #ffb6dc;
 }
 
 .section-title{
-background:linear-gradient(90deg,#ffb6dc,#39ff14);
+background:linear-gradient(90deg,#ffb6dc,#ffd1ea);
 color:white;
 padding:8px;
 border-radius:10px;
@@ -156,7 +153,7 @@ font-weight:bold;
 h1{
 color:#ff4fa3;
 font-size:30px;
-text-shadow:0 0 5px #39ff14;
+text-shadow:0 0 5px #ffd1ea;
 }
 
 p{
@@ -177,12 +174,12 @@ gap:8px;
 height:110px;
 border-radius:15px;
 
-border:3px solid #c8ffd6;
+border:3px solid #ffd1ea;
 
 overflow:hidden;
 
 background:
-linear-gradient(45deg,#ffd1ea,#c8ffd6);
+linear-gradient(45deg,#ffd1ea,#ffe4f2);
 }
 
 .image img{
@@ -208,13 +205,13 @@ gap:10px;
 width:40px;
 height:40px;
 border-radius:50%;
-background:linear-gradient(90deg,#ffb6dc,#39ff14);
+background:linear-gradient(90deg,#ffb6dc,#ffd1ea);
 color:white;
 display:flex;
 align-items:center;
 justify-content:center;
 font-weight:bold;
-box-shadow:0 0 8px #39ff14;
+box-shadow:0 0 8px #ffb6dc;
 }
 
 /* FOOTER */
@@ -225,7 +222,7 @@ margin-top:15px;
 border-radius:20px;
 
 background:
-linear-gradient(90deg,#ffb6dc,#ffd1ea,#39ff14);
+linear-gradient(90deg,#ffb6dc,#ffd1ea,#ffe4f2);
 
 display:flex;
 align-items:center;
@@ -233,7 +230,7 @@ justify-content:center;
 
 font-size:20px;
 color:white;
-text-shadow:0 0 8px #39ff14;
+text-shadow:0 0 8px #ff9ad5;
 }
 
 /* RESPONSIVO */
@@ -289,7 +286,7 @@ anac
 
 <h1>▣ ana clara</h1>
 
-<p>rosa pastel com neon verde 💗💚</p>
+<p>rosa pastel kawaii 💗</p>
 
 <p>
 aaaaaa.
