@@ -314,7 +314,7 @@ aaaaaa
 </div>
 
 <div class="image big-image">
-<img src="https://pics.craiyon.com/2023-10-30/f89e03c4f7e14049a856090721960807.webp">
+<img src="https://images2.alphacoders.com/121/1212645.jpg">
 </div>
 
 </div>
@@ -338,7 +338,7 @@ aaaaaa
 </div>
 
 <div class="image">
-<img src="https://media.craiyon.com/2023-11-02/27ad4af3fc794b0682971a0990f0e861.webp">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq3jqSkOdfXctz78kooqhL1WeSMm6oNmVZsQ&s">
 </div>
 
 <div class="image">
@@ -346,7 +346,7 @@ aaaaaa
 </div>
 
 <div class="image">
-<img src="https://i.pinimg.com/236x/2f/fe/2b/2ffe2b8acd23a1e25442298be5711067.jpg">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2jQg4ljrjbx2feMUvFpEOwPL3DigEk0EHJg&s">
 </div>
 
 </div>
