@@ -17,9 +17,9 @@ body{
 margin:0;
 min-height:100vh;
 
-/* ROSA GRADIENTE PRINCIPAL */
+/* ROSA + VERDE NEON */
 background:
-linear-gradient(120deg,#ff4fa3,#ff8cc6,#ffd1ea);
+linear-gradient(120deg,#ff4fa3,#39ff14,#ff8cc6);
 
 font-family:"Orbitron",sans-serif;
 display:flex;
@@ -30,15 +30,16 @@ align-items:center;
 .window{
 width:700px;
 
-/* ROSA SOFT + PINK NEON */
+/* ROSA + NEON GREEN MIX */
 background:
-linear-gradient(#ffd1ea,#ff5fb2);
+linear-gradient(135deg,#ff5fb2,#39ff14);
 
 border-radius:25px;
 padding:15px;
 
 box-shadow:
-0 0 35px #ff4fa3,
+0 0 35px #39ff14,
+0 0 25px #ff4fa3,
 inset 0 0 20px #fff;
 }
 
@@ -48,7 +49,7 @@ inset 0 0 20px #fff;
 height:55px;
 
 background:
-linear-gradient(#ff9ad5,#ff4fa3);
+linear-gradient(90deg,#39ff14,#ff4fa3);
 
 border-radius:20px;
 
@@ -58,7 +59,7 @@ align-items:center;
 
 font-size:22px;
 color:white;
-text-shadow:0 0 10px #fff;
+text-shadow:0 0 10px #39ff14;
 
 position:relative;
 }
@@ -75,9 +76,9 @@ height:35px;
 width:35px;
 border-radius:50%;
 
-/* ROSA NEON CIRCLES */
+/* NEON + ROSA */
 background:
-radial-gradient(circle,#ffd1ea,#ff4fa3);
+radial-gradient(circle,#39ff14,#ff4fa3);
 
 border:2px solid white;
 }
@@ -96,25 +97,27 @@ border:none;
 padding:12px;
 border-radius:30px;
 
-/* BOTÕES ROSA GAMER */
+/* BOTÕES NEON MIX */
 background:
-linear-gradient(#ff7bc2,#ff4fa3);
+linear-gradient(90deg,#39ff14,#ff4fa3);
 
 color:white;
 font-family:inherit;
 cursor:pointer;
 
 box-shadow:
-inset 0 0 10px #fff;
+inset 0 0 10px #fff,
+0 0 10px #39ff14;
 }
 
 .viewer{
-background:#ff5fb2;
+background:#39ff14;
 padding:8px 20px;
 border-radius:20px;
-color:white;
+color:black;
 width:max-content;
 font-size:14px;
+font-weight:bold;
 }
 
 /* CONTEÚDO */
@@ -123,7 +126,7 @@ font-size:14px;
 margin-top:15px;
 
 background:
-linear-gradient(130deg,#fff,#ffe3f3);
+linear-gradient(130deg,#ffffff,#d6ffe0);
 
 border-radius:12px;
 padding:20px;
@@ -137,23 +140,26 @@ gap:15px;
 background:white;
 padding:12px;
 border-radius:12px;
+box-shadow:0 0 10px #39ff14;
 }
 
 .section-title{
-background:#ff4fa3;
-color:white;
+background:#39ff14;
+color:black;
 padding:8px;
 border-radius:10px;
+font-weight:bold;
 }
 
 h1{
 color:#ff4fa3;
 font-size:30px;
+text-shadow:0 0 5px #39ff14;
 }
 
 p{
 font-family:Arial;
-color:#c2185b;
+color:#1b5e20;
 line-height:1.5;
 }
 
@@ -169,14 +175,12 @@ gap:8px;
 height:110px;
 border-radius:15px;
 
-/* BORDA ROSA */
-border:3px solid #ff7bc2;
+border:3px solid #39ff14;
 
 overflow:hidden;
 
-/* FUNDO ROSA */
 background:
-linear-gradient(45deg,#ffb6dc,#ff4fa3);
+linear-gradient(45deg,#39ff14,#ff4fa3);
 }
 
 .image img{
@@ -202,11 +206,13 @@ gap:10px;
 width:40px;
 height:40px;
 border-radius:50%;
-background:#ff4fa3;
-color:white;
+background:#39ff14;
+color:black;
 display:flex;
 align-items:center;
 justify-content:center;
+font-weight:bold;
+box-shadow:0 0 10px #ff4fa3;
 }
 
 /* FOOTER */
@@ -216,9 +222,8 @@ height:55px;
 margin-top:15px;
 border-radius:20px;
 
-/* FOOTER ROSA NEON */
 background:
-linear-gradient(#ff9ad5,#ff4fa3);
+linear-gradient(90deg,#39ff14,#ff4fa3);
 
 display:flex;
 align-items:center;
@@ -226,6 +231,7 @@ justify-content:center;
 
 font-size:20px;
 color:white;
+text-shadow:0 0 10px #39ff14;
 }
 
 /* RESPONSIVO */
@@ -281,7 +287,7 @@ anac
 
 <h1>▣ ana clara</h1>
 
-<p>cigarro / cigarro / cigarro</p>
+<p>mix rosa + neon green</p>
 
 <p>
 aaaaaa.
@@ -296,15 +302,15 @@ aaaaaa
 <div class="gallery">
 
 <div class="image">
-<img src="https://i.pinimg.com/474x/d8/a9/f3/d8a9f34eed4cbfbf19261395d4166004.jpg">
+<img src="https://i.pinimg.com/1200x/c6/a8/54/c6a854f4eb2aade847ffc6a19d4309b7.jpg">
 </div>
 
 <div class="image">
-<img src="https://ih1.redbubble.net/image.5483471245.1357/flat,750x,075,f-pad,750x1000,f8f8f8.jpg">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9F8BjC81NEoZ8vlFkH0BXTuST8WtWMqUpypP9TKzBkoDebE59sCwwv-A&s=10">
 </div>
 
 <div class="image big-image">
-<img src="https://i.ebayimg.com/images/g/8j0AAOSwU-plOF5h/s-l1200.jpg">
+<img src="https://i.pinimg.com/736x/13/fc/6a/13fc6ac9deb3c55e2bdb73fec63041c4.jpg">
 </div>
 
 </div>
