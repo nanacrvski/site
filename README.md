@@ -312,7 +312,7 @@ aaaaaa
 </div>
 
 <div class="image big-image">
-<img src="https://i.pinimg.com/originals/07/1f/69/071f6902977e9c6210fce848ac0188c7.jpg">
+<img src="https://pics.craiyon.com/2023-10-30/f89e03c4f7e14049a856090721960807.webp">
 </div>
 
 </div>
