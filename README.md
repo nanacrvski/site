@@ -331,7 +331,7 @@ aaaaaa
 <div class="gallery">
 
 <div class="image">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKC297Mx4AKSaseO3H_IoBZwSqPDkCQsr_9P1O3mstezMStQNPc9kusGY&s=10">
+<img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI1LTA4L3NyLWltYWdlLTIzMDcyMDI1LXdzOS1zLTUwMC1wb3N0ZXItbWV4b2xoeHcuanBn.jpg">
 </div>
 
 <div class="image">
@@ -339,7 +339,7 @@ aaaaaa
 </div>
 
 <div class="image">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9G4EFM9mqpMqTThTJ9r_LSX58pyJ1NGeDmHnOQdRP9w&s=10">
+<img src="https://i.pinimg.com/736x/29/3d/b6/293db6f3b9901c375ef8de2bbb71575d.jpg">
 </div>
 
 <div class="image">
