@@ -332,19 +332,19 @@ aaaaaa
 <div class="gallery">
 
 <div class="image">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKC297Mx4AKSaseO3H_IoBZwSqPDkCQsr_9P1O3mstezMStQNPc9kusGY&s=10">
+<img src="https://i.pinimg.com/736x/29/3d/b6/293db6f3b9901c375ef8de2bbb71575d.jpg">
 </div>
 
 <div class="image">
-<img src="https://i.pinimg.com/1200x/60/c8/f5/60c8f53cef8ebf5576593c5b13976cdd.jpg">
+<img src="https://media.craiyon.com/2023-11-02/27ad4af3fc794b0682971a0990f0e861.webp">
 </div>
 
 <div class="image">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9G4EFM9mqpMqTThTJ9r_LSX58pyJ1NGeDmHnOQdRP9w&s=10">
+<img src="https://images.steamusercontent.com/ugc/4105585931633010286/2BF23EB79F3ABF6F7721714F6DFC7F9027992548/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true">
 </div>
 
 <div class="image">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWWYMfUV95T-rm4Z7eND42kDPnUdPqpnBFZGOoyjkjEg&s=10">
+<img src="https://i.pinimg.com/236x/2f/fe/2b/2ffe2b8acd23a1e25442298be5711067.jpg">
 </div>
 
 </div>
