@@ -312,7 +312,7 @@ aaaaaa
 </div>
 
 <div class="image big-image">
-<img src="https://ih1.redbubble.net/image.5483471245.1357/flat,750x,075,f-pad,750x1000,f8f8f8.jpg">
+<img src="https://i.pinimg.com/originals/07/1f/69/071f6902977e9c6210fce848ac0188c7.jpg">
 </div>
 
 </div>
