@@ -17,9 +17,9 @@ body{
 margin:0;
 min-height:100vh;
 
-/* ROSA DOMINANTE + VERDE MAIS PRESENTE */
+/* ROSA CLARO PASTEL */
 background:
-linear-gradient(120deg,#ff4fa3,#ff8cc6,#ffd1ea,#b6ffb6);
+linear-gradient(120deg,#ffe4f2,#ffd6ec,#fff0f8,#eaffea);
 
 font-family:"Orbitron",sans-serif;
 display:flex;
@@ -30,17 +30,17 @@ align-items:center;
 .window{
 width:700px;
 
-/* ROSA + VERDE EQUILIBRADO */
+/* ROSA CLARO */
 background:
-linear-gradient(135deg,#ff5fb2,#ff8cc6,#c8ffc8);
+linear-gradient(135deg,#ffe0f0,#ffd1ea,#fff5fb);
 
 border-radius:25px;
 padding:15px;
 
 box-shadow:
-0 0 30px #ff4fa3,
-0 0 25px #39ff14,
-inset 0 0 20px #ffffff;
+0 0 20px #ff9ad5,
+0 0 10px #39ff14,
+inset 0 0 15px #ffffff;
 }
 
 /* TOPO */
@@ -48,9 +48,9 @@ inset 0 0 20px #ffffff;
 .top{
 height:55px;
 
-/* ROSA + VERDE MAIS VISÍVEL */
+/* ROSA PASTEL COM BRILHO */
 background:
-linear-gradient(90deg,#ff4fa3,#39ff14);
+linear-gradient(90deg,#ff9ad5,#ffd1ea);
 
 border-radius:20px;
 
@@ -59,8 +59,8 @@ justify-content:center;
 align-items:center;
 
 font-size:22px;
-color:white;
-text-shadow:0 0 10px #39ff14;
+color:#fff;
+text-shadow:0 0 8px #ff4fa3;
 
 position:relative;
 }
@@ -77,11 +77,11 @@ height:35px;
 width:35px;
 border-radius:50%;
 
-/* VERDE MAIS FORTE */
+/* ROSA + TOQUE VERDE SUAVE */
 background:
-radial-gradient(circle,#39ff14,#ff8cc6);
+radial-gradient(circle,#fff,#bfffd0);
 
-border:2px solid white;
+border:2px solid #ff9ad5;
 }
 
 /* MENU */
@@ -98,24 +98,24 @@ border:none;
 padding:12px;
 border-radius:30px;
 
-/* ROSA + VERDE */
+/* ROSA CLARO */
 background:
-linear-gradient(90deg,#ff4fa3,#39ff14);
+linear-gradient(90deg,#ffb6dc,#ffd1ea);
 
-color:white;
+color:#fff;
 font-family:inherit;
 cursor:pointer;
 
 box-shadow:
 inset 0 0 10px #fff,
-0 0 10px #39ff14;
+0 0 6px #ff9ad5;
 }
 
 .viewer{
-background:#39ff14;
+background:#ffd1ea;
 padding:8px 20px;
 border-radius:20px;
-color:black;
+color:#ff4fa3;
 width:max-content;
 font-size:14px;
 font-weight:bold;
@@ -127,7 +127,7 @@ font-weight:bold;
 margin-top:15px;
 
 background:
-linear-gradient(130deg,#ffffff,#d6ffd6,#ffe3f3);
+linear-gradient(130deg,#ffffff,#ffeaf5);
 
 border-radius:12px;
 padding:20px;
@@ -141,12 +141,12 @@ gap:15px;
 background:white;
 padding:12px;
 border-radius:12px;
-box-shadow:0 0 12px #39ff14;
+box-shadow:0 0 10px #ffb6dc;
 }
 
 .section-title{
-background:#39ff14;
-color:black;
+background:#ffb6dc;
+color:white;
 padding:8px;
 border-radius:10px;
 font-weight:bold;
@@ -155,12 +155,12 @@ font-weight:bold;
 h1{
 color:#ff4fa3;
 font-size:30px;
-text-shadow:0 0 6px #39ff14;
+text-shadow:0 0 4px #ffd1ea;
 }
 
 p{
 font-family:Arial;
-color:#1b5e20;
+color:#b3125c;
 line-height:1.5;
 }
 
@@ -176,12 +176,12 @@ gap:8px;
 height:110px;
 border-radius:15px;
 
-border:3px solid #39ff14;
+border:3px solid #ffd1ea;
 
 overflow:hidden;
 
 background:
-linear-gradient(45deg,#ff8cc6,#39ff14);
+linear-gradient(45deg,#ffd1ea,#ffe4f2);
 }
 
 .image img{
@@ -207,13 +207,13 @@ gap:10px;
 width:40px;
 height:40px;
 border-radius:50%;
-background:#39ff14;
-color:black;
+background:#ffb6dc;
+color:white;
 display:flex;
 align-items:center;
 justify-content:center;
 font-weight:bold;
-box-shadow:0 0 10px #ff4fa3;
+box-shadow:0 0 8px #ffd1ea;
 }
 
 /* FOOTER */
@@ -224,7 +224,7 @@ margin-top:15px;
 border-radius:20px;
 
 background:
-linear-gradient(90deg,#ff4fa3,#39ff14);
+linear-gradient(90deg,#ffb6dc,#ffd1ea);
 
 display:flex;
 align-items:center;
@@ -232,7 +232,7 @@ justify-content:center;
 
 font-size:20px;
 color:white;
-text-shadow:0 0 10px #39ff14;
+text-shadow:0 0 8px #ff4fa3;
 }
 
 /* RESPONSIVO */
@@ -288,7 +288,7 @@ anac
 
 <h1>▣ ana clara</h1>
 
-<p>pink + neon green balance 💗💚</p>
+<p>rosa pastel kawaii 💗</p>
 
 <p>
 aaaaaa.
