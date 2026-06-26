@@ -17,9 +17,9 @@ body{
 margin:0;
 min-height:100vh;
 
-/* MAIS ROSA, VERDE SÓ DE DETALHE */
+/* ROSA DOMINANTE + VERDE MAIS PRESENTE */
 background:
-linear-gradient(120deg,#ff4fa3,#ff8cc6,#ffd1ea,#eaffea);
+linear-gradient(120deg,#ff4fa3,#ff8cc6,#ffd1ea,#b6ffb6);
 
 font-family:"Orbitron",sans-serif;
 display:flex;
@@ -30,17 +30,17 @@ align-items:center;
 .window{
 width:700px;
 
-/* ROSA DOMINANTE */
+/* ROSA + VERDE EQUILIBRADO */
 background:
-linear-gradient(135deg,#ff5fb2,#ff8cc6,#ffd1ea);
+linear-gradient(135deg,#ff5fb2,#ff8cc6,#c8ffc8);
 
 border-radius:25px;
 padding:15px;
 
 box-shadow:
-0 0 35px #ff4fa3,
-0 0 15px #39ff14,
-inset 0 0 20px #fff;
+0 0 30px #ff4fa3,
+0 0 25px #39ff14,
+inset 0 0 20px #ffffff;
 }
 
 /* TOPO */
@@ -48,9 +48,9 @@ inset 0 0 20px #fff;
 .top{
 height:55px;
 
-/* ROSA FORTE COM TOQUE VERDE */
+/* ROSA + VERDE MAIS VISÍVEL */
 background:
-linear-gradient(90deg,#ff4fa3,#ff8cc6);
+linear-gradient(90deg,#ff4fa3,#39ff14);
 
 border-radius:20px;
 
@@ -60,7 +60,7 @@ align-items:center;
 
 font-size:22px;
 color:white;
-text-shadow:0 0 10px #ff4fa3;
+text-shadow:0 0 10px #39ff14;
 
 position:relative;
 }
@@ -77,9 +77,9 @@ height:35px;
 width:35px;
 border-radius:50%;
 
-/* VERDE SÓ COMO ACENTO */
+/* VERDE MAIS FORTE */
 background:
-radial-gradient(circle,#ffd1ea,#39ff14);
+radial-gradient(circle,#39ff14,#ff8cc6);
 
 border:2px solid white;
 }
@@ -98,9 +98,9 @@ border:none;
 padding:12px;
 border-radius:30px;
 
-/* ROSA PRINCIPAL */
+/* ROSA + VERDE */
 background:
-linear-gradient(90deg,#ff4fa3,#ff8cc6);
+linear-gradient(90deg,#ff4fa3,#39ff14);
 
 color:white;
 font-family:inherit;
@@ -108,14 +108,14 @@ cursor:pointer;
 
 box-shadow:
 inset 0 0 10px #fff,
-0 0 8px #ff4fa3;
+0 0 10px #39ff14;
 }
 
 .viewer{
-background:#ff4fa3;
+background:#39ff14;
 padding:8px 20px;
 border-radius:20px;
-color:white;
+color:black;
 width:max-content;
 font-size:14px;
 font-weight:bold;
@@ -127,7 +127,7 @@ font-weight:bold;
 margin-top:15px;
 
 background:
-linear-gradient(130deg,#ffffff,#ffe3f3);
+linear-gradient(130deg,#ffffff,#d6ffd6,#ffe3f3);
 
 border-radius:12px;
 padding:20px;
@@ -141,12 +141,12 @@ gap:15px;
 background:white;
 padding:12px;
 border-radius:12px;
-box-shadow:0 0 10px #ff4fa3;
+box-shadow:0 0 12px #39ff14;
 }
 
 .section-title{
-background:#ff4fa3;
-color:white;
+background:#39ff14;
+color:black;
 padding:8px;
 border-radius:10px;
 font-weight:bold;
@@ -155,12 +155,12 @@ font-weight:bold;
 h1{
 color:#ff4fa3;
 font-size:30px;
-text-shadow:0 0 5px #ffd1ea;
+text-shadow:0 0 6px #39ff14;
 }
 
 p{
 font-family:Arial;
-color:#b3125c;
+color:#1b5e20;
 line-height:1.5;
 }
 
@@ -176,12 +176,12 @@ gap:8px;
 height:110px;
 border-radius:15px;
 
-border:3px solid #ff8cc6;
+border:3px solid #39ff14;
 
 overflow:hidden;
 
 background:
-linear-gradient(45deg,#ff8cc6,#ff4fa3);
+linear-gradient(45deg,#ff8cc6,#39ff14);
 }
 
 .image img{
@@ -207,13 +207,13 @@ gap:10px;
 width:40px;
 height:40px;
 border-radius:50%;
-background:#ff4fa3;
-color:white;
+background:#39ff14;
+color:black;
 display:flex;
 align-items:center;
 justify-content:center;
 font-weight:bold;
-box-shadow:0 0 8px #ff8cc6;
+box-shadow:0 0 10px #ff4fa3;
 }
 
 /* FOOTER */
@@ -224,7 +224,7 @@ margin-top:15px;
 border-radius:20px;
 
 background:
-linear-gradient(90deg,#ff4fa3,#ff8cc6);
+linear-gradient(90deg,#ff4fa3,#39ff14);
 
 display:flex;
 align-items:center;
@@ -232,7 +232,7 @@ justify-content:center;
 
 font-size:20px;
 color:white;
-text-shadow:0 0 10px #ff4fa3;
+text-shadow:0 0 10px #39ff14;
 }
 
 /* RESPONSIVO */
@@ -288,7 +288,7 @@ anac
 
 <h1>▣ ana clara</h1>
 
-<p>mais rosa, menos verde neon 💗</p>
+<p>pink + neon green balance 💗💚</p>
 
 <p>
 aaaaaa.
