@@ -302,15 +302,15 @@ aaaaaa
 <div class="gallery">
 
 <div class="image">
-<img src="https://i.pinimg.com/1200x/c6/a8/54/c6a854f4eb2aade847ffc6a19d4309b7.jpg">
+<img src="https://i.pinimg.com/474x/d8/a9/f3/d8a9f34eed4cbfbf19261395d4166004.jpg">
 </div>
 
 <div class="image">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9F8BjC81NEoZ8vlFkH0BXTuST8WtWMqUpypP9TKzBkoDebE59sCwwv-A&s=10">
+<img src="https://i.ebayimg.com/images/g/8j0AAOSwU-plOF5h/s-l1200.jpg">
 </div>
 
 <div class="image big-image">
-<img src="https://i.pinimg.com/736x/13/fc/6a/13fc6ac9deb3c55e2bdb73fec63041c4.jpg">
+<img src="https://ih1.redbubble.net/image.5483471245.1357/flat,750x,075,f-pad,750x1000,f8f8f8.jpg">
 </div>
 
 </div>
