@@ -291,7 +291,7 @@ anac
 
 <h1>▣ ana clara</h1>
 
-<p>rosa pastel kawaii 💗</p>
+<p>cigarroooooo 💗</p>
 
 <p>
 aaaaaa.
