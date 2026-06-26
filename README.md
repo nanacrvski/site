@@ -270,9 +270,9 @@ Ana Clara
 </div>
 
 <div class="nav">
-<button>home</button>
-<button>platforms</button>
-<button>sobre mim</button>
+<button>cigarro</button>
+<button>cigarro</button>
+<button>cigarro</button>
 </div>
 
 <div class="viewer">
@@ -286,7 +286,7 @@ anac
 <div class="section">
 
 <div class="section-title">
-ⓘ | About Me
+ⓘ | cigarrokkkkk
 </div>
 
 <h1>▣ ana clara</h1>
