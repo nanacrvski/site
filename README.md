@@ -17,9 +17,14 @@ body{
 margin:0;
 min-height:100vh;
 
-/* ROSA PASTEL PURO */
+/* FUNDO SAKURA */
 background:
-linear-gradient(120deg,#ffe4f2,#ffd6ec,#fff0f8,#ffeaf5);
+linear-gradient(120deg, rgba(255,228,242,0.75), rgba(255,214,236,0.75), rgba(255,240,248,0.75)),
+url("https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&w=1600&q=80");
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
 
 font-family:"Orbitron",sans-serif;
 display:flex;
