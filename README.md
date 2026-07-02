@@ -270,9 +270,9 @@ Ana Clara
 </div>
 
 <div class="nav">
-<button>cigarro</button>
-<button>cigarro</button>
-<button>cigarro</button>
+<button>sobre mim</button>
+<button>artes</button>
+<button>redes sociais</button>
 </div>
 
 <div class="viewer">
@@ -286,12 +286,12 @@ anac
 <div class="section">
 
 <div class="section-title">
-ⓘ | cigarrokkkkk
+ⓘ | сигарета
 </div>
 
 <h1>▣ ana clara</h1>
 
-<p>cigarroooooo 💗</p>
+<p>oiiiii 💗</p>
 
 <p>
 aaaaaa.
