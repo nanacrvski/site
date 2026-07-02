@@ -272,7 +272,7 @@ Ana Clara
 <div class="nav">
 <button>sobre mim</button>
 <button>artes</button>
-<button>redes sociais</button>
+<button>redess</button>
 </div>
 
 <div class="viewer">
