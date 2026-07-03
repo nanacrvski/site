@@ -270,9 +270,9 @@ Ana Clara
 </div>
 
 <div class="nav">
-<button>sobre mim</button>
+<button>eu</button>
 <button>artes</button>
-<button>redess</button>
+<button>redes</button>
 </div>
 
 <div class="viewer">
