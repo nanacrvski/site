@@ -7,7 +7,7 @@
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&family=Press+Start+2P&family=Pixelify+Sans:wght@400;700&display=swap');
 
 *{
 box-sizing:border-box;
@@ -26,7 +26,7 @@ background-size:cover;
 background-position:center;
 background-attachment:fixed;
 
-font-family:"Orbitron",sans-serif;
+font-family:"Fredoka",sans-serif;
 display:flex;
 justify-content:center;
 align-items:center;
