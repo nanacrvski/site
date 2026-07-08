@@ -262,17 +262,17 @@ grid-template-columns:1fr;
 Ana Clara
 
 <div class="buttons">
-<div class="circle"></div>
-<div class="circle"></div>
-<div class="circle"></div>
+<div class="circle" id="minimizar"></div>
+<div class="circle" id="restaurar"></div>
+<div class="circle" id="fechar"></div>
 </div>
 
 </div>
 
 <div class="nav">
-<button>eu</button>
-<button>artes</button>
-<button>redes</button>
+<button id="btnEu">eu</button>
+<button id="btnArtes">artes</button>
+<button id="btnRedes">redes</button>
 </div>
 
 <div class="viewer">
@@ -376,6 +376,41 @@ Ana Clara
 </div>
 
 </div>
+
+<script>
+const viewer = document.querySelector(".viewer");
+const content = document.querySelector(".content");
+
+// Botão "eu"
+document.getElementById("btnEu").onclick = function () {
+    viewer.textContent = "Sobre Mim";
+};
+
+// Botão "artes"
+document.getElementById("btnArtes").onclick = function () {
+    viewer.textContent = "Artes";
+};
+
+// Botão "redes"
+document.getElementById("btnRedes").onclick = function () {
+    viewer.textContent = "Redes Sociais";
+};
+
+// Minimizar
+document.getElementById("minimizar").onclick = function () {
+    content.style.display = "none";
+};
+
+// Restaurar
+document.getElementById("restaurar").onclick = function () {
+    content.style.display = "grid";
+};
+
+// Fechar
+document.getElementById("fechar").onclick = function () {
+    document.querySelector(".window").style.display = "none";
+};
+</script>
 
 </body>
 </html>
