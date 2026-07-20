@@ -1,416 +1,421 @@
+<!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>site da anac</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site da Anac</title>
 
-<style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&family=Press+Start+2P&family=Pixelify+Sans:wght@400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&family=Press+Start+2P&family=Pixelify+Sans:wght@400;700&display=swap');
+    * {
+      box-sizing: border-box;
+    }
 
-*{
-box-sizing:border-box;
-}
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        linear-gradient(
+          120deg,
+          rgba(0, 0, 0, 0.82),
+          rgba(40, 26, 34, 0.76),
+          rgba(0, 0, 0, 0.82)
+        ),
+        url("https://i.pinimg.com/736x/2e/6e/14/2e6e14261aadfde2c2dc7627aac2557f.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: "Fredoka", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-body{
-margin:0;
-min-height:100vh;
+    .window {
+      width: 700px;
+      padding: 15px;
+      background: linear-gradient(
+        135deg,
+        #090909,
+        #1c171a,
+        #30252b
+      );
+      border: 2px solid #f2b8d1;
+      border-radius: 25px;
+      box-shadow:
+        0 0 18px rgba(242, 184, 209, 0.75),
+        0 0 10px rgba(255, 218, 234, 0.65),
+        inset 0 0 15px rgba(255, 218, 234, 0.15);
+    }
 
-/* FUNDO SAKURA */
-background:
-linear-gradient(120deg, rgba(255,228,242,0.75), rgba(255,214,236,0.75), rgba(255,240,248,0.75)),
-url("https://i.pinimg.com/736x/2e/6e/14/2e6e14261aadfde2c2dc7627aac2557f.jpg");
+    /* TOPO */
 
-background-size:cover;
-background-position:center;
-background-attachment:fixed;
+    .top {
+      height: 55px;
+      background: linear-gradient(
+        90deg,
+        #111111,
+        #dca4bd,
+        #f2bfd5,
+        #dca4bd,
+        #111111
+      );
+      border: 1px solid #ffd8e8;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      color: #ffffff;
+      font-size: 22px;
+      text-shadow:
+        0 0 5px #2b1821,
+        0 0 8px #f2b8d1;
+    }
 
-font-family:"Fredoka",sans-serif;
-display:flex;
-justify-content:center;
-align-items:center;
-}
+    .buttons {
+      position: absolute;
+      right: 20px;
+      display: flex;
+      gap: 10px;
+    }
 
-.window{
-width:700px;
+    .circle {
+      width: 35px;
+      height: 35px;
+      border: 2px solid #f4c6da;
+      border-radius: 50%;
+      background: radial-gradient(
+        circle,
+        #ffe4ef,
+        #e8aec7,
+        #201a1d
+      );
+      cursor: pointer;
+    }
 
-/* ROSA PASTEL SUAVE */
-background:
-linear-gradient(135deg,#ffe0f0,#ffd1ea,#fff5fb);
+    /* MENU */
 
-border-radius:25px;
-padding:15px;
+    .nav {
+      display: flex;
+      gap: 12px;
+      margin: 18px 10px;
+    }
 
-box-shadow:
-0 0 18px #ff9ad5,
-0 0 10px #ffc1e3,
-inset 0 0 15px #ffffff;
-}
+    .nav button {
+      flex: 1;
+      padding: 12px;
+      border: 1px solid #f4c6da;
+      border-radius: 30px;
+      background: linear-gradient(
+        90deg,
+        #121212,
+        #dca4bd,
+        #f2bfd5,
+        #dca4bd,
+        #121212
+      );
+      color: white;
+      font-family: inherit;
+      cursor: pointer;
+      box-shadow:
+        inset 0 0 10px rgba(255, 255, 255, 0.35),
+        0 0 6px rgba(242, 184, 209, 0.7);
+    }
 
-/* TOPO */
+    .viewer {
+      width: max-content;
+      padding: 8px 20px;
+      border: 1px solid #e7abc5;
+      border-radius: 20px;
+      background: #171315;
+      color: #f4bfd6;
+      font-size: 14px;
+      font-weight: bold;
+      box-shadow: 0 0 7px rgba(242, 184, 209, 0.45);
+    }
 
-.top{
-height:55px;
+    .content {
+      margin-top: 15px;
+      padding: 20px;
+      background: linear-gradient(
+        130deg,
+        #090909,
+        #201a1d,
+        #372a30
+      );
+      border: 1px solid #dca4bd;
+      border-radius: 12px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
 
-/* ROSA PASTEL */
-background:
-linear-gradient(90deg,#ffb6dc,#ffd1ea,#ffe4f2);
+    .section {
+      padding: 12px;
+      background: linear-gradient(
+        145deg,
+        #0d0d0d,
+        #251e21
+      );
+      border: 1px solid #dfabc2;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(242, 184, 209, 0.55);
+    }
 
-border-radius:20px;
+    .section-title {
+      padding: 8px;
+      background: linear-gradient(
+        90deg,
+        #151515,
+        #dca4bd,
+        #efbcd2
+      );
+      border-radius: 10px;
+      color: white;
+      font-weight: bold;
+    }
 
-display:flex;
-justify-content:center;
-align-items:center;
+    h1,
+    h2 {
+      color: #f1b7d0;
+      text-shadow: 0 0 5px rgba(242, 184, 209, 0.65);
+    }
 
-font-size:22px;
-color:#ffffff;
-text-shadow:0 0 8px #ff9ad5;
+    h1 {
+      font-size: 30px;
+    }
 
-position:relative;
-}
+    p {
+      color: #f5d7e4;
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+    }
 
-.buttons{
-position:absolute;
-right:20px;
-display:flex;
-gap:10px;
-}
+    /* IMAGENS ORIGINAIS */
 
-.circle{
-height:35px;
-width:35px;
-border-radius:50%;
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
 
-/* ROSA CLARO */
-background:
-radial-gradient(circle,#ffffff,#ffd1ea);
+    .image {
+      height: 110px;
+      overflow: hidden;
+      background: linear-gradient(
+        45deg,
+        #161616,
+        #e3aec5
+      );
+      border: 3px solid #e8b0c9;
+      border-radius: 15px;
+    }
 
-border:2px solid #ffb6dc;
-}
+    .image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
 
-/* MENU */
+    .big-image {
+      grid-column: span 2;
+      height: 130px;
+    }
 
-.nav{
-display:flex;
-gap:12px;
-margin:18px 10px;
-}
+    /* REDES */
 
-.nav button{
-flex:1;
-border:none;
-padding:12px;
-border-radius:30px;
+    .social {
+      display: flex;
+      gap: 10px;
+    }
 
-/* ROSA PASTEL */
-background:
-linear-gradient(90deg,#ffb6dc,#ffd1ea,#ffe4f2);
+    .social div {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #f6cade;
+      border-radius: 50%;
+      background: linear-gradient(
+        135deg,
+        #1a1718,
+        #dca4bd,
+        #f0b9d1
+      );
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      box-shadow: 0 0 8px rgba(242, 184, 209, 0.65);
+    }
 
-color:white;
-font-family:inherit;
-cursor:pointer;
+    /* RODAPÉ */
 
-box-shadow:
-inset 0 0 10px #fff,
-0 0 6px #ff9ad5;
-}
+    .footer {
+      height: 55px;
+      margin-top: 15px;
+      background: linear-gradient(
+        90deg,
+        #111111,
+        #dca4bd,
+        #f2bfd5,
+        #dca4bd,
+        #111111
+      );
+      border: 1px solid #ffd8e8;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 20px;
+      text-shadow:
+        0 0 5px #2b1821,
+        0 0 8px #f2b8d1;
+    }
 
-.viewer{
-background:#ffd1ea;
-padding:8px 20px;
-border-radius:20px;
-color:#ff4fa3;
-width:max-content;
-font-size:14px;
-font-weight:bold;
-}
+    @media (max-width: 700px) {
+      .window {
+        width: 95%;
+      }
 
-.content{
-margin-top:15px;
-
-background:
-linear-gradient(130deg,#ffffff,#ffeaf5,#fff5fb);
-
-border-radius:12px;
-padding:20px;
-
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:15px;
-}
-
-.section{
-background:white;
-padding:12px;
-border-radius:12px;
-box-shadow:0 0 10px #ffb6dc;
-}
-
-.section-title{
-background:linear-gradient(90deg,#ffb6dc,#ffd1ea);
-color:white;
-padding:8px;
-border-radius:10px;
-font-weight:bold;
-}
-
-h1{
-color:#ff4fa3;
-font-size:30px;
-text-shadow:0 0 5px #ffd1ea;
-}
-
-p{
-font-family:Arial;
-color:#b3125c;
-line-height:1.5;
-}
-
-/* IMAGENS */
-
-.gallery{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:8px;
-}
-
-.image{
-height:110px;
-border-radius:15px;
-
-border:3px solid #ffd1ea;
-
-overflow:hidden;
-
-background:
-linear-gradient(45deg,#ffd1ea,#ffe4f2);
-}
-
-.image img{
-width:100%;
-height:100%;
-object-fit:cover;
-display:block;
-}
-
-.big-image{
-grid-column:span 2;
-height:130px;
-}
-
-/* REDES */
-
-.social{
-display:flex;
-gap:10px;
-}
-
-.social div{
-width:40px;
-height:40px;
-border-radius:50%;
-background:linear-gradient(90deg,#ffb6dc,#ffd1ea);
-color:white;
-display:flex;
-align-items:center;
-justify-content:center;
-font-weight:bold;
-box-shadow:0 0 8px #ffb6dc;
-}
-
-/* FOOTER */
-
-.footer{
-height:55px;
-margin-top:15px;
-border-radius:20px;
-
-background:
-linear-gradient(90deg,#ffb6dc,#ffd1ea,#ffe4f2);
-
-display:flex;
-align-items:center;
-justify-content:center;
-
-font-size:20px;
-color:white;
-text-shadow:0 0 8px #ff9ad5;
-}
-
-/* RESPONSIVO */
-
-@media(max-width:700px){
-.window{
-width:95%;
-}
-
-.content{
-grid-template-columns:1fr;
-}
-}
-
-</style>
-
+      .content {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 
 <body>
+  <div class="window">
+    <div class="top">
+      Ana Clara
 
-<div class="window">
+      <div class="buttons">
+        <div class="circle" id="minimizar"></div>
+        <div class="circle" id="restaurar"></div>
+        <div class="circle" id="fechar"></div>
+      </div>
+    </div>
 
-<div class="top">
-Ana Clara
+    <div class="nav">
+      <button id="btnEu">eu</button>
+      <button id="btnArtes">artes</button>
+      <button id="btnRedes">redes</button>
+    </div>
 
-<div class="buttons">
-<div class="circle" id="minimizar"></div>
-<div class="circle" id="restaurar"></div>
-<div class="circle" id="fechar"></div>
-</div>
+    <div class="viewer">anac</div>
 
-</div>
+    <div class="content">
+      <div>
+        <div class="section">
+          <div class="section-title">ⓘ | сигарета</div>
 
-<div class="nav">
-<button id="btnEu">eu</button>
-<button id="btnArtes">artes</button>
-<button id="btnRedes">redes</button>
-</div>
+          <h1>▣ ana clara</h1>
 
-<div class="viewer">
-anac
-</div>
+          <p>oiiiii 💗</p>
 
-<div class="content">
+          <p>
+            aaaaaa.
+            <br><br>
+            aaaaaa
+          </p>
+        </div>
 
-<div>
+        <br>
 
-<div class="section">
+        <div class="gallery">
+          <div class="image">
+            <img src="https://i.pinimg.com/474x/d8/a9/f3/d8a9f34eed4cbfbf19261395d4166004.jpg">
+          </div>
 
-<div class="section-title">
-ⓘ | сигарета
-</div>
+          <div class="image">
+            <img src="https://i.ebayimg.com/images/g/8j0AAOSwU-plOF5h/s-l1200.jpg">
+          </div>
 
-<h1>▣ ana clara</h1>
+          <div class="image big-image">
+            <img src="https://images2.alphacoders.com/121/1212645.jpg">
+          </div>
+        </div>
+      </div>
 
-<p>oiiiii 💗</p>
+      <div>
+        <div class="social">
+          <div>◎</div>
+          <div>▶</div>
+          <div>♪</div>
+        </div>
 
-<p>
-aaaaaa.
-<br><br>
-aaaaaa
-</p>
+        <br>
 
-</div>
+        <div class="gallery">
+          <div class="image">
+            <img src="https://i.pinimg.com/736x/29/3d/b6/293db6f3b9901c375ef8de2bbb71575d.jpg">
+          </div>
 
-<br>
+          <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq3jqSkOdfXctz78kooqhL1WeSMm6oNmVZsQ&s">
+          </div>
 
-<div class="gallery">
+          <div class="image">
+            <img src="https://images.steamusercontent.com/ugc/4105585931633010286/2BF23EB79F3ABF6F7721714F6DFC7F9027992548/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true">
+          </div>
 
-<div class="image">
-<img src="https://i.pinimg.com/474x/d8/a9/f3/d8a9f34eed4cbfbf19261395d4166004.jpg">
-</div>
+          <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2jQg4ljrjbx2feMUvFpEOwPL3DigEk0EHJg&s">
+          </div>
+        </div>
 
-<div class="image">
-<img src="https://i.ebayimg.com/images/g/8j0AAOSwU-plOF5h/s-l1200.jpg">
-</div>
+        <br>
 
-<div class="image big-image">
-<img src="https://images2.alphacoders.com/121/1212645.jpg">
-</div>
+        <div class="section">
+          <div class="section-title">.</div>
 
-</div>
+          <h2>▣ anac</h2>
 
-</div>
+          <p>
+            .
+            <br>
+            <strong>.</strong>
+            <br>
+            .
+          </p>
+        </div>
+      </div>
+    </div>
 
-<div>
+    <div class="footer">Ana Clara</div>
+  </div>
 
-<div class="social">
-<div>◎</div>
-<div>▶</div>
-<div>♪</div>
-</div>
+  <script>
+    const viewer = document.querySelector(".viewer");
+    const content = document.querySelector(".content");
 
-<br>
+    document.getElementById("btnEu").onclick = function () {
+      viewer.textContent = "Sobre Mim";
+    };
 
-<div class="gallery">
+    document.getElementById("btnArtes").onclick = function () {
+      viewer.textContent = "Artes";
+    };
 
-<div class="image">
-<img src="https://i.pinimg.com/736x/29/3d/b6/293db6f3b9901c375ef8de2bbb71575d.jpg">
-</div>
+    document.getElementById("btnRedes").onclick = function () {
+      viewer.textContent = "Redes Sociais";
+    };
 
-<div class="image">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq3jqSkOdfXctz78kooqhL1WeSMm6oNmVZsQ&s">
-</div>
+    document.getElementById("minimizar").onclick = function () {
+      content.style.display = "none";
+    };
 
-<div class="image">
-<img src="https://images.steamusercontent.com/ugc/4105585931633010286/2BF23EB79F3ABF6F7721714F6DFC7F9027992548/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true">
-</div>
+    document.getElementById("restaurar").onclick = function () {
+      content.style.display = "grid";
+    };
 
-<div class="image">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2jQg4ljrjbx2feMUvFpEOwPL3DigEk0EHJg&s">
-</div>
-
-</div>
-
-<br>
-
-<div class="section">
-
-<div class="section-title">.</div>
-
-<h2>▣ anac</h2>
-
-<p>
-.<br>
-<strong>.</strong><br>
-.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="footer">
-Ana Clara
-</div>
-
-</div>
-
-<script>
-const viewer = document.querySelector(".viewer");
-const content = document.querySelector(".content");
-
-// Botão "eu"
-document.getElementById("btnEu").onclick = function () {
-    viewer.textContent = "Sobre Mim";
-};
-
-// Botão "artes"
-document.getElementById("btnArtes").onclick = function () {
-    viewer.textContent = "Artes";
-};
-
-// Botão "redes"
-document.getElementById("btnRedes").onclick = function () {
-    viewer.textContent = "Redes Sociais";
-};
-
-// Minimizar
-document.getElementById("minimizar").onclick = function () {
-    content.style.display = "none";
-};
-
-// Restaurar
-document.getElementById("restaurar").onclick = function () {
-    content.style.display = "grid";
-};
-
-// Fechar
-document.getElementById("fechar").onclick = function () {
-    document.querySelector(".window").style.display = "none";
-};
-</script>
-
+    document.getElementById("fechar").onclick = function () {
+      document.querySelector(".window").style.display = "none";
+    };
+  </script>
 </body>
 </html>
