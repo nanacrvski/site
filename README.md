@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
@@ -81,20 +80,22 @@
       gap: 10px;
     }
 
-    .circle {
-      width: 35px;
-      height: 35px;
-      border: 2px solid #f4c6da;
-      border-radius: 50%;
-      background: radial-gradient(
-        circle,
-        #ffe4ef,
-        #e8aec7,
-        #201a1d
-      );
-      cursor: pointer;
-    }
+   .circle {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #e7c7d5;
+  border-radius: 50%;
+  background: #f6dfe9;
+  cursor: pointer;
+  box-shadow:
+    inset 0 1px 2px rgba(255,255,255,0.35),
+    0 1px 3px rgba(0,0,0,0.08);
+  transition: .2s;
+}
 
+.circle:hover {
+  background: #fae9f0;
+}
     /* MENU */
 
     .nav {
