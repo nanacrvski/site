@@ -485,7 +485,7 @@ footer span {
 <div class="decoracao">✿</div>
 
 <header>
-    <div class="logo">♡</div>
+    <div class="logo">ana</div>
 
     <nav class="menu">
         <a href="#inicio">Início</a>
