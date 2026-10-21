@@ -45,7 +45,7 @@ body {
             rgba(255, 240, 248, 0.25),
             rgba(255, 225, 240, 0.35)
         ),
-        url("imagens/cerejeira.jpg");
+        url("https://i.pinimg.com/736x/2e/6e/14/2e6e14261aadfde2c2dc7627aac2557f.jpg");
 
     background-size: cover;
     background-position: center;
