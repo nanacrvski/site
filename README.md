@@ -1,416 +1,631 @@
-<html lang="pt-br">
-
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>site da anac</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Aniversário, Pai! ❤️</title>
 
-<style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&family=Press+Start+2P&family=Pixelify+Sans:wght@400;700&display=swap');
+  <style>
+    :root {
+      --vinho: #310810;
+      --vermelho: #a41632;
+      --rosa: #ef536d;
+      --dourado: #f4cb8b;
+      --creme: #fff0e5;
+    }
 
-*{
-box-sizing:border-box;
-}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-body{
-margin:0;
-min-height:100vh;
+    html {
+      scroll-behavior: smooth;
+    }
 
-/* FUNDO SAKURA */
-background:
-linear-gradient(120deg, rgba(255,228,242,0.75), rgba(255,214,236,0.75), rgba(255,240,248,0.75)),
-url("https://i.pinimg.com/736x/2e/6e/14/2e6e14261aadfde2c2dc7627aac2557f.jpg");
+    body {
+      background: var(--vinho);
+      color: var(--creme);
+      font-family: 'Poppins', sans-serif;
+      overflow-x: hidden;
+    }
 
-background-size:cover;
-background-position:center;
-background-attachment:fixed;
+    button {
+      font-family: inherit;
+      cursor: pointer;
+    }
 
-font-family:"Fredoka",sans-serif;
-display:flex;
-justify-content:center;
-align-items:center;
-}
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 70px 22px;
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(ellipse at 50% 35%, #8e1831 0%, transparent 55%),
+        linear-gradient(145deg, #21050b, #570d20 55%, #26060d);
+    }
 
-.window{
-width:700px;
+    .hero::before,
+    .hero::after {
+      content: "♥";
+      position: absolute;
+      color: rgba(255, 196, 164, 0.07);
+      font-size: 280px;
+      pointer-events: none;
+    }
 
-/* ROSA PASTEL SUAVE */
-background:
-linear-gradient(135deg,#ffe0f0,#ffd1ea,#fff5fb);
+    .hero::before {
+      top: -75px;
+      left: -65px;
+      transform: rotate(-20deg);
+    }
 
-border-radius:25px;
-padding:15px;
+    .hero::after {
+      bottom: -100px;
+      right: -65px;
+      transform: rotate(20deg);
+    }
 
-box-shadow:
-0 0 18px #ff9ad5,
-0 0 10px #ffc1e3,
-inset 0 0 15px #ffffff;
-}
+    .eyebrow {
+      color: var(--dourado);
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      margin-bottom: 22px;
+    }
 
-/* TOPO */
+    .heart-icon {
+      font-size: 52px;
+      margin-bottom: 22px;
+      animation: heartbeat 1.5s infinite;
+      filter: drop-shadow(0 0 18px #ff526e66);
+    }
 
-.top{
-height:55px;
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-weight: 400;
+      font-size: clamp(43px, 9vw, 86px);
+      line-height: 1.1;
+      max-width: 900px;
+      margin-bottom: 24px;
+    }
 
-/* ROSA PASTEL */
-background:
-linear-gradient(90deg,#ffb6dc,#ffd1ea,#ffe4f2);
+    h1 span {
+      color: var(--dourado);
+      font-style: italic;
+    }
 
-border-radius:20px;
+    .hero-text {
+      max-width: 540px;
+      line-height: 1.9;
+      color: #f5dce0;
+      font-size: 15px;
+      font-weight: 300;
+      margin-bottom: 35px;
+    }
 
-display:flex;
-justify-content:center;
-align-items:center;
+    .button {
+      border: none;
+      border-radius: 40px;
+      padding: 15px 25px;
+      background: var(--dourado);
+      color: #40101a;
+      font-size: 13px;
+      font-weight: 700;
+      transition: .25s;
+      box-shadow: 0 8px 30px #00000025;
+    }
 
-font-size:22px;
-color:#ffffff;
-text-shadow:0 0 8px #ff9ad5;
+    .button:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 35px #f4cb8b35;
+    }
 
-position:relative;
-}
+    .button-outline {
+      background: transparent;
+      border: 1px solid #f4cb8b80;
+      color: var(--creme);
+    }
 
-.buttons{
-position:absolute;
-right:20px;
-display:flex;
-gap:10px;
-}
+    .scroll-note {
+      position: absolute;
+      bottom: 24px;
+      color: #f5dce099;
+      font-size: 10px;
+      letter-spacing: 2px;
+    }
 
-.circle{
-height:35px;
-width:35px;
-border-radius:50%;
+    section {
+      padding: 95px 22px;
+    }
 
-/* ROSA CLARO */
-background:
-radial-gradient(circle,#ffffff,#ffd1ea);
+    .section-inner {
+      max-width: 950px;
+      margin: auto;
+      text-align: center;
+    }
 
-border:2px solid #ffb6dc;
-}
+    .section-label {
+      text-transform: uppercase;
+      color: var(--rosa);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      margin-bottom: 15px;
+    }
 
-/* MENU */
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(34px, 6vw, 52px);
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
 
-.nav{
-display:flex;
-gap:12px;
-margin:18px 10px;
-}
+    .intro {
+      max-width: 600px;
+      margin: 0 auto 40px;
+      color: #e8cbd0;
+      line-height: 1.9;
+      font-size: 14px;
+    }
 
-.nav button{
-flex:1;
-border:none;
-padding:12px;
-border-radius:30px;
+    .message-section {
+      background: #fff0e5;
+      color: #48101d;
+    }
 
-/* ROSA PASTEL */
-background:
-linear-gradient(90deg,#ffb6dc,#ffd1ea,#ffe4f2);
+    .message-section .intro {
+      color: #79515a;
+    }
 
-color:white;
-font-family:inherit;
-cursor:pointer;
+    .message-card {
+      max-width: 650px;
+      margin: auto;
+      padding: 38px 28px;
+      border: 1px solid #d9a8a055;
+      background: #fffaf5;
+      border-radius: 20px;
+      box-shadow: 0 15px 45px #48101d0d;
+    }
 
-box-shadow:
-inset 0 0 10px #fff,
-0 0 6px #ff9ad5;
-}
+    .message-card .big-heart {
+      font-size: 35px;
+      margin-bottom: 20px;
+    }
 
-.viewer{
-background:#ffd1ea;
-padding:8px 20px;
-border-radius:20px;
-color:#ff4fa3;
-width:max-content;
-font-size:14px;
-font-weight:bold;
-}
+    .message-card p {
+      font-size: 14px;
+      line-height: 2;
+      color: #68414b;
+      margin-bottom: 16px;
+    }
 
-.content{
-margin-top:15px;
+    .signature {
+      font-family: 'DM Serif Display', serif;
+      font-size: 25px;
+      font-style: italic;
+      color: #a41632;
+      margin-top: 25px;
+    }
 
-background:
-linear-gradient(130deg,#ffffff,#ffeaf5,#fff5fb);
+    .surprise-section {
+      background: linear-gradient(160deg, #4c0a1b, #26060d);
+    }
 
-border-radius:12px;
-padding:20px;
+    .gift {
+      font-size: 90px;
+      margin: 25px 0;
+      display: inline-block;
+      cursor: pointer;
+      transition: .3s;
+      filter: drop-shadow(0 12px 20px #00000030);
+    }
 
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:15px;
-}
+    .gift:hover {
+      transform: scale(1.12) rotate(-5deg);
+    }
 
-.section{
-background:white;
-padding:12px;
-border-radius:12px;
-box-shadow:0 0 10px #ffb6dc;
-}
+    .surprise-message {
+      display: none;
+      max-width: 560px;
+      margin: 30px auto 0;
+      padding: 30px 25px;
+      border: 1px solid #f4cb8b66;
+      border-radius: 18px;
+      background: #ffffff08;
+      animation: appear .7s ease;
+    }
 
-.section-title{
-background:linear-gradient(90deg,#ffb6dc,#ffd1ea);
-color:white;
-padding:8px;
-border-radius:10px;
-font-weight:bold;
-}
+    .surprise-message.show {
+      display: block;
+    }
 
-h1{
-color:#ff4fa3;
-font-size:30px;
-text-shadow:0 0 5px #ffd1ea;
-}
+    .surprise-message p {
+      color: #f5dce0;
+      line-height: 1.9;
+      font-size: 14px;
+    }
 
-p{
-font-family:Arial;
-color:#b3125c;
-line-height:1.5;
-}
+    .surprise-message h3 {
+      font-family: 'DM Serif Display', serif;
+      color: var(--dourado);
+      font-size: 29px;
+      font-weight: 400;
+      margin-bottom: 15px;
+    }
 
-/* IMAGENS */
+    .reasons {
+      background: #fff0e5;
+      color: #48101d;
+    }
 
-.gallery{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:8px;
-}
+    .reason-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 40px;
+    }
 
-.image{
-height:110px;
-border-radius:15px;
+    .reason {
+      padding: 28px 18px;
+      border: 1px solid #d9a8a066;
+      border-radius: 17px;
+      background: #fffaf5;
+      transition: .25s;
+    }
 
-border:3px solid #ffd1ea;
+    .reason:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 15px 35px #48101d12;
+    }
 
-overflow:hidden;
+    .reason .emoji {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
 
-background:
-linear-gradient(45deg,#ffd1ea,#ffe4f2);
-}
+    .reason h3 {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
 
-.image img{
-width:100%;
-height:100%;
-object-fit:cover;
-display:block;
-}
+    .reason p {
+      color: #79515a;
+      font-size: 12px;
+      line-height: 1.8;
+    }
 
-.big-image{
-grid-column:span 2;
-height:130px;
-}
+    .final-section {
+      text-align: center;
+      background:
+        radial-gradient(ellipse at center, #7b112a 0%, #310810 70%);
+      padding: 110px 22px;
+    }
 
-/* REDES */
+    .final-section h2 {
+      color: var(--dourado);
+    }
 
-.social{
-display:flex;
-gap:10px;
-}
+    .final-section p {
+      color: #f5dce0;
+      line-height: 1.9;
+      max-width: 540px;
+      margin: 0 auto 28px;
+      font-size: 14px;
+    }
 
-.social div{
-width:40px;
-height:40px;
-border-radius:50%;
-background:linear-gradient(90deg,#ffb6dc,#ffd1ea);
-color:white;
-display:flex;
-align-items:center;
-justify-content:center;
-font-weight:bold;
-box-shadow:0 0 8px #ffb6dc;
-}
+    footer {
+      background: #20050a;
+      text-align: center;
+      padding: 25px 15px;
+      color: #d8aab2;
+      font-size: 11px;
+    }
 
-/* FOOTER */
+    .floating-heart {
+      position: fixed;
+      bottom: -40px;
+      z-index: 100;
+      pointer-events: none;
+      animation: floatUp linear forwards;
+    }
 
-.footer{
-height:55px;
-margin-top:15px;
-border-radius:20px;
+    @keyframes heartbeat {
+      0%, 100% { transform: scale(1); }
+      12% { transform: scale(1.15); }
+      24% { transform: scale(1); }
+      36% { transform: scale(1.12); }
+    }
 
-background:
-linear-gradient(90deg,#ffb6dc,#ffd1ea,#ffe4f2);
+    @keyframes floatUp {
+      0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-110vh) rotate(35deg);
+        opacity: 0;
+      }
+    }
 
-display:flex;
-align-items:center;
-justify-content:center;
+    @keyframes appear {
+      from {
+        opacity: 0;
+        transform: translateY(15px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
 
-font-size:20px;
-color:white;
-text-shadow:0 0 8px #ff9ad5;
-}
+    @media (max-width: 650px) {
+      .reason-grid {
+        grid-template-columns: 1fr;
+      }
 
-/* RESPONSIVO */
+      section {
+        padding: 75px 20px;
+      }
 
-@media(max-width:700px){
-.window{
-width:95%;
-}
+      .message-card {
+        padding: 30px 21px;
+      }
 
-.content{
-grid-template-columns:1fr;
-}
-}
+      .eyebrow {
+        letter-spacing: 2px;
+      }
+    }
 
-</style>
-
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="window">
+  <!-- ABERTURA -->
+  <header class="hero">
+    <div class="eyebrow">Um dia muito especial ❤️</div>
+    <div class="heart-icon">♥</div>
 
-<div class="top">
-Ana Clara
+    <h1>Feliz aniversário,<br><span>meu pai!</span></h1>
 
-<div class="buttons">
-<div class="circle" id="minimizar"></div>
-<div class="circle" id="restaurar"></div>
-<div class="circle" id="fechar"></div>
-</div>
+    <p class="hero-text">
+      Hoje é o dia de celebrar uma das pessoas mais importantes
+      da minha vida. Preparei uma pequena surpresa para você,
+      cheia de carinho e amor.
+    </p>
 
-</div>
+    <button class="button" onclick="document.querySelector('#mensagem').scrollIntoView()">
+      Fiz isso para você ↓
+    </button>
 
-<div class="nav">
-<button id="btnEu">eu</button>
-<button id="btnArtes">artes</button>
-<button id="btnRedes">redes</button>
-</div>
+    <div class="scroll-note">CONTINUE DESCENDO PARA DESCOBRIR</div>
+  </header>
 
-<div class="viewer">
-anac
-</div>
+  <!-- CARTA -->
+  <section class="message-section" id="mensagem">
+    <div class="section-inner">
+      <div class="section-label">Uma mensagem de coração</div>
+      <h2>Para alguém muito especial</h2>
 
-<div class="content">
+      <p class="intro">
+        Algumas coisas merecem ser ditas não só hoje,
+        mas todos os dias.
+      </p>
 
-<div>
+      <div class="message-card">
+        <div class="big-heart">❤️</div>
 
-<div class="section">
+        <p>
+          Pai, hoje é o seu dia, mas quem ganhou um presente
+          fui eu por ter você na minha vida.
+        </p>
 
-<div class="section-title">
-ⓘ | сигарета
-</div>
+        <p>
+          Obrigada por tudo o que você representa para mim,
+          por cada momento compartilhado, por cada ensinamento
+          e por fazer parte da minha história.
+        </p>
 
-<h1>▣ ana clara</h1>
+        <p>
+          Nem sempre consigo colocar em palavras tudo o que
+          sinto, mas quero que você saiba que desejo de coração
+          que sua vida seja cheia de saúde, felicidade, amor,
+          tranquilidade e sonhos realizados.
+        </p>
 
-<p>oiiiii 💗</p>
+        <p>
+          Que nunca faltem motivos para sorrir, pessoas que
+          te amem e dias que façam você perceber o quanto
+          é especial.
+        </p>
 
-<p>
-aaaaaa.
-<br><br>
-aaaaaa
-</p>
+        <p>
+          Feliz aniversário! Você merece todas as coisas
+          boas que a vida pode oferecer. Te amo muito!
+        </p>
 
-</div>
+        <div class="signature">Com todo o meu amor ❤️</div>
+      </div>
+    </div>
+  </section>
 
-<br>
+  <!-- PRESENTE INTERATIVO -->
+  <section class="surprise-section">
+    <div class="section-inner">
+      <div class="section-label">Tem mais uma coisinha...</div>
+      <h2>Abre o seu presente! 🎁</h2>
 
-<div class="gallery">
+      <p class="intro">
+        Preparei uma última surpresa.
+        Clique no presente para descobrir!
+      </p>
 
-<div class="image">
-<img src="https://i.pinimg.com/474x/d8/a9/f3/d8a9f34eed4cbfbf19261395d4166004.jpg">
-</div>
+      <div
+        class="gift"
+        id="gift"
+        role="button"
+        tabindex="0"
+        aria-label="Abrir presente"
+        onclick="openGift()"
+        onkeydown="if(event.key === 'Enter' || event.key === ' '){event.preventDefault();openGift()}"
+      >🎁</div>
 
-<div class="image">
-<img src="https://i.ebayimg.com/images/g/8j0AAOSwU-plOF5h/s-l1200.jpg">
-</div>
+      <div class="surprise-message" id="surprise">
+        <h3>Você é um presente na minha vida!</h3>
+        <p>
+          Se eu pudesse te dar uma coisa hoje, seria a capacidade
+          de enxergar a si mesmo pelos meus olhos, para que você
+          entendesse o tamanho do carinho e da admiração que
+          sinto por você.
+        </p>
+        <p style="margin-top: 15px">
+          Que seu novo ciclo seja lindo. Feliz aniversário, pai!
+          ❤️
+        </p>
+      </div>
+    </div>
+  </section>
 
-<div class="image big-image">
-<img src="https://images2.alphacoders.com/121/1212645.jpg">
-</div>
+  <!-- HOMENAGEM -->
+  <section class="reasons">
+    <div class="section-inner">
+      <div class="section-label">Hoje e sempre</div>
+      <h2>Você merece o mundo</h2>
 
-</div>
+      <p class="intro">
+        Três desejos especiais para o seu novo ciclo.
+      </p>
 
-</div>
+      <div class="reason-grid">
+        <div class="reason">
+          <div class="emoji">❤️</div>
+          <h3>Muito amor</h3>
+          <p>
+            Que você esteja sempre cercado de pessoas
+            que te queiram bem e te façam feliz.
+          </p>
+        </div>
 
-<div>
+        <div class="reason">
+          <div class="emoji">✨</div>
+          <h3>Muitos sonhos</h3>
+          <p>
+            Que nunca faltem motivos para acreditar,
+            planos para realizar e histórias para viver.
+          </p>
+        </div>
 
-<div class="social">
-<div>◎</div>
-<div>▶</div>
-<div>♪</div>
-</div>
+        <div class="reason">
+          <div class="emoji">🌹</div>
+          <h3>Saúde e felicidade</h3>
+          <p>
+            Que cada novo dia traga paz, saúde,
+            boas surpresas e muitos sorrisos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<br>
+  <!-- FINAL -->
+  <section class="final-section">
+    <div class="section-label">Uma última coisa...</div>
 
-<div class="gallery">
+    <h2>Eu te amo, pai! ❤️</h2>
 
-<div class="image">
-<img src="https://i.pinimg.com/736x/29/3d/b6/293db6f3b9901c375ef8de2bbb71575d.jpg">
-</div>
+    <p>
+      Que este seja apenas mais um de muitos aniversários
+      felizes. Você merece ser celebrado hoje, amanhã
+      e em todos os dias do ano.
+    </p>
 
-<div class="image">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq3jqSkOdfXctz78kooqhL1WeSMm6oNmVZsQ&s">
-</div>
+    <button class="button" onclick="celebrate()">
+      Clique para comemorar! 🎉
+    </button>
 
-<div class="image">
-<img src="https://images.steamusercontent.com/ugc/4105585931633010286/2BF23EB79F3ABF6F7721714F6DFC7F9027992548/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true">
-</div>
+    <p id="celebration" style="margin-top: 22px; display: none;">
+      🎉 FELIZ ANIVERSÁRIO! 🎉<br>
+      Que seu dia seja tão especial quanto você!
+    </p>
+  </section>
 
-<div class="image">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2jQg4ljrjbx2feMUvFpEOwPL3DigEk0EHJg&s">
-</div>
+  <footer>
+    Feito com muito amor, especialmente para você. ❤️
+  </footer>
 
-</div>
+  <script>
+    let giftOpened = false;
 
-<br>
+    function openGift() {
+      const surprise = document.getElementById('surprise');
+      const gift = document.getElementById('gift');
 
-<div class="section">
+      surprise.classList.add('show');
+      gift.textContent = '💝';
 
-<div class="section-title">.</div>
+      if (!giftOpened) {
+        giftOpened = true;
+        celebrateHearts(30);
+      }
 
-<h2>▣ anac</h2>
+      surprise.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      });
+    }
 
-<p>
-.<br>
-<strong>.</strong><br>
-.
-</p>
+    function celebrate() {
+      const message = document.getElementById('celebration');
 
-</div>
+      message.style.display = 'block';
+      celebrateHearts(45);
+    }
 
-</div>
+    function celebrateHearts(amount) {
+      const symbols = ['❤️', '💖', '💕', '💗', '✨', '🎉'];
 
-</div>
+      for (let i = 0; i < amount; i++) {
+        setTimeout(() => {
+          const heart = document.createElement('span');
 
-<div class="footer">
-Ana Clara
-</div>
+          heart.className = 'floating-heart';
+          heart.textContent =
+            symbols[Math.floor(Math.random() * symbols.length)];
 
-</div>
+          heart.style.left = Math.random() * 100 + 'vw';
+          heart.style.fontSize = (16 + Math.random() * 22) + 'px';
+          heart.style.animationDuration = (3 + Math.random() * 4) + 's';
 
-<script>
-const viewer = document.querySelector(".viewer");
-const content = document.querySelector(".content");
+          document.body.appendChild(heart);
 
-// Botão "eu"
-document.getElementById("btnEu").onclick = function () {
-    viewer.textContent = "Sobre Mim";
-};
+          heart.addEventListener('animationend', () => {
+            heart.remove();
+          }, { once: true });
 
-// Botão "artes"
-document.getElementById("btnArtes").onclick = function () {
-    viewer.textContent = "Artes";
-};
-
-// Botão "redes"
-document.getElementById("btnRedes").onclick = function () {
-    viewer.textContent = "Redes Sociais";
-};
-
-// Minimizar
-document.getElementById("minimizar").onclick = function () {
-    content.style.display = "none";
-};
-
-// Restaurar
-document.getElementById("restaurar").onclick = function () {
-    content.style.display = "grid";
-};
-
-// Fechar
-document.getElementById("fechar").onclick = function () {
-    document.querySelector(".window").style.display = "none";
-};
-</script>
+        }, i * 65);
+      }
+    }
+  </script>
 
 </body>
 </html>
+```
