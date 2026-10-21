@@ -407,13 +407,11 @@
     <h1>Feliz aniversário,<br><span>meu pai!</span></h1>
 
     <p class="hero-text">
-      Hoje é o dia de celebrar uma das pessoas mais importantes
-      da minha vida. Preparei uma pequena surpresa para você,
-      cheia de carinho e amor.
+     .
     </p>
 
     <button class="button" onclick="document.querySelector('#mensagem').scrollIntoView()">
-      Fiz isso para você ↓
+      .
     </button>
 
     <div class="scroll-note">CONTINUE DESCENDO PARA DESCOBRIR</div>
@@ -423,46 +421,36 @@
   <section class="message-section" id="mensagem">
     <div class="section-inner">
       <div class="section-label">Uma mensagem de coração</div>
-      <h2>Para alguém muito especial</h2>
+      <h2>.</h2>
 
       <p class="intro">
-        Algumas coisas merecem ser ditas não só hoje,
-        mas todos os dias.
+        .
       </p>
 
       <div class="message-card">
         <div class="big-heart">❤️</div>
 
         <p>
-          Pai, hoje é o seu dia, mas quem ganhou um presente
-          fui eu por ter você na minha vida.
+          .
         </p>
 
         <p>
-          Obrigada por tudo o que você representa para mim,
-          por cada momento compartilhado, por cada ensinamento
-          e por fazer parte da minha história.
+         .
         </p>
 
         <p>
-          Nem sempre consigo colocar em palavras tudo o que
-          sinto, mas quero que você saiba que desejo de coração
-          que sua vida seja cheia de saúde, felicidade, amor,
-          tranquilidade e sonhos realizados.
+          .
         </p>
 
         <p>
-          Que nunca faltem motivos para sorrir, pessoas que
-          te amem e dias que façam você perceber o quanto
-          é especial.
+       .
         </p>
 
         <p>
-          Feliz aniversário! Você merece todas as coisas
-          boas que a vida pode oferecer. Te amo muito!
+         .
         </p>
 
-        <div class="signature">Com todo o meu amor ❤️</div>
+        <div class="signature">.❤️</div>
       </div>
     </div>
   </section>
@@ -471,11 +459,10 @@
   <section class="surprise-section">
     <div class="section-inner">
       <div class="section-label">Tem mais uma coisinha...</div>
-      <h2>Abre o seu presente! 🎁</h2>
+      <h2>. 🎁</h2>
 
       <p class="intro">
-        Preparei uma última surpresa.
-        Clique no presente para descobrir!
+        .
       </p>
 
       <div
@@ -489,15 +476,12 @@
       >🎁</div>
 
       <div class="surprise-message" id="surprise">
-        <h3>Você é um presente na minha vida!</h3>
+        <h3>.a!</h3>
         <p>
-          Se eu pudesse te dar uma coisa hoje, seria a capacidade
-          de enxergar a si mesmo pelos meus olhos, para que você
-          entendesse o tamanho do carinho e da admiração que
-          sinto por você.
+       .
         </p>
         <p style="margin-top: 15px">
-          Que seu novo ciclo seja lindo. Feliz aniversário, pai!
+         .
           ❤️
         </p>
       </div>
@@ -508,10 +492,10 @@
   <section class="reasons">
     <div class="section-inner">
       <div class="section-label">Hoje e sempre</div>
-      <h2>Você merece o mundo</h2>
+      <h2>.o</h2>
 
       <p class="intro">
-        Três desejos especiais para o seu novo ciclo.
+        T..
       </p>
 
       <div class="reason-grid">
@@ -519,8 +503,7 @@
           <div class="emoji">❤️</div>
           <h3>Muito amor</h3>
           <p>
-            Que você esteja sempre cercado de pessoas
-            que te queiram bem e te façam feliz.
+            .
           </p>
         </div>
 
@@ -528,8 +511,7 @@
           <div class="emoji">✨</div>
           <h3>Muitos sonhos</h3>
           <p>
-            Que nunca faltem motivos para acreditar,
-            planos para realizar e histórias para viver.
+            .
           </p>
         </div>
 
@@ -537,8 +519,7 @@
           <div class="emoji">🌹</div>
           <h3>Saúde e felicidade</h3>
           <p>
-            Que cada novo dia traga paz, saúde,
-            boas surpresas e muitos sorrisos.
+            Q.
           </p>
         </div>
       </div>
@@ -549,16 +530,14 @@
   <section class="final-section">
     <div class="section-label">Uma última coisa...</div>
 
-    <h2>Eu te amo, pai! ❤️</h2>
+    <h2. ❤️</h2>
 
     <p>
-      Que este seja apenas mais um de muitos aniversários
-      felizes. Você merece ser celebrado hoje, amanhã
-      e em todos os dias do ano.
+      .
     </p>
 
     <button class="button" onclick="celebrate()">
-      Clique para comemorar! 🎉
+     .🎉
     </button>
 
     <p id="celebration" style="margin-top: 22px; display: none;">
@@ -568,7 +547,7 @@
   </section>
 
   <footer>
-    Feito com muito amor, especialmente para você. ❤️
+    .. ❤️
   </footer>
 
   <script>
