@@ -39,10 +39,18 @@ body {
     position: fixed;
     inset: 0;
     z-index: -2;
+
     background:
-        radial-gradient(circle at 15% 20%, #ffe1ef 0, transparent 30%),
-        radial-gradient(circle at 85% 70%, #ffd4e7 0, transparent 35%),
-        #fff7fb;
+        linear-gradient(
+            rgba(255, 240, 248, 0.25),
+            rgba(255, 225, 240, 0.35)
+        ),
+        url("imagens/cerejeira.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .decoracao {
