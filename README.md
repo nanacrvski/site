@@ -45,7 +45,7 @@ body {
             rgba(255, 240, 248, 0.25),
             rgba(255, 225, 240, 0.35)
         ),
-        url("https://i.pinimg.com/736x/2e/6e/14/2e6e14261aadfde2c2dc7627aac2557f.jpg");
+        url("https://marketplace.canva.com/X7sto/MAHGccX7sto/1/tl/canva-pink-ribbon-and-stripes-pattern-background-MAHGccX7sto.jpg");
 
     background-size: cover;
     background-position: center;
