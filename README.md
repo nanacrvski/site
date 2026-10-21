@@ -45,7 +45,7 @@ body {
             rgba(255, 240, 248, 0.25),
             rgba(255, 225, 240, 0.35)
         ),
-        url("https://marketplace.canva.com/X7sto/MAHGccX7sto/1/tl/canva-pink-ribbon-and-stripes-pattern-background-MAHGccX7sto.jpg");
+        url("https://wallpapercave.com/wp/wp15542261.jpg");
 
     background-size: cover;
     background-position: center;
